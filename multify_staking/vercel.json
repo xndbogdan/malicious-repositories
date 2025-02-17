@@ -1,0 +1,8 @@
+{
+    "crons": [
+        {
+            "path": "/api/pickwinner",
+            "schedule": "0 * * * *"
+        }
+    ]
+}
