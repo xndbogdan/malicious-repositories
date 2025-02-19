@@ -173,6 +173,9 @@ Understanding potentially harmful code patterns can help you avoid falling for m
 To detect and prevent harmful code execution, use these tools:
 
 ### JavaScript/TypeScript Tools
+-   [Codebase Scanner](https://github.com/mathiscode/codebase-scanner) - A quick and dirty tool to help defend against common developer-focused malware campaigns since many of these go unnoticed by common antivirus software.
+
+-   [njsscan](https://github.com/ajinabraham/njsscan) - njsscan is a static application testing (SAST) tool that can find insecure code patterns in your node.js applications
 
 -   [**npm audit**](https://docs.npmjs.com/cli/v8/commands/npm-audit) / **yarn audit** - Detects vulnerabilities in dependencies.
 
