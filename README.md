@@ -1,6 +1,9 @@
 
   **! Before All !**
-  This repository contains malicious code samples collected from scammers attempting to steal credentials via LinkedIn. **DO NOT RUN THIS CODE**. The code is kept for educational and research purposes only.
+  This repository contains malicious code samples collected from scammers attempting to steal credentials via LinkedIn.
+
+  **DO NOT RUN THIS CODE**.
+  The code is kept for educational and research purposes only.
 
 
 # Malicious Repository Collection
@@ -33,15 +36,11 @@
 
 
 
-
-
-
-
 ### Known Scam Repos and APis
-https://bitbucket.org/coinpool/rental-platform1.0/src/main/
-https://bitbucket.org/abga-workspace/metahorse-munitygame/src/main/
-https://api.npoint.io/
-http://w3capi.marketing/api/
+- https://bitbucket.org/coinpool/rental-platform1.0/src/main/
+- https://bitbucket.org/abga-workspace/metahorse-munitygame/src/main/
+- https://api.npoint.io/
+- http://w3capi.marketing/api/
 
 ### Known scammer recruiter profiles
 
