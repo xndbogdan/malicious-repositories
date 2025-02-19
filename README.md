@@ -1,7 +1,10 @@
 
+  **! Before All !**
+  This repository contains malicious code samples collected from scammers attempting to steal credentials via LinkedIn. **DO NOT RUN THIS CODE**. The code is kept for educational and research purposes only.
+
+
 # Malicious Repository Collection
 
--   [Before All](#before-all)
 -   [Known Scam Repos and APIs](#known-scam-repos-and-apis)
 -   [Known recruiter profiles](#known-recruiter-profiles)
 -   [Extra links](#extra-links)
@@ -31,8 +34,6 @@
 
 
 
-  **! Before All !**
-  This repository contains malicious code samples collected from scammers attempting to steal credentials via LinkedIn. **DO NOT RUN THIS CODE**. The code is kept for educational and research purposes only.
 
 
 
