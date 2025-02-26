@@ -41,11 +41,13 @@
 - https://bitbucket.org/abga-workspace/metahorse-munitygame/src/main/
 - https://api.npoint.io/
 - http://w3capi.marketing/api/
+- https://github.com/webdev771/goldencity
 
 ### Known scammer recruiter profiles
 
 - [Andressa Santiago](https://www.linkedin.com/in/andressa-santiago-800b03333/)
 - [Valentine Giroude](https://www.linkedin.com/in/valentine-girard-661aba14/)
+- [Victoria Hughes](https://www.linkedin.com/in/victoria-hughes-54a622189/)
 
 
 ## Extra links
