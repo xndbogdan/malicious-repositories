@@ -51,6 +51,13 @@
 - [Valentine Giroude](https://www.linkedin.com/in/valentine-girard-661aba14/)
 - [Arnas Golubeckas](https://www.linkedin.com/in/arnasgolubeckas/)
 - [Victoria Hughes](https://www.linkedin.com/in/victoria-hughes-54a622189/)
+- [Raymundo Curiel](https://www.linkedin.com/in/raymundocuriel/)
+- [Patrick Tolan](https://www.linkedin.com/in/patrick-tolan-gamer/)
+- [Elias Caballero](https://www.linkedin.com/in/elias-caballero-12a98b72/)
+- [Gabriel Jara](https://www.linkedin.com/in/gabriel-jara-9a638b32b/)
+- [Krunal Solanki ](https://www.linkedin.com/in/krunal-solanki-59086ba3/)
+- [Ali Moghaddam](https://www.linkedin.com/in/se-ali-moghaddam/)
+
 
 
 ## Extra links
