@@ -1,0 +1,17 @@
+{
+  "name": "game",
+  "version": "1.0.0",
+  "description": "https://youtu.be/O7-yUV-xWgs video demonstration of the project",
+  "main": "index.js",
+  "scripts": {
+    "install": "cd frontend && npm install && cd ../backend && npm install",
+    "start": "concurrently \"cd frontend && npm start\" \"cd backend && npm start\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-keywords": "^5.1.0",
+    "concurrently": "^9.0.0"
+  }
+}

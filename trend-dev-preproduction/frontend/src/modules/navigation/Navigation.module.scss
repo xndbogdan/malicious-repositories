@@ -1,0 +1,146 @@
+.itemsHelp {
+  padding-left: 20px;
+  margin-top: 15px;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.footerItem {
+  cursor: pointer;
+  text-transform: lowercase;
+  margin-bottom: 9px;
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  transition: all 0.3s ease;
+}
+
+.footerItem:hover {
+  color: rgba(0, 0, 0, 1);
+  transition: all 0.3s linear;
+}
+
+.header {
+  z-index: 1;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.title {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  transition: all 0.3s ease;
+}
+
+.title:hover {
+  .user {
+    background-color: black;
+    transition: all 0.3s linear;
+  }
+}
+
+.headerUser {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 48px);
+}
+
+.user {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+  background-color: grey;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 190px;
+  height: 24px;
+}
+
+.left {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.right {
+  font-weight: 500;
+}
+
+.rows {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 220px;
+  padding: 15px;
+}
+
+.quest {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 15px;
+  width: 100%;
+}
+
+.button {
+  margin-top: 10px;
+  width: 190px;
+}
+
+.navigation {
+  width: 220px;
+  background-color: rgba(235, 235, 235, 1);
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.items {
+  padding-left: 20px;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.item {
+  color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  line-height: 27px;
+  margin-bottom: 7px;
+  text-transform: lowercase;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+
+.item:hover {
+  color: rgba(0, 0, 0, 1);
+  transition: all 0.3s linear;
+}
+
+.location {
+  color: #000000;
+  line-height: 27px;
+  font-size: 20px;
+  transition: all 0.3s ease;
+  margin-bottom: 15px;
+}

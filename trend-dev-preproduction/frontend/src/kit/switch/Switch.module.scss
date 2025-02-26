@@ -1,0 +1,85 @@
+@import "../variables";
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50px;
+  height: 41px;
+  align-items: center;
+  opacity: 1;
+  transition: all 300ms ease;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 46px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.switch:hover {
+  opacity: 0.65;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.text {
+  font-size: 15px;
+  font-style: normal;
+  line-height: 17px;
+  text-align: center;
+  color: #000;
+  font-weight: 400;
+  cursor: default;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid #b3b3b3;
+  transition: all 300ms ease;
+  width: 46px;
+  height: 24px;
+  border-radius: 100px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 24px;
+  width: 24px;
+  left: -2px;
+  bottom: -2px;
+  border: 2px solid #b3b3b3;
+  transition: all 300ms ease;
+}
+
+input:checked + .slider:before {
+  background-color: $FIRST_COLOR;
+  border: 2px solid $FIRST_COLOR;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(22px);
+  -ms-transform: translateX(22px);
+  transform: translateX(22px);
+}
+
+.slider:before {
+  border-radius: 50%;
+}
+
+input:checked + .dkRoundDisabled:before {
+  background-color: #8e8e8e;
+  border: 2px solid #8e8e8e;
+}

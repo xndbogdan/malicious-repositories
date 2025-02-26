@@ -1,0 +1,38 @@
+.container {
+  min-width: 20rem;
+  border-radius: 5px;
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.545);
+  padding: 8px;
+}
+
+.content {
+  color: white;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bar {
+  padding: 0.2rem 0.4rem;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: unset;
+}
+
+.label {
+  font-weight: Bold;
+}
+
+.health {
+  margin-left: 0.4rem;
+  width: 100%;
+  background: rgb(223, 223, 223);
+}
+
+.line {
+  display: block;
+  height: 1rem;
+  background: rgb(3, 197, 29);
+}

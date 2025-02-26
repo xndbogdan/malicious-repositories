@@ -1,0 +1,18 @@
+@import "../variables";
+
+.drop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: grey;
+  opacity: 0;
+  z-index: 0;
+  transition: all 300ms ease;
+}
+
+.active {
+  opacity: 20% !important;
+  z-index: 100;
+}

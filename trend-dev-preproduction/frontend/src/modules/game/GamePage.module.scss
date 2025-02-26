@@ -1,0 +1,12 @@
+.gamePage {
+  background-color: #fff;
+  height: 100vh;
+  position: relative;
+  width: calc(100vw - 220px);
+  overflow: hidden;
+}
+
+.wrapper {
+  display: flex;
+  height: 100vh;
+}

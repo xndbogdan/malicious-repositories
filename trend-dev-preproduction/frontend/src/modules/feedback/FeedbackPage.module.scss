@@ -1,0 +1,45 @@
+.popup {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  z-index: 10000;
+}
+
+.title {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.wrapper {
+  position: absolute;
+  background-color: #ffffff;
+  top: 40px;
+  left: 40px;
+  padding: 10px 10px 20px;
+  border: 1px solid #000000;
+  width: 350px;
+}
+
+.element {
+  width: 100%;
+  padding: 0 15px;
+  margin-top: 20px;
+}
+
+.background {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #ebebeb;
+}

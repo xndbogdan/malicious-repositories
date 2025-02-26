@@ -1,0 +1,75 @@
+.moFire {
+  width: 300px;
+  height: auto;
+  position: absolute;
+  margin-right: 65px;
+}
+.moFire svg {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.flame {
+  animation-name: flamefly;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  opacity: 0;
+  transform-origin: 50% 50% 0;
+}
+.flame.one {
+  animation-delay: 0s;
+  animation-duration: 1s;
+}
+.flame3.two {
+  animation-duration: 1s;
+  animation-delay: 0s;
+}
+
+.flameMain {
+  animation-name: flameWobble;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.flameMain.one {
+  animation-duration: 1s;
+  animation-delay: 0s;
+}
+.flameMain.two {
+  animation-duration: 1s;
+  animation-delay: 0s;
+}
+.flameMain.three {
+  animation-duration: 1s;
+  animation-delay: 0s;
+}
+.flameMain.four {
+  animation-duration: 1s;
+  animation-delay: 0s;
+}
+.flameMain.five {
+  animation-duration: 1s;
+  animation-delay: 0s;
+}
+@keyframes flameWobble {
+  50% {
+    transform: scale(1, 1.2) translate(0, -30px) rotate(-2deg);
+  }
+}
+@keyframes flamefly {
+  0% {
+    transform: translate(0) rotate(180deg);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-20px, -100px) rotate(180deg);
+    opacity: 0;
+  }
+}
+
+.turn {
+  transform: scale(-1, 1);
+}
