@@ -57,7 +57,7 @@
 - [Gabriel Jara](https://www.linkedin.com/in/gabriel-jara-9a638b32b/)
 - [Krunal Solanki ](https://www.linkedin.com/in/krunal-solanki-59086ba3/)
 - [Ali Moghaddam](https://www.linkedin.com/in/se-ali-moghaddam/)
-
+- [Maksym Tsilenko](https://www.linkedin.com/in/maksym-tsilenko-90865a340/)
 
 
 ## Extra links
