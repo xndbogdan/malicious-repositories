@@ -1,0 +1,77 @@
+.popup {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  z-index: 10000;
+}
+
+.wrapper {
+  position: absolute;
+  background-color: #ffffff;
+  top: 40px;
+  left: 40px;
+  padding: 10px 10px 20px;
+  border: 1px solid #000000;
+  height: 526px;
+  overflow-y: auto;
+}
+
+.wrapperSecond {
+  position: absolute;
+  background-color: #ffffff;
+  top: 40px;
+  right: 40px;
+  padding: 10px 10px 20px;
+  border: 1px solid #000000;
+  height: 526px;
+  overflow-y: auto;
+}
+
+.rows {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.title {
+  margin-top: 16px;
+  font-weight: 500;
+}
+
+.row {
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: calc(25% - 40px);
+  min-width: 250px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  margin: 0 20px;
+}
+
+.button {
+  width: 200px;
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+}
+
+.background {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #ebebeb;
+}

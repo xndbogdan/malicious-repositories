@@ -1,0 +1,245 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  position: absolute;
+  margin: 0 0 0 -250px;
+  padding: 0%;
+}
+
+.why {
+  transform: rotate(90deg);
+  margin: 0;
+  padding: 0;
+}
+
+.stem {
+  stroke-dasharray: 450;
+  stroke-dashoffset: -450;
+  stroke-width: 1px;
+  animation: draw 0.5s ease-out forwards;
+}
+
+.st0 {
+  transform-box: fill-box;
+  fill: #157425;
+  opacity: 0%;
+  animation: leafs 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes leafs {
+  0% {
+    transform: scale(0, 0);
+    opacity: 0%;
+  }
+  10% {
+    transform: scale(0, 0);
+    opacity: 100%;
+  }
+  100% {
+    transform: scale(2.5, -1.5);
+    opacity: 100%;
+  }
+}
+
+.st0a {
+  transform-box: fill-box;
+  fill: #157425;
+  opacity: 0%;
+  animation: leafa 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes leafa {
+  0% {
+    transform: scale(0, 0);
+    opacity: 0%;
+  }
+  10% {
+    transform: scale(0, 0);
+    opacity: 100%;
+  }
+  100% {
+    transform: scale(1.5, -1.5);
+    opacity: 100%;
+  }
+}
+
+.st0b {
+  transform-box: fill-box;
+  fill: #10a128;
+  opacity: 0%;
+  animation: leafb 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes leafb {
+  0% {
+    transform: scale(0, 0);
+    opacity: 0%;
+  }
+  10% {
+    transform: scale(0, 0);
+    opacity: 100%;
+  }
+  100% {
+    transform: scale(1, -1);
+    opacity: 100%;
+  }
+}
+
+.st0l {
+  transform-box: fill-box;
+  fill: #16a72e;
+  opacity: 0%;
+  animation: leafc 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes leafc {
+  0% {
+    transform: scale(0, 0);
+    opacity: 0%;
+  }
+  10% {
+    transform: scale(0, 0);
+    opacity: 100%;
+  }
+  100% {
+    transform: scale(1.05, -1.03);
+    opacity: 100%;
+  }
+}
+
+.st1 {
+  transform-box: fill-box;
+  fill: #157425;
+  opacity: 0%;
+  animation: leaf1 1s ease-out;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes leaf1 {
+  0% {
+    transform: scale(0, 0);
+    opacity: 0%;
+  }
+  10% {
+    transform: scale(0.2, 0.2);
+    opacity: 100%;
+  }
+  100% {
+    transform: scale(2, 2);
+    opacity: 100%;
+  }
+}
+
+.st2 {
+  transform-box: fill-box;
+  opacity: 0%;
+  fill: #157425;
+  animation: leaf2 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes leaf2 {
+  0% {
+    transform: scale(0, 0);
+    opacity: 0%;
+  }
+  10% {
+    transform: scale(0.2, 0.2);
+    opacity: 100%;
+  }
+  100% {
+    transform: scale(1.5, 1.5);
+    opacity: 100%;
+  }
+}
+
+.st3 {
+  transform-box: fill-box;
+  fill: #09721b;
+  animation: leaf3 1s;
+  animation-delay: 0.5s;
+  opacity: 0%;
+  animation-fill-mode: forwards;
+}
+
+@keyframes leaf3 {
+  0% {
+    transform: scale(0, 0);
+    opacity: 0%;
+  }
+  10% {
+    transform: scale(0.2, 0.2);
+    opacity: 100%;
+  }
+  100% {
+    transform: scale(-1, -2);
+    opacity: 100%;
+  }
+}
+
+.st4 {
+  transform-box: fill-box;
+  fill: #16a72e;
+  animation: leaf4 1s;
+  animation-delay: 0.5s;
+  opacity: 0%;
+  animation-fill-mode: forwards;
+}
+
+@keyframes leaf4 {
+  0% {
+    transform: scale(0, 0);
+    opacity: 0%;
+  }
+  10% {
+    transform: scale(0.2, 0.2);
+    opacity: 100%;
+  }
+  100% {
+    transform: scale(1, 1);
+    opacity: 100%;
+  }
+}
+
+.st5 {
+  transform-box: fill-box;
+  fill: #157425;
+  animation: leaf5 1s;
+  animation-delay: 0.5s;
+  opacity: 0%;
+  animation-fill-mode: forwards;
+}
+
+@keyframes leaf5 {
+  0% {
+    transform: scale(0, 0);
+    opacity: 0%;
+  }
+  10% {
+    transform: scale(0.2, 0.2);
+    opacity: 100%;
+  }
+  100% {
+    transform: scale(1.4, 1.4);
+    opacity: 100%;
+  }
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+    stroke-width: 5px;
+  }
+}

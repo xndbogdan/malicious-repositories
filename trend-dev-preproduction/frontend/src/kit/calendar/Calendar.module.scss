@@ -1,0 +1,73 @@
+@import "../variables";
+
+.calendar {
+  position: relative;
+  height: 60px;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  color: #000000;
+  background-color: transparent;
+}
+
+.label {
+  position: absolute;
+  font-size: 13px !important;
+  line-height: 17px !important;
+  margin: 0 !important;
+  top: 9px;
+  left: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  text-transform: lowercase;
+}
+
+.wrapper {
+  font-family: $BASE_FONT;
+  height: 58px;
+  padding-top: 20px;
+  position: absolute;
+  width: 100%;
+  padding-left: 14px;
+  background-color: transparent;
+  border: none !important;
+  transition: all 300ms ease;
+  stroke: #666 !important;
+}
+
+.clearIcon {
+  transition: all 300ms ease;
+}
+
+.clearIcon:hover {
+  opacity: 0.4 !important;
+}
+
+.modal {
+  font-family: $BASE_FONT;
+  margin-top: 4px;
+}
+
+.icon path {
+  transition: all 300ms ease;
+}
+
+.icon rect {
+  transition: all 300ms ease;
+}
+
+.icon:hover path {
+  stroke: #666 !important;
+}
+
+.icon:hover rect {
+  stroke: #666 !important;
+}
+
+.wrapper > div {
+  border: none;
+}
+
+//.wrapper > div > div > input   {
+//  background-color: #ffffff!important;
+//  height: 14px;
+//  margin-top: 10px
+//}

@@ -1,0 +1,72 @@
+@import "../variables";
+
+.pagination {
+  display: flex;
+  height: 60px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+  padding-bottom: 25px;
+}
+
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  height: 60px;
+  width: 310px;
+  background-color: $FIRST_COLOR;
+  color: $SECOND_COLOR;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.button:active {
+  opacity: 1;
+}
+
+.form {
+  color: #fff;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right {
+  transform: rotate(180deg);
+}
+
+.form input {
+  background-color: $FIRST_COLOR;
+  border: 1px solid rgba(255, 255, 255, 1);
+  width: 36px;
+  height: 36px;
+  color: $SECOND_COLOR;
+  text-align: center;
+}
+
+.svg {
+  svg path {
+    fill: rgba(255, 255, 255, 1);
+  }
+}
+
+.white {
+  svg path {
+    fill: rgba(255, 255, 255, 0.4);
+  }
+}

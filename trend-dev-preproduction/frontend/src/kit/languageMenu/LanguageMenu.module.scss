@@ -1,0 +1,77 @@
+@import "../variables";
+
+.background {
+  z-index: 10000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: transparent;
+}
+
+.menu {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: auto;
+  bottom: auto;
+  width: 180px;
+  margin-left: 4px;
+  z-index: 10001;
+}
+
+.header {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 44px;
+  width: 100%;
+  padding: 10px 10px;
+}
+
+.icon {
+  width: 47px;
+  height: 36px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  font-weight: 500;
+  padding: 8px 14px 8px;
+  line-height: 20px;
+  transition: all 300ms ease;
+}
+
+.dropdown {
+  background-color: #000000;
+  z-index: 1000000;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  min-height: 44px;
+  width: 100%;
+  padding: 10px 16px;
+  text-transform: lowercase;
+  background-color: $FIRST_COLOR;
+  color: $SECOND_COLOR;
+  opacity: 1;
+  transition: all 300ms ease;
+  font-family: $BASE_FONT;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.item:hover {
+  opacity: 0.65;
+}

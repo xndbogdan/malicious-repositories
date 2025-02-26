@@ -1,0 +1,55 @@
+@import "../variables";
+
+.modal {
+  z-index: 10001;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: auto;
+  transform: translate(-50%, 20px);
+  padding: 32px 20px;
+  max-width: 681px;
+  width: 350px;
+  background-color: #fff;
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-height: 94%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.subtitle {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 16px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.content {
+  width: 100%;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 28px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.buttons {
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 370px) {
+  .modal {
+    width: 100vw;
+  }
+}

@@ -1,0 +1,52 @@
+@import "../variables";
+
+.background {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.9;
+  background-color: grey;
+  z-index: 10001;
+}
+
+.wrapper {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10002;
+  width: 100vw;
+  height: 100vh;
+}
+
+.block {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px 20px;
+  width: 350px;
+  height: 320px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: #000000;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 31px;
+  text-transform: none;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.text {
+  color: #0009;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}

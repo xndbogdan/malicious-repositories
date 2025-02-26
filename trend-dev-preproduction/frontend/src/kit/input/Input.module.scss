@@ -1,0 +1,99 @@
+@import "../variables";
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.input {
+  height: 60px;
+  width: 100%;
+  padding: 29px 16px 11px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 1);
+  background-color: transparent;
+  font-family: $BASE_FONT;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+}
+
+.container input[data-empty="false"] + label,
+.container input:focus + label {
+  top: 9px;
+  font-size: 13px;
+  line-height: 17px;
+  margin: 0;
+}
+
+.container textarea[data-empty="false"] + label,
+.container textarea:focus + label {
+  top: 9px;
+  font-size: 13px;
+  line-height: 17px;
+  margin: 0;
+}
+
+.disabled label {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.disabled p {
+  margin-top: 5px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.disabled input {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.disabled textarea {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.error label {
+  color: #d82e23 !important;
+}
+
+.error p {
+  margin-top: 5px;
+  color: #d82e23 !important;
+}
+
+.error input {
+  border: 1px solid #d82e23 !important;
+  color: #d82e23 !important;
+}
+
+.error textarea {
+  border: 1px solid #d82e23 !important;
+  color: #d82e23 !important;
+}
+
+.description {
+  margin: 10px 0 0;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  padding: 0 16px;
+  font-family: $BASE_FONT;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+}
+
+.label {
+  cursor: text;
+  text-transform: lowercase;
+  color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  left: 17px;
+  top: 19px;
+  transition: all 300ms ease;
+}

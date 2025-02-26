@@ -1,0 +1,49 @@
+.container {
+  width: 100%;
+  height: 440px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.turn {
+  transform: rotate(180deg);
+}
+
+.flake {
+  z-index: 4;
+  background: #ffffff;
+
+  @for $i from 1 through 104 {
+    &:nth-child(#{$i}) {
+      $fall: random(1);
+      $fall1: random(2);
+      animation: s + ($i) 0s + $fall linear infinite;
+      animation-delay: $i * 8ms;
+
+      $opacity: (random(100) / 100);
+      $actualSize: (random(3))+0px;
+      $size: (random(3))+0px;
+      width: 15px;
+      height: 15px;
+      border-radius: 100%;
+      $opacity: (random(1));
+      position: absolute;
+      opacity: $opacity;
+      $ypos: (random(390) * 1px);
+      $wind: (random(100) * 1px);
+      $wind1: (random(100) * 1px);
+
+      @keyframes s#{$i} {
+        0% {
+          left: 100%;
+          top: $ypos;
+        }
+
+        100% {
+          left: 0;
+          top: ($ypos + $wind - $wind1);
+        }
+      }
+    }
+  }
+}

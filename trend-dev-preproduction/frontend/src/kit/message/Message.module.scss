@@ -1,0 +1,51 @@
+@import "../variables";
+
+.message {
+  z-index: 10000;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 32px 20px;
+}
+
+.button {
+  width: 100%;
+}
+
+.title {
+  margin: 16px 0 16px 0px;
+}
+
+.wrapper {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10002;
+  width: 100vw;
+  height: 100vh;
+
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.error {
+  background-color: #ffeb6b;
+}
+
+.success {
+  background-color: #d7f849;
+}
+
+@media (max-width: 370px) {
+  .messages {
+    width: 100vw;
+  }
+}

@@ -1,0 +1,54 @@
+.popup {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  z-index: 10000;
+}
+
+.wrapper {
+  position: absolute;
+  background-color: #ffffff;
+  width: 800px;
+  top: 40px;
+  left: 40px;
+  padding: 10px 10px 20px;
+  border: 1px solid #000000;
+}
+
+.table {
+  max-height: 585px;
+  overflow: auto;
+}
+
+.element {
+  width: 150px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.elem {
+  width: 150px;
+  margin-top: 20px;
+}
+
+.elements {
+  display: flex;
+  padding: 0 5px 0 5px;
+}
+
+.background {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #ebebeb;
+}

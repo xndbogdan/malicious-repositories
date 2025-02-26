@@ -1,0 +1,14 @@
+.elements {
+  display: flex;
+  align-items: flex-start;
+}
+
+.element {
+  width: 150px;
+  margin-right: 10px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+}
