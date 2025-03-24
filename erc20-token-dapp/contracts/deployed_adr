@@ -1,0 +1,20 @@
+BSC testnet => 0x5C29099Dc53ddf3b3Fa3a299C48EC1Bff9C59d29  owner
+
+token => 0x6154818f854f5009C5CFa47213C68598E9dE02FA
+presale=> 0xDD1C2603315A0C1ad649819A70451D5529F53398
+
+token rate   100000
+
+raise min    100000000000000000
+
+raise max    50000000000000000000
+
+softcap      400000000000000000000
+
+hardcap      1000000000000000000000
+
+presale start 
+
+presale end   
+
+

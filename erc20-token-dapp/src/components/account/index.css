@@ -1,0 +1,12 @@
+.css-17niryt-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  color: rgba(0, 0, 0, 0.87) !important;
+}
+
+.css-18rp6dk-MuiInputBase-root-MuiInput-root:after {
+  border-bottom: 1px solid #3f51b5 !important;
+}
+
+.css-i9fmh8-MuiBackdrop-root-MuiModal-backdrop {
+  /* display: none !important; */
+  background-color: rgba(0, 0, 0, 0) !important;
+}
