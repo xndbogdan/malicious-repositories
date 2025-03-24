@@ -1,7 +1,7 @@
 We didnt find any potential security risk code, but at same time, there was a similar repository with fetch and eval loading a script on the browser.
 
 
-According to (njsscan)[https://github.com/ajinabraham/njsscan]
+According to [njsscan](https://github.com/ajinabraham/njsscan)
 
 * OWASP-WEB   │ A1: Injection*
 `
