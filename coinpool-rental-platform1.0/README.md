@@ -1,24 +1,27 @@
-# Rental-Platform
+We didnt find any potential security risk code, but at same time, there was a similar repository with fetch and eval loading a script on the browser.
 
-**Developing a responsive real estate platform, a digital housing marketplace, using ReactJS. The website allows to display and sell their houses, while customers browse, buy and pay securely.**
 
-## What is Rental-Platform?
+According to (njsscan)[https://github.com/ajinabraham/njsscan]
 
-**As new technologies like cryptocurrency develop, the real estate sector is changing drastically. It is important to understand both how these technologies and the traditional real state market work.**
-**Governments are unable to comprehend the rapid advancement of technology and modify their legal frameworks to accommodate it fast enough.**
+* OWASP-WEB   │ A1: Injection*
+`
+File           │ server/controllers/paymentController.js
+Line Number(s) │ 129
+Match String   │ res.redirect(`https://${req.get("host")}/order/${body.orderId}`); │
+`
 
-![alt text](public/image.png)
 
-## Run Locally
+* node_nosqli_injection *
+`
+File           │ server/controllers/paymentController.js
+Line Number(s) │ 151
+Match String   │ const payment = await Payment.findOne({ orderId: req.params.id });
+`
 
-Install dependencies
 
-```bash
-  npm install
-```
-
-Start the server
-
-```bash
-  npm start
-```
+* node_nosqli_injection *
+`
+File           │ server/controllers/userController.js
+Line Number(s) │ 151
+Match String   │  const user = await User.findOne({ email: req.body.email });
+`
