@@ -88,7 +88,7 @@ The code is kept for educational and research purposes only.
 
 - https://bitbucket.org/trend-dev/preproduction/src/main/backend/router.js
 
-
+- https://bitbucket.org/sarostech_work/assessment/src/792ba614d9f4f41e369f110cf144ace2d9c5650b/server/config/getContract.js#lines-135
 
 
 ### Known scammer recruiter profiles
@@ -119,6 +119,7 @@ The code is kept for educational and research purposes only.
 
 - [Francis Jacquet](https://www.linkedin.com/in/runenergie/)
 
+- [Roman Liakhovych](https://www.linkedin.com/in/roman-liakhovych-5429802b0/)
 
 
 ## Extra links
