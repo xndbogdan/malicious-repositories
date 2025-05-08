@@ -1,0 +1,50 @@
+:root {
+	--blue: #006EFF;
+	--darkBlue: #12417E;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.main-content {
+  min-height: 100vh;
+}
+
+.coming-soon {
+	width: 90vw;
+	margin: 32px auto;
+	height: 40vw;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.not-found {
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+
+.not-found p {
+	font-weight: bold;
+	align-self: center;
+}
+
+.page-heading {
+	background-color: black;
+	color: white;
+	height: 264px;
+	width: 100vw;
+	margin: 80px 0;
+	padding-top: 110px;
+}
+
+.faq h2 {
+  margin-top: 50px;
+}
+
+button:hover {
+	background-color: var(--darkBlue);
+}

@@ -1,0 +1,131 @@
+:root {
+  --blue: #006EFF;
+  --darkBlue: #12417E;
+}
+
+.carousel-container {
+  margin-top: -32px;
+  padding: 0 1%;
+}
+
+.selected-image {
+  width: 90vw;
+  margin: 32px auto;
+  height: 52vw;
+  background-color: lightgray;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel-images {
+  width: 90vw;
+  margin: 32px auto;
+  display: flex;
+  gap: 16px;
+}
+
+.carousel-image {
+  width: 22vw;
+  height: 19vw;
+  background-color: lightgray;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.property-value {
+  width: 90%;
+  margin: 32px auto;
+  padding: 32px;
+  border: 1px solid var(--blue);
+  border-radius: 8px;
+  box-shadow: 1px 1px 15px 10px rgba(0, 0, 0, .1);
+}
+
+.num {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-top: -15px;
+  margin-bottom: 15px;
+}
+
+.property-value h2 {
+  text-align: left;
+  margin: 0;
+}
+
+.info1, .info2, .info3 {
+  margin: 0 5%;
+}
+
+.info1, .info2 {
+  border-bottom: 2px solid lightgray;
+}
+
+.buy-button {
+  width: 90%;
+  margin: 32px 5%;
+  background-color: var(--blue);
+  color: white;
+  font-size: 24px;
+  padding: 24px 32px;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+
+@media (min-width: 48em) {
+  .selected-image {
+    width: 65vw;
+    height: 40vw;
+    margin: 32px;
+  }
+
+  .carousel-container {
+    display: flex;
+
+  }
+
+  .carousel-images {
+    width: 45vw;
+    margin-right: 32px;
+    flex-wrap: wrap;
+  }
+
+  .carousel-image {
+    width: 15vw;
+    flex: 1 0 auto;
+  }
+
+  .info-button {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .infos {
+    width: 80vw;
+    margin: 32px;
+    display: flex;
+  }
+
+  .info1, .info2, .info3 {
+    flex: 1;
+    border-bottom: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 8px;
+    text-align: center;
+  }
+
+  .info2, .info3 {
+    border-left: 2px solid lightgray;
+    padding-left: 8px;
+  }
+
+  .info-button .buy-button {
+    width: 40vw;
+    margin-right: 64px;
+  }
+}
