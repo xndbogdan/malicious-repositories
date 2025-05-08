@@ -125,6 +125,8 @@ The code is kept for educational and research purposes only.
 
 - [Martina Gehrken Trappe](https://www.linkedin.com/in/martina-gehrken-trappe-51930412/)
 
+- [Brian Patterson](https://www.linkedin.com/in/brian-patterson-71954b116/)
+
 
 ## Extra links
 
