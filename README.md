@@ -5,6 +5,7 @@
 
 This repository contains malicious code samples collected from scammers attempting to steal credentials via LinkedIn.
 
+![Running the numbers](https://raw.githubusercontent.com/xndbogdan/malicious-repositories/refs/heads/main/convo.png)
 
 
 **DO NOT RUN THIS CODE**.
