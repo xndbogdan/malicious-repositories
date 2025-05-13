@@ -10,7 +10,7 @@ This repository contains malicious code samples collected from scammers attempti
 
 **DO NOT RUN THIS CODE**.
 
-And you should not install their dependencies either.
+(And you should not install dependencies either)
 
 The code is kept for educational and research purposes only.
 
