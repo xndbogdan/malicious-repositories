@@ -128,6 +128,8 @@ The code is kept for educational and research purposes only.
 
 - [Brian Patterson](https://www.linkedin.com/in/brian-patterson-71954b116/)
 
+- [Joe Carlino](https://www.linkedin.com/in/joe-carlino-28856b78/)
+
 
 ## Extra links
 
