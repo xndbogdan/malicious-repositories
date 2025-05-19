@@ -1,0 +1,59 @@
+.TradeHistory.container {
+  max-height: 268px;
+}
+
+.TradeHistory-row {
+  font-size: var(--font-sm);
+  padding: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.TradeHistory-time {
+  font-size: 1.25rem;
+  margin-bottom: 0.155rem;
+}
+
+.TradeHistory-item-link {
+  display: inline-block;
+}
+.trading-history.row {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  border-radius: 8px !important;
+}
+.trading-history.row > .Time {
+  width: 16%;
+  display: flex;
+  align-items: center;
+}
+.trading-history.row > .Symbol {
+  width: 8%;
+  display: flex;
+  align-items: center;
+}
+.trading-history.row > .Order {
+  width: 16%;
+  display: flex;
+  align-items: center;
+}
+.trading-history.row > .Status {
+  width: 16%;
+  display: flex;
+  align-items: center;
+}
+.trading-history.row > .Trigger {
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+.trading-history.row > .Side {
+  width: 8%;
+  display: flex;
+  align-items: center;
+}
+.trading-history.row > .Amount {
+  width: 16%;
+  display: flex;
+  align-items: center;
+}

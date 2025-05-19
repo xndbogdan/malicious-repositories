@@ -1,0 +1,22 @@
+.sellUlp-content {
+  display: grid;
+  grid-template-columns: 1fr 43.4rem;
+  grid-gap: 1.5rem;
+  margin-top: 0.8rem;
+  padding: 3.1rem;
+  padding-top: 1.5rem;
+}
+
+.sellUlp-box {
+  padding: 1.5rem;
+}
+
+.sellUlp-cta {
+  margin-top: 0.8rem;
+}
+
+@media (max-width: 900px) {
+  .sellUlp-content {
+    grid-template-columns: 1fr;
+  }
+}

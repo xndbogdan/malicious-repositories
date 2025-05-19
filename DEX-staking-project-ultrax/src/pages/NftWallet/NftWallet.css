@@ -1,0 +1,25 @@
+.NftWallet input {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: var(--font-base);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.NftWallet label {
+  display: block;
+  margin-bottom: 0.8rem;
+}
+
+.NftWallet-content {
+  padding: 4.65rem;
+  padding-top: 1.5rem;
+  max-width: 38.75rem;
+}
+
+.NftWallet-row {
+  margin-bottom: 1.5rem;
+}
+
+.NftWallet button {
+  margin-top: 0.8rem;
+}

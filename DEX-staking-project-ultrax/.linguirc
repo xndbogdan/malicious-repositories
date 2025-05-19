@@ -1,0 +1,31 @@
+{
+  "locales": [
+    "en",
+    "es",
+    "ko",
+    "ja",
+    "zh",
+    "ru",
+    "fr",
+    "de",
+    "pseudo"
+  ],
+  "sourceLocale": "en",
+  "catalogs": [
+    {
+      "path": "src/locales/{locale}/messages",
+      "include": [
+        "src"
+      ]
+    }
+  ],
+  "formatOptions": {
+    "lineNumbers": false
+  },
+  "fallbackLocales": {
+    "default": "en"
+  },
+  "format": "po",
+  "orderBy": "messageId",
+  "pseudoLocale": "pseudo"
+}

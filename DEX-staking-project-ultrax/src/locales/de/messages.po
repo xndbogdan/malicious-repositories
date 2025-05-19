@@ -1,0 +1,3617 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2022-10-05 15:32+0530\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: de\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "01 Sep 2021"
+msgstr "06 Sep 2021"
+
+#: src/components/Exchange/PositionSeller.js
+msgid "<0/>Profit price: {0} ${1}. This rule applies for the next {2}, until {3}."
+msgstr ""
+
+#: src/App/App.js
+msgid "<0>Install Coinbase Wallet</0> to start using U2U."
+msgstr ""
+
+#: src/App/App.js
+msgid "<0>Install Coinbase Wallet</0>, and use U2U with its built-in browser."
+msgstr ""
+
+#: src/App/App.js
+msgid "<0>Install MetaMask</0> to start using U2U."
+msgstr ""
+
+#: src/App/App.js
+msgid "<0>Install MetaMask</0>, and use U2U with its built-in browser."
+msgstr ""
+
+#: src/components/Exchange/OrdersToa.js
+msgid "<0>Insufficient liquidity to execute the order</0><1>The mark price which is an aggregate of exchange prices did not reach the specified price</1><2>The specified price was reached but not long enough for it to be executed</2><3>No keeper picked up the order for execution</3>"
+msgstr "<0>Unzureichende Liquidität für die Ausführung des Auftrags</0><1>Der Markpreis, der ein Aggregat der Börsenkurse ist, hat den angegebenen Preis nicht erreicht</1><2>Der angegebene Preis wurde erreicht, aber nicht lange genug, um ihn auszuführen</2><3>Kein Keeper hat den Auftrag zur Ausführung angenommen</3>"
+
+#: src/components/Ulp/SwapErrorModal.tsx
+msgid "<0>The pool's capacity has been reached for {0}. Please use another token to buy ULP.</0><1>Check the \"Save on Fees\" section for tokens with the lowest fees.</1>"
+msgstr ""
+
+#: src/pages/Stake/StakeV2.js
+msgid "<0>This will withdraw and unreserve all tokens as well as pause vesting.<1/><2/>esUTX tokens that have been converted to UTX will remain as UTX tokens.<3/><4/>To claim UTX tokens without withdrawing, use the \"Claim\" button under the Total Rewards section.<5/><6/></0>"
+msgstr ""
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "<0>Total value of tokens in ULP pool ({chainName}).</0><1>Other websites may show a higher value as they add positions' collaterals to the ULP pool.</1>"
+msgstr ""
+
+#: src/lib/contracts/callContract.tsx
+#: src/lib/wallets/index.tsx
+msgid "<0>Your wallet is not connected to {0}.</0><1/><2>Switch to {1}</2>"
+msgstr "<0>Dein Wallet ist nicht mit {0} verbunden.</0><1/><2>Wechsle zu {1}</2>"
+
+#: src/components/Exchange/SwapBox.js
+msgid "<0>{0} is required for collateral.</0><1>Short amount for {1} with {2} exceeds potential profits liquidity. Reduce the \"Short Position\" size, or change the \"Collateral In\" token.</1>"
+msgstr ""
+
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+msgid "<0>{0} is required for collateral.</0><1>Swap amount from {1} to {2} exceeds {3} acceptable amount. Reduce the \"Pay\" size, or use {4} as the \"Pay\" token to use it for collateral.</1><2>You can buy {5} on 1inch.</2>"
+msgstr ""
+
+#: src/components/Exchange/SwapBox.js
+msgid "<0>{0} is required for collateral.</0><1>Swap amount from {1} to {2} exceeds {3} available liquidity. Reduce the \"Pay\" size, or change the \"Collateral In\" token.</1>"
+msgstr ""
+
+#: src/components/Exchange/SwapBox.js
+msgid "<0>{0} is required for collateral.</0><1>Swap amount from {1} to {2} exceeds {3} available liquidity. Reduce the \"Pay\" size, or use {4} as the \"Pay\" token to use it for collateral.</1><2>You can buy {5} on 1inch.</2>"
+msgstr ""
+
+#: src/components/Exchange/SwapBox.js
+msgid "A snapshot of the USD value of your {0} collateral is taken when the position is opened."
+msgstr "Bei der Eröffnung der Position wird eine Momentaufnahme des USD-Wertes deines {0} Kollaterals erstellt."
+
+#: src/components/Ulp/UlpSwap.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "APR"
+msgstr "APR"
+
+#: src/components/Stake/UTXAprTooltip.tsx
+msgid "APRs are updated weekly on Wednesday and will depend on the fees collected for the week."
+msgstr "APRs werden wöchentlich am Mittwoch aktualisiert und hängen von den in der Woche erhobenen Gebühren ab."
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "AUM"
+msgstr "AUM"
+
+#: src/pages/Ecosystem/Ecosystem.js
+#: src/pages/Ecosystem/Ecosystem.js
+#: src/pages/Ecosystem/Ecosystem.js
+#: src/pages/Ecosystem/Ecosystem.js
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "About"
+msgstr "Über"
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Accept confirmation of trigger orders"
+msgstr "Bestätigung von Trigger-Orders akzeptieren"
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Accept minimum and {action}"
+msgstr "Minimum akzeptieren und {action}"
+
+#: src/components/Exchange/OrdersToa.js
+msgid "Accept terms to enable orders"
+msgstr "Akzeptiere die Bedingungen, um Orders zu ermöglichen"
+
+#: src/components/Exchange/OrdersToa.js
+msgid "Accept that orders are not guaranteed to execute and trigger orders may not settle at the trigger price"
+msgstr "Akzeptiere, dass die Ausführung von Orders nicht garantiert ist und Trigger-Orders möglicherweise nicht zum Trigger-Preis abgerechnet werden."
+
+#: src/pages/Actions/Actions.js
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Account"
+msgstr "Konto"
+
+#: src/pages/Actions/Actions.js
+msgid "Actions"
+msgstr "Aktionen"
+
+#: src/pages/Dashboard/AssetDropdown.tsx
+#: src/pages/Dashboard/AssetDropdown.tsx
+msgid "Add to Metamask"
+msgstr "Zu Metamask hinzufügen"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Additional reserve required"
+msgstr "Zusätzliche Reserve erforderlich"
+
+#: src/components/Exchange/OrdersToa.js
+msgid "Additionally, trigger orders are market orders and are not guaranteed to settle at the trigger price."
+msgstr "Außerdem handelt es sich bei Trigger-Order um Markt-Orders, bei denen nicht garantiert wird, dass sie zum Trigger-Kurs abgerechnet werden."
+
+#: src/components/AddressDropdown/AddressDropdown.tsx
+msgid "Address copied to your clipboard"
+msgstr ""
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+msgid "After claiming you will be able to vest a maximum of {0} esUTX at a ratio of {1} {stakingToken} to 1 esUTX."
+msgstr ""
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+msgid "After claiming, the esUTX tokens will be airdropped to your account on the selected network within 7 days."
+msgstr ""
+
+#: src/components/ModalViews/RedirectModal.js
+msgid "Agree"
+msgstr "Zustimmen"
+
+#: src/App/App.js
+#: src/components/Exchange/PositionSeller.js
+msgid "Allowed Slippage"
+msgstr "Erlaubter Slippage"
+
+#: src/components/ModalViews/RedirectModal.js
+msgid "Alternative links can be found in the <0>docs</0>.<1/><2/>By clicking Agree you accept the <3>T&Cs</3> and <4>Referral T&Cs</4>.<5/><6/>"
+msgstr "Alternative Links findest du in den <0>Dokumenten</0>.<1/><2/>Mit dem Klick auf Zustimmen akzeptierst du die <3>Geschäftsbedingungen</3> und <4>Referral-Bedingungen</4>.<5/><6/>"
+
+#: src/components/Exchange/NoLiquidityErrorModal.tsx
+msgid "Alternatively, you can select a different \"Collateral In\" token."
+msgstr "Alternativ kannst du auch einen anderen \"Kollateral In\" Token auswählen."
+
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/TradeHistory.js
+#: src/components/Exchange/TradeHistory.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "Amount"
+msgstr "Menge"
+
+#: src/components/Exchange/PositionEditor.js
+msgid "Amount should be greater than zero"
+msgstr ""
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+msgid "Amount to claim"
+msgstr "Zu beanspruchender Betrag"
+
+#: src/pages/Home/Home.js
+msgid "An aggregate of high-quality price feeds determine when liquidations occur. This keeps positions safe from temporary wicks."
+msgstr "Ein Aggregat aus hochwertigen Kursen bestimmt, wann Liquidationen stattfinden. Dadurch sind die Positionen vor vorübergehenden Wicks sicher."
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Announcement"
+msgstr "Ankündigung"
+
+#: src/components/Header/HomeHeaderLinks.tsx
+msgid "App"
+msgstr "App"
+
+#: src/domain/tokens/approveTokens.tsx
+msgid "Approval failed"
+msgstr "Genehmigung gescheitert"
+
+#: src/domain/tokens/approveTokens.tsx
+msgid "Approval submitted! <0>View status.</0>"
+msgstr "Genehmigung erteilt! <0>Status anzeigen.</0>"
+
+#: src/domain/tokens/approveTokens.tsx
+msgid "Approval was cancelled"
+msgstr "Genehmigung wurde aufgehoben"
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+#: src/pages/Stake/StakeV2.js
+msgid "Approve UTX"
+msgstr "UTX genehmigen"
+
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Migration/Migration.js
+#: src/components/Ulp/UlpSwap.js
+msgid "Approve {0}"
+msgstr "Genehmige {0}"
+
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV2.js
+msgid "Approve {stakingTokenSymbol}"
+msgstr "Genehmige {stakingTokenSymbol}"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Approving UTX..."
+msgstr "UTX wird genehmigt..."
+
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Ulp/UlpSwap.js
+msgid "Approving {0}..."
+msgstr "Genehmigung von {0}..."
+
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV2.js
+msgid "Approving {stakingTokenSymbol}..."
+msgstr "Genehmigung von {stakingTokenSymbol}..."
+
+#: src/components/Migration/Migration.js
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+msgid "Approving..."
+msgstr " Genehmigung..."
+
+#: src/components/Exchange/NoLiquidityErrorModal.tsx
+msgid "As there is not enough liquidity in ULP to swap {0} to {swapTokenSymbol}, you can use the option below to do so:"
+msgstr "Da die Liquidität in ULP nicht ausreicht, um {0} in {swapTokenSymbol} zu tauschen, kannst du die unten stehende Option verwenden, um dies zu tun:"
+
+#: src/pages/Dashboard/DashboardV1.js
+msgid "Assets Under Management"
+msgstr "Verwaltetes Vermögen"
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Assets Under Management: UTX staked (All chains) + ULP pool ({chainName})."
+msgstr "Verwaltetes Vermögen: UTX-Staked (Alle Chains) + ULP-Pool ({chainName})."
+
+#: src/pages/Stake/StakeV2.js
+msgid "Avail."
+msgstr ""
+
+#: src/components/Ulp/UlpSwap.js
+msgid "Available"
+msgstr "Verfügbar"
+
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+msgid "Available Liquidity"
+msgstr "Verfügbare Liquidität"
+
+#: src/components/Ulp/UlpSwap.js
+msgid "Available amount to deposit into ULP."
+msgstr ""
+
+#: src/components/Ulp/UlpSwap.js
+msgid "Available amount to withdraw from ULP. Funds not utilized by current open positions."
+msgstr ""
+
+#: src/pages/Home/Home.js
+msgid "Available on your preferred network"
+msgstr "Verfügbar in deinem bevorzugten Netzwerk"
+
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Ulp/UlpSwap.js
+#: src/components/Ulp/UlpSwap.js
+#: src/components/Ulp/UlpSwap.js
+#: src/components/Ulp/UlpSwap.js
+#: src/pages/Stake/StakeV2.js
+msgid "Balance"
+msgstr "Balance"
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+msgid "Begin Transfer"
+msgstr "Übertragung beginnen"
+
+#: src/components/Migration/Migration.js
+#: src/components/Migration/Migration.js
+msgid "Bonus Tokens"
+msgstr "Bonus Tokens"
+
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "Boost Percentage"
+msgstr "Prozentualer Boost"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Boost your rewards with Multiplier Points. <0>More info</0>."
+msgstr "Steigere deine Belohnungen mit Multiplikatorpunkten. <0>Mehr Infos</0>."
+
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/FeesTooltip.tsx
+#: src/components/Exchange/NetValueTooltip.tsx
+#: src/components/Exchange/PositionsList.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/TradeHistory.js
+msgid "Borrow Fee"
+msgstr "Leihgebühr"
+
+#: src/components/Exchange/PositionsList.js
+msgid "Borrow Fee / Day"
+msgstr "Leihgebühr / Tag"
+
+#: src/components/Header/AppHeaderLinks.tsx
+msgid "Buy"
+msgstr "Kaufen"
+
+#: src/components/Ulp/UlpSwap.js
+#: src/components/Ulp/UlpSwap.js
+#: src/components/Ulp/UlpSwap.js
+#: src/pages/Stake/StakeV2.js
+msgid "Buy ULP"
+msgstr ""
+
+#: src/pages/Buy/Buy.js
+msgid "Buy ULP or UTX"
+msgstr ""
+
+#: src/pages/Stake/StakeV2.js
+msgid "Buy UTX"
+msgstr "UTX Kaufen"
+
+#: src/pages/BuyUTX/BuyUTX.tsx
+msgid "Buy UTX from Centralized Services"
+msgstr ""
+
+#: src/pages/BuyUTX/BuyUTX.tsx
+msgid "Buy UTX from Cross-chain Swap:"
+msgstr ""
+
+#: src/pages/BuyUTX/BuyUTX.tsx
+msgid "Buy UTX from Decentralized Exchange"
+msgstr ""
+
+#: src/pages/BuyUTX/BuyUTX.tsx
+msgid "Buy UTX from centralized exchanges:"
+msgstr ""
+
+#: src/pages/BuyUTX/BuyUTX.tsx
+msgid "Buy UTX on {0}"
+msgstr ""
+
+#: src/pages/Buy/Buy.js
+msgid "Buy UTX or ULP token easily!"
+msgstr ""
+
+#: src/pages/BuyUTX/BuyUTX.tsx
+msgid "Buy UTX using Decentralized Exchange Aggregators:"
+msgstr ""
+
+#: src/pages/BuyUTX/BuyUTX.tsx
+msgid "Buy UTX using FIAT gateways:"
+msgstr ""
+
+#: src/components/Ulp/UlpSwap.js
+msgid "Buy failed."
+msgstr "Kauf fehlgeschlagen."
+
+#: src/pages/BuyUTX/BuyUTX.tsx
+msgid "Buy from Spooky:"
+msgstr ""
+
+#: src/components/Ulp/UlpSwap.js
+msgid "Buy submitted."
+msgstr "Einkauf übermittelt."
+
+#: src/components/Ulp/UlpSwap.js
+#: src/components/Ulp/UlpSwap.js
+msgid "Buy with {0}"
+msgstr "Kaufe mit {0}"
+
+#: src/components/Exchange/NoLiquidityErrorModal.tsx
+msgid "Buy {swapTokenSymbol} on 1inch"
+msgstr "Kaufe {swapTokenSymbol} auf 1inch"
+
+#: src/pages/BuyUlp/BuyUlp.js
+msgid "Buy&Sell ULP"
+msgstr ""
+
+#: src/components/Ulp/UlpSwap.js
+msgid "Buying..."
+msgstr "Kaufen..."
+
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Can't execute because of an error"
+msgstr "Kann wegen eines Fehlers nicht ausgeführt werden"
+
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/TradeHistory.js
+msgid "Cancel"
+msgstr "Abbruch"
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Cancel failed"
+msgstr "Abbruch fehlgeschlagen"
+
+#: src/domain/legacy.ts
+#: src/pages/Exchange/Exchange.js
+msgid "Cancel failed."
+msgstr "Abbruch fehlgeschlagen."
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Cancel submitted"
+msgstr "Abbruch übermittelt"
+
+#: src/domain/legacy.ts
+#: src/pages/Exchange/Exchange.js
+msgid "Cancel submitted."
+msgstr "Abbruch übermittelt."
+
+#: src/App/App.js
+#: src/pages/Exchange/Exchange.js
+msgid "Chart positions"
+msgstr "Chart-Positionen"
+
+#: src/components/Ulp/UlpSwap.js
+#: src/components/Ulp/UlpSwap.js
+msgid "Check the \"Save on Fees\" section below to get the lowest fee percentages."
+msgstr "Im Abschnitt \"Spare bei den Gebühren\"\\ unten findest du die niedrigsten Gebühren."
+
+#: src/pages/BuyUTX/BuyUTX.tsx
+msgid "Choose to buy from decentralized or centralized exchanges."
+msgstr ""
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "Claim"
+msgstr "Beanspruchen"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Claim Rewards"
+msgstr "Beanspruche die Rewards"
+
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "Claim UTX Rewards"
+msgstr "Beanspruche UTX Rewards"
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+#: src/pages/Stake/StakeV2.js
+msgid "Claim completed!"
+msgstr "Anspruch abgeschlossen!"
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+msgid "Claim esUTX"
+msgstr ""
+
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "Claim esUTX Rewards"
+msgstr ""
+
+#: src/pages/Stake/StakeV1.js
+msgid "Claim failed"
+msgstr "Anpruch fehlgeschlagen"
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+#: src/pages/Stake/StakeV2.js
+msgid "Claim failed."
+msgstr "Anspruch gescheitert."
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+msgid "Claim submitted!"
+msgstr "Anspruch übermittelt!"
+
+#: src/pages/Stake/StakeV1.js
+msgid "Claim submitted! <0>View status.</0>"
+msgstr "Anspruch übermittelt! <0>Status anzeigen.</0>"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Claim submitted."
+msgstr "Anspruch übermittelt."
+
+#: src/pages/Stake/StakeV2.js
+msgid "Claimable"
+msgstr "Beanspruchbar"
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+#: src/pages/Stake/StakeV2.js
+msgid "Claiming..."
+msgstr "Beanspruchen..."
+
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/PositionsList.js
+msgid "Close"
+msgstr "Schließen"
+
+#: src/components/Exchange/FeesTooltip.tsx
+#: src/components/Exchange/NetValueTooltip.tsx
+msgid "Close Fee"
+msgstr ""
+
+#: src/components/Exchange/PositionsList.js
+msgid "Close Position"
+msgstr ""
+
+#: src/components/Exchange/PositionsList.js
+msgid "Close Positions"
+msgstr ""
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Close failed."
+msgstr ""
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Close submitted!"
+msgstr ""
+
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Close to execution price"
+msgstr "Schließe am Ausführungspreis"
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Close without profit"
+msgstr ""
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Close {longOrShortText} {0}"
+msgstr ""
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Closing..."
+msgstr ""
+
+#: src/App/App.js
+msgid "Coinbase Wallet"
+msgstr "Coinbase Wallet"
+
+#: src/App/App.js
+msgid "Coinbase Wallet not detected."
+msgstr "Coinbase Wallet nicht erkannt."
+
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/PositionsList.js
+#: src/components/Exchange/PositionsList.js
+msgid "Collateral"
+msgstr "Kollateral"
+
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/PositionSeller.js
+msgid "Collateral ({0})"
+msgstr "Kollateral ({0})"
+
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+msgid "Collateral In"
+msgstr "Kollateral in"
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Collateral in"
+msgstr ""
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Community Projects"
+msgstr "Community Projekte"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Community curated tweet collection"
+msgstr "Von der Community erstellte Tweet-Sammlung"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Community-led Telegram groups."
+msgstr "Von der Gemeinschaft geführte Telegram-Gruppen."
+
+#: src/pages/CompleteAccountTransfer/CompleteAccountTransfer.js
+msgid "Complete Account Transfer"
+msgstr "Vollständige Kontoübertragung"
+
+#: src/pages/CompleteAccountTransfer/CompleteAccountTransfer.js
+msgid "Complete Transfer"
+msgstr "Vollständige Übertragung"
+
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "Compound"
+msgstr "Zusammenfassen"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Compound Rewards"
+msgstr "Rewards zusammenfassen"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Compound completed!"
+msgstr "Zusammenfassen abgeschlossen!"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Compound failed."
+msgstr "Zusammenfassen fehlgeschlagen."
+
+#: src/pages/Stake/StakeV2.js
+msgid "Compound submitted!"
+msgstr "Zusammenfassen übermittelt!"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Compounding..."
+msgstr "Zusammenfassen..."
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Confirm Limit Order"
+msgstr ""
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Confirm Long"
+msgstr "Bestätige Long"
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Confirm Short"
+msgstr "Bestätige Short"
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Confirm Swap"
+msgstr "Bestätige Swap"
+
+#: src/components/Header/AppHeaderUser.tsx
+msgid "Connect"
+msgstr "Verbinden"
+
+#: src/App/App.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Header/AppHeaderUser.tsx
+#: src/components/Migration/Migration.js
+#: src/components/Ulp/UlpSwap.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "Connect Wallet"
+msgstr "Wallet verbinden"
+
+#: src/lib/wallets/index.tsx
+msgid "Connected to {0}"
+msgstr "Verbunden mit {0}"
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+#: src/pages/CompleteAccountTransfer/CompleteAccountTransfer.js
+msgid "Continue"
+msgstr "Weiter"
+
+#: src/components/AddressDropdown/AddressDropdown.tsx
+msgid "Copy Address"
+msgstr "Adresse kopieren"
+
+#: src/pages/Dashboard/DashboardV1.js
+#: src/pages/Dashboard/DashboardV1.js
+msgid "Could not add token to MetaMask"
+msgstr "Token konnte nicht zu MetaMask hinzugefügt werden"
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Could not decrease {0} {longOrShortText}, +{1} USD, Acceptable Price: {2}"
+msgstr "Konnte {0} {longOrShortText} nicht verringern, +{1} USD, Akzeptabler Preis: {2}"
+
+#: src/pages/Exchange/Exchange.js
+msgid "Could not decrease {tokenSymbol} {longOrShortText} within the allowed slippage, you can adjust the allowed slippage in the settings on the top right of the page."
+msgstr "{tokenSymbol} {longOrShortText} konnte nicht innerhalb der erlaubten Zeitspanne verringert werden. Du kannst die erlaubte Zeitspanne in den Einstellungen oben rechts auf der Seite anpassen."
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Could not execute deposit into {0} {longOrShortText}"
+msgstr "Einzahlung in {0} {longOrShortText} konnte nicht ausgeführt werden"
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Could not execute withdrawal from {0} {longOrShortText}"
+msgstr "Konnte Abhebung von {0} {longOrShortText} nicht ausführen"
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Could not increase {0} {longOrShortText}, +{1} USD, Acceptable Price: {2}"
+msgstr "Konnte {0} {longOrShortText} nicht erhöhen, +{1} USD, Akzeptabler Preis: {2}"
+
+#: src/pages/Exchange/Exchange.js
+msgid "Could not increase {tokenSymbol} {longOrShortText} within the allowed slippage, you can adjust the allowed slippage in the settings on the top right of the page."
+msgstr "Konnte {tokenSymbol} {longOrShortText} nicht innerhalb der erlaubten Zeitspanne erhöhen. Du kannst die erlaubte Zeitspanne in den Einstellungen oben rechts auf der Seite anpassen."
+
+#: src/components/Exchange/TradeHistory.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+msgid "Create"
+msgstr "Erstellen"
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Create Order"
+msgstr "Order erstellen"
+
+#: src/components/Exchange/SwapBox.js
+msgid "Create {0} Order"
+msgstr "{0} Auftrag erstellen"
+
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Created At"
+msgstr ""
+
+#: src/components/Exchange/SwapBox.js
+msgid "Created limit order for {0} {1}: {2} USD!"
+msgstr "Erstellte Limit Order für {0} {1}: {2} USD!"
+
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/PositionSeller.js
+msgid "Creating Order..."
+msgstr "Erstellen der Order..."
+
+#: src/pages/Ecosystem/Ecosystem.js
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Creator"
+msgstr "Ersteller"
+
+#: src/components/Ulp/UlpSwap.js
+msgid "Current Pool Amount"
+msgstr "Aktueller Pool-Betrag"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Current Reserved"
+msgstr "Aktuell Reserviert"
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Current Weight"
+msgstr "Aktuelle Gewichtung"
+
+#: src/components/Exchange/SwapBox.js
+msgid "Current {0} long"
+msgstr "Aktuell {0} long"
+
+#: src/components/Exchange/SwapBox.js
+msgid "Current {0} shorts"
+msgstr "Aktuell {0} shorts"
+
+#: src/pages/Ecosystem/Ecosystem.js
+#: src/pages/Ecosystem/Ecosystem.js
+#: src/pages/Ecosystem/Ecosystem.js
+#: src/pages/Ecosystem/Ecosystem.js
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "DEX Aggregator"
+msgstr "DEX Aggregator"
+
+#: src/components/Header/AppHeaderLinks.tsx
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Dashboard for UTX referral stats"
+msgstr "Dashboard für UTX Referral Statistiken"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Dashboards"
+msgstr "Dashboards"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "DeFi Portfolio Tracker"
+msgstr "DeFi Portfolio Tracker"
+
+#: src/components/Exchange/ExchangeTVChart.js
+msgid "Dec."
+msgstr "Dezentr."
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Decentralized Finance Dashboard"
+msgstr "Dezentrales Finanz-Dashboard"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Decentralized Options Protocol"
+msgstr "Dezentrales Optionsprotokoll"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Decentralized Options Strategies"
+msgstr "Strategien für dezentralisierte Optionen"
+
+#: src/lib/legacy.ts
+msgid "Decentralized Perpetual Exchange | UTX"
+msgstr ""
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Decentralized Trading Protocol"
+msgstr "Dezentrales Tradingprotokoll"
+
+#: src/pages/Home/Home.js
+msgid "Decentralized<0/>Perpetual Exchange"
+msgstr "Dezentralisierte<0/>Perpetual Börse"
+
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/TradeHistory.js
+#: src/components/Exchange/TradeHistory.js
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Decrease"
+msgstr "Verringern"
+
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Decrease active: {0}, executed: {1}, cancelled: {2}"
+msgstr "Verringern aktiv: {0}, ausgeführt: {1}, abgebrochen: {2}"
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Decreased"
+msgstr "Verringert"
+
+#: src/pages/Exchange/Exchange.js
+msgid "Decreased {tokenSymbol} {longOrShortText}, -{0} USD."
+msgstr "Verringert {tokenSymbol} {longOrShortText}, -{0} USD."
+
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/PositionEditor.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "Deposit"
+msgstr "Einzahlung"
+
+#: src/components/Exchange/FeesTooltip.tsx
+msgid "Deposit Fee"
+msgstr ""
+
+#: src/components/Exchange/PositionEditor.js
+msgid "Deposit disabled, pending {0} upgrade"
+msgstr "Einzahlung deaktiviert, Aktualisierung ausstehend {0}"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Deposit failed!"
+msgstr "Einzahlung fehlgeschlagen!"
+
+#: src/components/Exchange/PositionEditor.js
+msgid "Deposit failed."
+msgstr "Einzahlung fehlgeschlagen."
+
+#: src/pages/Stake/StakeV2.js
+msgid "Deposit submitted!"
+msgstr "Einzahlung übermittelt!"
+
+#: src/components/Exchange/PositionEditor.js
+msgid "Deposit submitted."
+msgstr "Einzahlung übermittelt."
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Deposit {0} USD into {1} {longOrShortText}"
+msgstr "Einzahlung von {0} USD in {1} {longOrShortText}"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Deposited"
+msgstr "Eingezahlt"
+
+#: src/pages/Exchange/Exchange.js
+msgid "Deposited {0} USD into {tokenSymbol} {longOrShortText}"
+msgstr "{0} USD in {tokenSymbol} {longOrShortText} eingezahlt"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Deposited!"
+msgstr "Eingezahlt!"
+
+#: src/components/Exchange/PositionEditor.js
+#: src/pages/Stake/StakeV2.js
+msgid "Depositing..."
+msgstr "Einzahlen..."
+
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Diff"
+msgstr "Diff"
+
+#: src/App/App.js
+msgid "Disable order validations"
+msgstr "Orderprüfungen deaktivieren"
+
+#: src/components/AddressDropdown/AddressDropdown.tsx
+msgid "Disconnect"
+msgstr "Verbindung trennen"
+
+#: src/App/App.js
+msgid "Display PnL after fees"
+msgstr "PnL nach Gebühren anzeigen"
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Distribution"
+msgstr "Verteilung"
+
+#: src/components/Header/HomeHeaderLinks.tsx
+msgid "Docs"
+msgstr "Dokumente"
+
+#: src/components/ModalViews/RedirectModal.js
+msgid "Don't show this message again for 30 days."
+msgstr "Diese Meldung 30 Tage lang nicht mehr anzeigen."
+
+#: src/components/Header/AppHeaderLinks.tsx
+#: src/pages/Stake/StakeV2.js
+msgid "Earn"
+msgstr "Verdienen"
+
+#: src/pages/Buy/Buy.js
+msgid "Easily buy UTX or ULP using your favorite payment methods"
+msgstr ""
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Ecosystem Projects"
+msgstr ""
+
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/OrdersList.js
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: src/components/Exchange/PositionDropdown.js
+msgid "Edit Collateral"
+msgstr "Kollateral bearbeiten"
+
+#: src/components/Exchange/OrderEditor.js
+#: src/components/Exchange/OrderEditor.js
+msgid "Edit order"
+msgstr "Order bearbeiten"
+
+#: src/components/Exchange/PositionEditor.js
+msgid "Edit {longOrShortText} {0}"
+msgstr "{longOrShortText} {0} bearbeiten"
+
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/SwapBox.js
+msgid "Enable Leverage"
+msgstr "Hebelwirkung ermöglichen"
+
+#: src/components/Exchange/OrdersToa.js
+#: src/components/Exchange/OrdersToa.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/SwapBox.js
+msgid "Enable Orders"
+msgstr "Orders ermöglichen"
+
+#: src/components/Exchange/PositionEditor.js
+msgid "Enable deposit failed."
+msgstr "Fehlgeschlagene Einzahlung ermöglichen"
+
+#: src/components/Exchange/PositionEditor.js
+msgid "Enable deposit sent."
+msgstr "Einzahlung ermöglichen gesendet."
+
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/SwapBox.js
+msgid "Enable leverage failed."
+msgstr "Aktivieren der Hebelwirkung fehlgeschlagen."
+
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/SwapBox.js
+msgid "Enable leverage sent."
+msgstr ""
+
+#: src/pages/Exchange/Exchange.js
+msgid "Enable orders failed."
+msgstr "Freigabe von Orders ist fehlgeschlagen."
+
+#: src/pages/Exchange/Exchange.js
+msgid "Enable orders sent."
+msgstr "Freigabe von Orders gesendet."
+
+#: src/components/Exchange/PositionEditor.js
+msgid "Enable withdraw failed."
+msgstr "Freigabe von Abhebungen ist fehlgeschlagen."
+
+#: src/components/Exchange/PositionEditor.js
+msgid "Enable withdraw sent."
+msgstr "Auszahlung ermöglichen gesendet."
+
+#: src/components/Exchange/PositionEditor.js
+msgid "Enabling Leverage"
+msgstr "Hebelwirkung wird aktiviert"
+
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+msgid "Enabling Leverage..."
+msgstr "Aktivierung der Hebelwirkung..."
+
+#: src/components/Exchange/OrdersToa.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+msgid "Enabling Orders..."
+msgstr "Aktivierung der Orders..."
+
+#: src/pages/NftWallet/NftWallet.js
+msgid "Enter NFT Address"
+msgstr "NFT Adresse eingeben"
+
+#: src/pages/NftWallet/NftWallet.js
+msgid "Enter NFT ID"
+msgstr "NFT ID eingeben"
+
+#: src/components/Exchange/OrderEditor.js
+#: src/components/Exchange/PositionSeller.js
+msgid "Enter Price"
+msgstr "Preis eingeben"
+
+#: src/pages/NftWallet/NftWallet.js
+msgid "Enter Receiver Address"
+msgstr "Empfängeradresse eingeben"
+
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+msgid "Enter a price"
+msgstr "Einen Preis eingeben"
+
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Migration/Migration.js
+#: src/components/Ulp/UlpSwap.js
+#: src/components/Ulp/UlpSwap.js
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "Enter an amount"
+msgstr "Einen Betrag eingeben"
+
+#: src/pages/Home/Home.js
+msgid "Enter and exit positions with minimal spread and zero price impact. Get the optimal price without incurring additional costs."
+msgstr "Ein- und Ausstiegspositionen mit minimalem Spread und ohne Preisauswirkungen. Hole dir den optimalen Preis, ohne zusätzliche Kosten."
+
+#: src/components/Exchange/OrderEditor.js
+#: src/components/Exchange/OrderEditor.js
+msgid "Enter new Price"
+msgstr "Neuen Preis eingeben"
+
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/PositionsList.js
+#: src/components/Exchange/PositionsList.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+msgid "Entry Price"
+msgstr "Einstiegspreis"
+
+#: src/components/Stake/UTXAprTooltip.tsx
+msgid "Escrowed UTX APR"
+msgstr "Escrowed UTX APR"
+
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Execute"
+msgstr "Ausführen"
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Execute Order: Swap {fromAmountDisplay} {0} for {toAmountDisplay} {1}"
+msgstr "Order ausführen: Tausche {fromAmountDisplay} {0} gegen {toAmountDisplay} {1}"
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Execute Order: {orderTypeText} {0} {longShortDisplay} {sizeDeltaDisplay} USD, Price: {executionPriceDisplay} USD"
+msgstr ""
+
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/FeesTooltip.tsx
+#: src/components/Exchange/PositionEditor.js
+msgid "Execution Fee"
+msgstr ""
+
+#: src/components/Exchange/SwapBox.js
+msgid "Exit Price"
+msgstr "Exit-Preis"
+
+#: src/components/Ulp/UlpSwap.js
+msgid "Fee Compare"
+msgstr ""
+
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Ulp/UlpSwap.js
+#: src/components/Ulp/UlpSwap.js
+#: src/pages/Dashboard/DashboardV1.js
+msgid "Fees"
+msgstr "Gebühren"
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Fees are high to swap from {0} to {1}."
+msgstr "Der Wechsel von {0} zu {1} ist mit hohen Gebühren verbunden."
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Fees are high to swap from {0} to {1}. <0/>{2} is needed for collateral."
+msgstr "Der Tausch von {0} nach {1} ist mit hohen Gebühren verbunden. <0/>{2} wird für das Kollteral benötigt."
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Fees generated by UTX"
+msgstr "Von UTX generierte Gebühren"
+
+#: src/components/Ulp/UlpSwap.js
+msgid "Fees may vary depending on which asset you sell ULP for. <0/>Enter the amount of ULP you want to redeem in the order form, then check here to compare fees."
+msgstr ""
+
+#: src/components/Ulp/UlpSwap.js
+msgid "Fees may vary depending on which asset you use to buy ULP <0/>Enter the amount of ULP you want to purchase in the order form, then check here to compare fees."
+msgstr ""
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Fees on {0}"
+msgstr ""
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Fees since"
+msgstr "Gebühren seit"
+
+#: src/components/Ulp/UlpSwap.js
+#: src/components/Ulp/UlpSwap.js
+#: src/components/Ulp/UlpSwap.js
+msgid "Fees will be shown once you have entered an amount in the order form."
+msgstr "Die Gebühren werden angezeigt, sobald du einen Betrag in das Order-Formular eingegeben hast."
+
+#: src/components/Exchange/SwapBox.js
+msgid "Fetching token info..."
+msgstr "Token-Informationen abrufen..."
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Financial reports and protocol analytics"
+msgstr "Finanzberichte und Protokollanalyse"
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Floor Price Fund"
+msgstr "Preisboden-Fund"
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Forfeit profit"
+msgstr "Verzicht auf Gewinn"
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Forfeit profit and Short"
+msgstr "Verzicht auf Gewinn und Short"
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Forfeit profit and {action}"
+msgstr "Verzicht auf Gewinn und {action}"
+
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/PositionSeller.js
+msgid "Forfeit profit not checked"
+msgstr "Verzicht auf Gewinn nicht geprüft"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "GBC NFTs APR tracker and rewards"
+msgstr "GBC NFTs APR-Tracker und Belohnungen"
+
+#: src/components/Header/HomeHeaderLinks.tsx
+msgid "Governance"
+msgstr "Governance"
+
+#: src/components/Exchange/SwapBox.js
+msgid "High Slippage, Swap Anyway"
+msgstr "Hoher Slippage, trotzdem tauschen"
+
+#: src/components/Exchange/SwapBox.js
+msgid "High USDG Slippage, Long Anyway"
+msgstr "Hohe USDG-Abweichung, trotzdem Long"
+
+#: src/components/Exchange/SwapBox.js
+msgid "If you have an existing position, the position will be closed at {0} USD.<0/><1/>This exit price will change with the price of the asset.<2/><3/><4>More Info</4>"
+msgstr "Wenn du eine bestehende Position hast, wird die Position für {0} USD geschlossen.<0/><1/>Dieser Ausstiegskurs ändert sich mit dem Kurs des Assets.<2/><3/><4>Weitere Infos</4>"
+
+#: src/components/Exchange/ExchangeTVChart.js
+msgid "Inc."
+msgstr "Inc."
+
+#: src/App/App.js
+msgid "Include PnL in leverage display"
+msgstr "PnL in die Anzeige der Hebelwirkung einbeziehen"
+
+#: src/pages/CompleteAccountTransfer/CompleteAccountTransfer.js
+msgid "Incorrect Account"
+msgstr "Falsches Konto"
+
+#: src/components/Exchange/SwapBox.js
+#: src/pages/Stake/StakeV1.js
+msgid "Incorrect Network"
+msgstr "Falsches Netzwerk"
+
+#: src/components/Exchange/SwapBox.js
+msgid "Incorrect network"
+msgstr "Falsches Netzwerk"
+
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/TradeHistory.js
+#: src/components/Exchange/TradeHistory.js
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Increase"
+msgstr "Erhöhen"
+
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Increase active: {0}, executed: {1}, cancelled: {2}"
+msgstr "Erhöhen aktiv: {0}, ausgeführt: {1}, abgebrochen: {2}"
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Increase {0} {longOrShortText}, +{1} USD, {2} Price: {3} USD"
+msgstr "Erhöhen {0} {longOrShortText}, +{1} USD, {2} Preis: {3} USD"
+
+#: src/pages/Exchange/Exchange.js
+msgid "Increased {tokenSymbol} {longOrShortText}, +{0} USD."
+msgstr "Erhöht {tokenSymbol} {longOrShortText}, +{0} USD."
+
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Index"
+msgstr "Index"
+
+#: src/components/Exchange/NetValueTooltip.tsx
+#: src/components/Exchange/PositionsList.js
+msgid "Initial Collateral"
+msgstr "Ursprüngliches Kollateral"
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Initial Collateral (Collateral excluding Borrow Fee)."
+msgstr ""
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Initial collateral"
+msgstr "Ursprüngliches Kollateral"
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Insufficient Available Liquidity to swap to {0}:"
+msgstr ""
+
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+msgid "Insufficient Liquidity"
+msgstr ""
+
+#: src/components/Ulp/UlpSwap.js
+msgid "Insufficient ULP balance"
+msgstr ""
+
+#: src/components/Exchange/SwapBox.js
+#: src/components/Ulp/UlpSwap.js
+msgid "Insufficient liquidity"
+msgstr "Unzureichende Liquidität"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Insufficient staked tokens"
+msgstr "Unzureichend gestakete Tokens"
+
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Ulp/UlpSwap.js
+msgid "Insufficient {0} balance"
+msgstr "Unzureichende {0} Balance"
+
+#: src/pages/NftWallet/NftWallet.js
+msgid "Invalid NFT Address"
+msgstr "Ungültige NFT-Adresse"
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+msgid "Invalid Receiver"
+msgstr "Ungültiger Empfänger"
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+#: src/pages/NftWallet/NftWallet.js
+msgid "Invalid Receiver Address"
+msgstr "Ungültige Empfängeradresse"
+
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/PositionEditor.js
+msgid "Invalid liq. price"
+msgstr "Ungültiger Liq.-Preis"
+
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/OrderEditor.js
+#: src/components/Exchange/PositionSeller.js
+msgid "Invalid price, see warning"
+msgstr "Ungültiger Preis, siehe Warnung"
+
+#: src/App/App.js
+msgid "Invalid slippage value"
+msgstr "Ungültiger Slippagewert"
+
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Invalid token fromToken: \"{0}\" toToken: \"{toTokenAddress}\""
+msgstr "Ungültiger Token von Token: \"{0}\" zu Token: \"{toTokenAddress}\""
+
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Invalid token indexToken: \"{0}\" collateralToken: \"{1}\""
+msgstr "Ungültiger Token index Token: \"{0} Kollateral Token: \"{1}\""
+
+#: src/pages/Jobs/Jobs.js
+msgid "Job Openings"
+msgstr ""
+
+#: src/pages/Jobs/Jobs.js
+msgid "Job openings at UTX."
+msgstr "Offene Jobs bei UTX."
+
+#: src/pages/Jobs/Jobs.js
+msgid "Jobs"
+msgstr "Jobs"
+
+#: src/components/ModalViews/RedirectModal.js
+#: src/pages/Home/Home.js
+msgid "Launch App"
+msgstr "App starten"
+
+#: src/components/Exchange/UsefulLinks.tsx
+msgid "Leaderboard"
+msgstr "Bestenliste"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Leaderboard for UTX traders"
+msgstr "Rangliste für UTX-Trader"
+
+#: src/components/Exchange/PositionEditor.js
+msgid "Leave at least {0} ETH for gas"
+msgstr "Mindestens {0} ETH für Gas lassen"
+
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+msgid "Leave at least {0} {1} for gas"
+msgstr "Mindestens {0} {1} für Gas lassen"
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Leftover collateral below 5 USD"
+msgstr ""
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Leftover position below 10 USD"
+msgstr ""
+
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/SwapBox.js
+msgid "Leverage"
+msgstr "Hebelwirkung"
+
+#: src/components/Exchange/SwapBox.js
+msgid "Leverage disabled, pending {0} upgrade"
+msgstr "Hebelwirkung deaktiviert, {0} Upgrade steht an"
+
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/SwapBox.js
+msgid "Limit"
+msgstr "Limit"
+
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Limit Price"
+msgstr "Limit Preis"
+
+#: src/components/Exchange/SwapBox.js
+msgid "Limit order creation failed."
+msgstr "Die Erstellung einer Limit-Order ist fehlgeschlagen."
+
+#: src/components/Exchange/SwapBox.js
+msgid "Limit order submitted!"
+msgstr "Limit-Order übermittelt!"
+
+#: src/pages/Ecosystem/Ecosystem.js
+#: src/pages/Ecosystem/Ecosystem.js
+#: src/pages/Ecosystem/Ecosystem.js
+#: src/pages/Ecosystem/Ecosystem.js
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Link"
+msgstr "Link"
+
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/OrderEditor.js
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/PositionsList.js
+#: src/components/Exchange/PositionsList.js
+#: src/components/Exchange/SwapBox.js
+msgid "Liq. Price"
+msgstr "Liq. Preis"
+
+#: src/components/Exchange/ExchangeTVChart.js
+msgid "Liq. {0} {longOrShortText}"
+msgstr ""
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Liquidated"
+msgstr "Liquidiert"
+
+#: src/components/Exchange/TradeHistory.js
+msgid ""
+"Liquidated {0} {longOrShortText},\n"
+"-{1} USD,\n"
+"{2} Price: {3} USD"
+msgstr ""
+"Liquidiert {0} {longOrShortText},\n"
+"-{1} USD,\n"
+"{2} Preis: {3} USD"
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Liquidation Fee"
+msgstr ""
+
+#: src/components/Exchange/PositionEditor.js
+msgid "Liquidation price would cross mark price."
+msgstr ""
+
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+msgid "Liquidity data not loaded"
+msgstr "Liquiditätsdaten nicht geladen"
+
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/ExchangeTVChart.js
+#: src/components/Exchange/ExchangeTVChart.js
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/PositionsList.js
+#: src/components/Exchange/PositionsList.js
+#: src/components/Exchange/PositionsList.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/TradeHistory.js
+#: src/components/Exchange/TradeHistory.js
+#: src/components/Exchange/TradeHistory.js
+#: src/pages/Actions/Actions.js
+#: src/pages/Actions/Actions.js
+#: src/pages/Exchange/Exchange.js
+#: src/pages/Exchange/Exchange.js
+#: src/pages/Exchange/Exchange.js
+#: src/pages/Exchange/Exchange.js
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Long"
+msgstr "Long"
+
+#: src/pages/Dashboard/DashboardV1.js
+msgid "Long positions: {0} USD, Short positions: {1} USD, {volumeLabel} volume: {2} USD"
+msgstr "Long-Positionen: {0} USD, Short-Positionen: {1} USD, {volumeLabel} Volumen: {2} USD"
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Longing..."
+msgstr "Gehe Long..."
+
+#: src/pages/Actions/Actions.js
+msgid "Loss"
+msgstr "Verlust"
+
+#: src/components/BuyInputSection/BuyInputSection.tsx
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/InputSection/InputSection.js
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+msgid "MAX"
+msgstr "MAX"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "MEV Optimizer"
+msgstr "MEV-Optimierer"
+
+#: src/components/Exchange/SwapBox.js
+msgid "Mark"
+msgstr ""
+
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/OrdersList.js
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Mark Price"
+msgstr "Mark-Preis"
+
+#: src/components/Exchange/OrderEditor.js
+msgid "Mark Price:"
+msgstr "Mark-Preis:"
+
+#: src/components/Exchange/OrderEditor.js
+msgid "Mark: {0}"
+msgstr "Mark: {0}"
+
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/SwapBox.js
+msgid "Market"
+msgstr "Markt"
+
+#: src/pages/Dashboard/DashboardV1.js
+#: src/pages/Dashboard/DashboardV1.js
+#: src/pages/Dashboard/DashboardV1.js
+#: src/pages/Dashboard/DashboardV2.js
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Market Cap"
+msgstr "Marktkapitalisierung"
+
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/PositionsList.js
+#: src/components/Exchange/PositionsList.js
+msgid "Market Price"
+msgstr ""
+
+#: src/pages/Stake/StakeV2.js
+msgid "Max"
+msgstr ""
+
+#: src/pages/Stake/StakeV2.js
+msgid "Max Capacity"
+msgstr "Max. Kapazität"
+
+#: src/components/Ulp/UlpSwap.js
+msgid "Max Capacity for {0} Reached"
+msgstr "Max. Kapazität für {0} erreicht"
+
+#: src/components/Ulp/UlpSwap.js
+msgid "Max Pool Capacity"
+msgstr "Max. Pool-Kapazität"
+
+#: src/components/Migration/Migration.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "Max amount exceeded"
+msgstr "Maximalbetrag überschritten"
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Max close amount exceeded"
+msgstr ""
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Max leverage of 100x was exceeded, the remaining collateral after deducting losses and fees have been sent back to your account:"
+msgstr "Die max. Hebelwirkung von 100x wurde überschritten, das verbleibende Kollateral wird nach Abzug von Verlusten und Gebühren wurde auf dein Konto zurücküberwiesen:"
+
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/SwapBox.js
+msgid "Max leverage: {0}x"
+msgstr ""
+
+#: src/components/Ulp/UlpSwap.js
+msgid "Max pool capacity reached for {0}. Please mint ULP using another token"
+msgstr ""
+
+#: src/components/Ulp/UlpSwap.js
+msgid "Max pool capacity reached for {0}<0/><1/>Please mint ULP using another token"
+msgstr ""
+
+#: src/App/App.js
+msgid "Max slippage precision is 0.01%"
+msgstr "Die max. Slippagegenauigkeit beträgt 0,01 %."
+
+#: src/pages/Dashboard/DashboardV2.js
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Max {0} Capacity"
+msgstr "Max. {0} Kapazität"
+
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/SwapBox.js
+msgid "Max {0} in"
+msgstr "Max. {0} in"
+
+#: src/components/Exchange/SwapBox.js
+msgid "Max {0} long capacity"
+msgstr "Max. {0} Long-Kapazität"
+
+#: src/components/Exchange/SwapBox.js
+msgid "Max {0} long exceeded"
+msgstr "Max {0} Long überschritten"
+
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/SwapBox.js
+msgid "Max {0} out"
+msgstr "Max. {0} heraus"
+
+#: src/components/Exchange/SwapBox.js
+msgid "Max {0} short capacity"
+msgstr "Max. {0} Short-Kapazität"
+
+#: src/components/Exchange/SwapBox.js
+msgid "Max {0} short exceeded"
+msgstr "Max {0} Short überschritten"
+
+#: src/components/Migration/Migration.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+msgid "Max: {0}"
+msgstr "Max: {0}"
+
+#: src/App/App.js
+msgid "MetaMask"
+msgstr "MetaMask"
+
+#: src/App/App.js
+msgid "MetaMask not detected."
+msgstr "MetaMask nicht erkannt."
+
+#: src/components/Migration/Migration.js
+#: src/components/Migration/Migration.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+msgid "Migrate"
+msgstr "Migrieren"
+
+#: src/components/Migration/Migration.js
+msgid "Migrated"
+msgstr "Migriert"
+
+#: src/components/Migration/Migration.js
+msgid "Migrating..."
+msgstr "Migrieren..."
+
+#: src/components/Migration/Migration.js
+msgid "Migration Price"
+msgstr "Migrationspreis"
+
+#: src/components/Migration/Migration.js
+msgid "Migration failed"
+msgstr "Migrieren fehlgeschlagen"
+
+#: src/components/Migration/Migration.js
+msgid "Migration submitted! <0>View status.</0>"
+msgstr "Migrieren übermittelt! <0>Status anzeigen.</0>"
+
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/SwapBox.js
+msgid "Min leverage: 1.1x"
+msgstr "Min.-Hebelwirkung: 1.1x"
+
+#: src/components/Exchange/SwapBox.js
+msgid "Min order: 10 USD"
+msgstr "Min. Order: 10 USD"
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Min required collateral"
+msgstr "Min. erforderliches Kollateral"
+
+#: src/components/Exchange/PositionEditor.js
+msgid "Min residual collateral: 10 USD"
+msgstr ""
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Min. Receive"
+msgstr "Min. Empfangen"
+
+#: src/components/Exchange/OrderEditor.js
+msgid "Minimum received"
+msgstr "Min. Empfangen"
+
+#: src/components/Exchange/SwapBox.js
+#: src/pages/Dashboard/DashboardV2.js
+msgid "More Info"
+msgstr "Mehr Info"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Multiplier Points APR"
+msgstr "Multiplikator-Punkte APR"
+
+#: src/pages/NftWallet/NftWallet.js
+msgid "NFT Address"
+msgstr "NFT Adresse"
+
+#: src/pages/NftWallet/NftWallet.js
+msgid "NFT ID"
+msgstr "NFT ID"
+
+#: src/pages/NftWallet/NftWallet.js
+msgid "NFT Wallet"
+msgstr "NFT Wallet"
+
+#: src/components/Exchange/PositionsList.js
+#: src/components/Exchange/PositionsList.js
+msgid "Net Value"
+msgstr "Nettowert"
+
+#: src/components/Exchange/NetValueTooltip.tsx
+msgid "Net Value: Initial Collateral + PnL - Borrow Fee - Close Fee"
+msgstr ""
+
+#: src/components/NetworkDropdown/NetworkDropdown.tsx
+#: src/components/NetworkDropdown/NetworkDropdown.tsx
+msgid "Networks"
+msgstr "Netzwerke"
+
+#: src/pages/Actions/Actions.js
+msgid "No PnLs found"
+msgstr "Keine PnLs gefunden"
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+msgid "No esUTX to claim"
+msgstr ""
+
+#: src/lib/legacy.ts
+msgid "No open position, order cannot be executed unless a position is opened"
+msgstr "Keine offene Position, der Auftrag kann nur ausgeführt werden, wenn eine Position eröffnet ist"
+
+#: src/pages/Jobs/Jobs.js
+msgid "No open positions at UTX currently"
+msgstr "Derzeit keine offenen Positionen bei UTX"
+
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "No position"
+msgstr "Keine Position"
+
+#: src/pages/Stake/StakeV1.js
+msgid "No rewards to claim yet"
+msgstr "Noch keine Belohnungen zu beanspruchen"
+
+#: src/components/Exchange/OrdersToa.js
+msgid "Note that orders are not guaranteed to be executed.<0/><1/>This can occur in a few situations including but not exclusive to:"
+msgstr "Beachte, dass die Ausführung von Aufträgen nicht garantiert ist.<0/><1/>Dies kann in einigen Situationen vorkommen, einschließlich, aber nicht ausschließlich bei:"
+
+#: src/components/Exchange/FeesTooltip.tsx
+#: src/components/Exchange/NetValueTooltip.tsx
+msgid "Open Fee"
+msgstr ""
+
+#: src/pages/Home/Home.js
+msgid "Open Interest"
+msgstr "Offenes Interest"
+
+#: src/components/Exchange/SwapBox.js
+msgid "Open Long {0}"
+msgstr ""
+
+#: src/pages/Exchange/Exchange.js
+msgid "Open Orders ({0})"
+msgstr ""
+
+#: src/components/Exchange/SwapBox.js
+msgid "Open Short {0}"
+msgstr ""
+
+#: src/components/Exchange/SwapBox.js
+msgid "Open a position"
+msgstr "Eine Position eröffnen"
+
+#: src/pages/Dashboard/AssetDropdown.tsx
+msgid "Open in Explorer"
+msgstr "Im Explorer öffnen"
+
+#: src/pages/Home/Home.js
+msgid "Open positions through a simple swap interface. Conveniently swap from any supported asset into the position of your choice."
+msgstr "Eröffne Positionen über eine einfache Swap-Schnittstelle. Tausche bequem von jedem unterstützten Vermögenswert in die Position deiner Wahl."
+
+#: src/pages/PositionsOverview/PositionsOverview.js
+msgid "Open positions: {0}<0/>Under risk: {1}"
+msgstr "Offene Positionen: {0}<0/>Unter Risiko: {1}"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Open trades ranking and stats"
+msgstr ""
+
+#: src/components/Exchange/ExchangeTVChart.js
+msgid "Open {0} {longOrShortText}"
+msgstr ""
+
+#: src/components/Exchange/PositionsList.js
+msgid "Opening..."
+msgstr "Öffnen..."
+
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/TradeHistory.js
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Order"
+msgstr "Order"
+
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/OrdersList.js
+msgid "Order Price"
+msgstr ""
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Order cancelled"
+msgstr "Order storniert"
+
+#: src/domain/legacy.ts
+msgid "Order cancelled."
+msgstr "Order storniert."
+
+#: src/lib/legacy.ts
+msgid "Order cannot be executed as it would reduce the position's leverage below 1"
+msgstr "Auftrag kann nicht ausgeführt werden, da er die Hebelwirkung der Position unter 1 reduzieren würde"
+
+#: src/lib/legacy.ts
+msgid "Order cannot be executed as the remaining position would be smaller than $5.00"
+msgstr "Auftrag kann nicht ausgeführt werden, da die verbleibende Position unter $5 wäre"
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Order created!"
+msgstr ""
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Order creation failed."
+msgstr ""
+
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Order size exceeds position"
+msgstr "Ordergröße übersteigt Position"
+
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Order size is 0"
+msgstr "Ordergröße ist 0"
+
+#: src/components/Exchange/PositionsList.js
+#: src/lib/legacy.ts
+msgid "Order size is bigger than position, will only be executable if position increases"
+msgstr "Ordergröße ist größer als die Position. Wird nur ausgeführt, wenn sich die Position erhöht"
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Order submitted!"
+msgstr ""
+
+#: src/components/Exchange/OrderEditor.js
+msgid "Order update failed."
+msgstr "Orderupdate fehlgeschlagen"
+
+#: src/components/Exchange/OrderEditor.js
+msgid "Order update submitted!"
+msgstr "Aktualisierung der Bestellung eingereicht!"
+
+#: src/components/Exchange/OrderEditor.js
+msgid "Order updated!"
+msgstr "Orderupdate übermittelt!"
+
+#: src/pages/Actions/Actions.js
+msgid "Orders"
+msgstr "Orders"
+
+#: src/pages/Exchange/Exchange.js
+msgid "Orders cancelled."
+msgstr "Orders gekündigt."
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Overall protocol analytics"
+msgstr ""
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Overview Stats"
+msgstr ""
+
+#: src/pages/PageNotFound/PageNotFound.js
+#: src/pages/PageNotFound/PageNotFound.js
+msgid "Page not found"
+msgstr "Seite nicht gefunden"
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Partial Liquidation"
+msgstr "Teilweise Liquidierung"
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Partially Liquidated"
+msgstr "Teilweise liquidiert"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Partnerships and Integrations"
+msgstr "Partnerschaften und Integrationen"
+
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Ulp/UlpSwap.js
+#: src/components/Ulp/UlpSwap.js
+msgid "Pay"
+msgstr "Bezahlen"
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+msgid "Please switch your network to Arbitrum."
+msgstr "Bitte wechsle dein Netzwerk zu Arbitrum."
+
+#: src/components/Exchange/NetValueTooltip.tsx
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/TradeHistory.js
+#: src/pages/Actions/Actions.js
+msgid "PnL"
+msgstr "PnL"
+
+#: src/components/Exchange/NetValueTooltip.tsx
+msgid "PnL After Fees"
+msgstr "PnL nach Gebühren"
+
+#: src/components/Ulp/UlpSwap.js
+#: src/components/Ulp/UlpSwap.js
+#: src/components/Ulp/UlpSwap.js
+#: src/pages/Dashboard/DashboardV1.js
+#: src/pages/Dashboard/DashboardV2.js
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Pool"
+msgstr "Pool"
+
+#: src/pages/Dashboard/DashboardV2.js
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Pool Amount"
+msgstr "Pool Betrag"
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Position close disabled, pending {0} upgrade"
+msgstr ""
+
+#: src/pages/Actions/Actions.js
+msgid "Positions"
+msgstr "Positionen"
+
+#: src/pages/Exchange/Exchange.js
+msgid "Positions ({0})"
+msgstr "Positionen ({0})"
+
+#: src/components/Exchange/OrderEditor.js
+#: src/components/Exchange/OrderEditor.js
+#: src/components/Exchange/OrderEditor.js
+#: src/components/Exchange/OrderEditor.js
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Ulp/UlpSwap.js
+#: src/components/Ulp/UlpSwap.js
+#: src/pages/Dashboard/DashboardV1.js
+#: src/pages/Dashboard/DashboardV1.js
+#: src/pages/Dashboard/DashboardV1.js
+#: src/pages/Dashboard/DashboardV2.js
+#: src/pages/Dashboard/DashboardV2.js
+#: src/pages/Dashboard/DashboardV2.js
+#: src/pages/Dashboard/DashboardV2.js
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Price"
+msgstr "Preis"
+
+#: src/components/Exchange/OrderEditor.js
+#: src/components/Exchange/PositionSeller.js
+msgid "Price above Liq. Price"
+msgstr "Preis über Liq. Preis"
+
+#: src/components/Exchange/OrderEditor.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+msgid "Price above Mark Price"
+msgstr ""
+
+#: src/components/Exchange/OrderEditor.js
+#: src/components/Exchange/PositionSeller.js
+msgid "Price below Liq. Price"
+msgstr "Preis unter Liq. Preis"
+
+#: src/components/Exchange/OrderEditor.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+msgid "Price below Mark Price"
+msgstr "Preis unter Mark Preis"
+
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Price conditions are met"
+msgstr "Preisbedingungen sind erfüllt"
+
+#: src/components/Exchange/OrderEditor.js
+msgid "Price is above Mark Price"
+msgstr "Preis ist über Mark Preis"
+
+#: src/components/Exchange/OrderEditor.js
+msgid "Price is below Mark Price"
+msgstr "Preis ist unter Mark Preis"
+
+#: src/pages/Actions/Actions.js
+msgid "Profit"
+msgstr "Profit"
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Profit price: {0} ${1}. This rule applies for the next {2}, until {3}."
+msgstr ""
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Projects developed by the UTX community. <0/>Please exercise caution when interacting with any app, apps are fully maintained by community developers."
+msgstr ""
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Projects integrated with UTX."
+msgstr "Mit UTX integrierte Projekte."
+
+#: src/pages/Dashboard/AssetDropdown.tsx
+msgid "Proof of Reserves"
+msgstr "Reserve-Nachweis"
+
+#: src/components/Header/HomeHeaderLinks.tsx
+msgid "Protocol"
+msgstr ""
+
+#: src/pages/Ecosystem/Ecosystem.js
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Protocol analytics"
+msgstr "Protokoll-Analytik"
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Rate"
+msgstr ""
+
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Ulp/UlpSwap.js
+#: src/components/Ulp/UlpSwap.js
+msgid "Receive"
+msgstr "Empfangen"
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+#: src/pages/NftWallet/NftWallet.js
+msgid "Receiver Address"
+msgstr "Empfängeradresse"
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+msgid "Receiver has not staked ULP tokens before"
+msgstr "Der Empfänger hat noch keine ULP-Token gestaket"
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+msgid "Receiver has not staked UTX tokens before"
+msgstr "Der Empfänger hat noch keine UTX-Token gestaket"
+
+#: src/components/Ulp/UlpSwap.js
+msgid "Redemption time not yet reached"
+msgstr "Tilgungszeitpunkt noch nicht erreicht"
+
+#: src/pages/Home/Home.js
+msgid "Reduce Liquidation Risks"
+msgstr "Verringere Liquidationsrisiken"
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Reducing the position at the current price will forfeit a <0>pending profit</0> of {deltaStr}. <1/>"
+msgstr ""
+
+#: src/pages/ReferralTerms/ReferralTerms.js
+msgid "Referral Terms"
+msgstr "Referralbedingungen"
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Request decrease {0} {longOrShortText}, -{1} USD, Acceptable Price: {2} {3} USD"
+msgstr "Reduzierungsanfrage {0} {longOrShortText}, -{1} USD, Akzeptabler Preis: {2} {3} USD"
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Request deposit into {0} {longOrShortText}"
+msgstr "Einzahlungsanfrage in {0} {longOrShortText}"
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Request increase {0} {longOrShortText}, +{1} USD, Acceptable Price: {2} {3} USD"
+msgstr "Erhöhungsanfrage {0} {longOrShortText}, +{1} USD, Akzeptabler Preis: {2} {3} USD"
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Request withdrawal from {0} {longOrShortText}"
+msgstr "Antrag auf Abheben von {0} {longOrShortText}"
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Requested decrease of {0} {longOrShortText} by {sizeDeltaUsd} USD."
+msgstr ""
+
+#: src/components/Exchange/PositionEditor.js
+msgid "Requested deposit of {0} {1} into {2} {longOrShortText}."
+msgstr "Angeforderte Einzahlung von {0} {1} in {2} {longOrShortText}."
+
+#: src/components/Exchange/SwapBox.js
+msgid "Requested increase of {tokenSymbol} {longOrShortText} by {0} USD."
+msgstr "Angeforderte Erhöhung von {tokenSymbol} {longOrShortText} um {0} USD."
+
+#: src/components/Exchange/PositionEditor.js
+msgid "Requested withdrawal of {0} USD from {1} {longOrShortText}."
+msgstr "Angeforderte Abhebung von {0} USD von {1} {longOrShortText}."
+
+#: src/pages/Stake/StakeV2.js
+msgid "Reserve Amount"
+msgstr "Reservebetrag"
+
+#: src/components/Ulp/UlpSwap.js
+#: src/pages/Stake/StakeV2.js
+msgid "Reserved"
+msgstr "Reserviert"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Returns calculator for UTX and ULP"
+msgstr "Renditerechner für UTX und ULP"
+
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "Rewards"
+msgstr "Rewards"
+
+#: src/App/App.js
+msgid "Save"
+msgstr "Sparen"
+
+#: src/pages/Home/Home.js
+msgid "Save on Costs"
+msgstr "Kosten sparen"
+
+#: src/components/Exchange/TokenSelector.js
+msgid "Search Token"
+msgstr "Token suchen"
+
+#: src/components/NetworkDropdown/LanguagePopupHome.tsx
+msgid "Select Language"
+msgstr "Sprache auswählen"
+
+#: src/components/Exchange/PositionDropdown.js
+msgid "Select Market"
+msgstr "Markt wählen"
+
+#: src/components/NetworkDropdown/NetworkDropdown.tsx
+msgid "Select Network"
+msgstr ""
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+msgid "Select an option"
+msgstr "Option wählen"
+
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+msgid "Select different tokens"
+msgstr "Anderen Token wählen"
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+msgid "Select your vesting option below then click \"Claim\"."
+msgstr "Wähle unten deine Vestingoption aus und klicke dann auf \"Beanspruchen\"."
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+msgid "Self-transfer not supported"
+msgstr "Selbstübertragungen werden nicht unterstützt"
+
+#: src/components/Ulp/UlpSwap.js
+#: src/components/Ulp/UlpSwap.js
+#: src/components/Ulp/UlpSwap.js
+#: src/components/Ulp/UlpSwap.js
+msgid "Sell ULP"
+msgstr ""
+
+#: src/components/Ulp/UlpSwap.js
+msgid "Sell failed."
+msgstr "Verkauf fehlgeschlagen."
+
+#: src/components/Ulp/UlpSwap.js
+#: src/components/Ulp/UlpSwap.js
+msgid "Sell for {0}"
+msgstr "Verkaufe für {0}"
+
+#: src/components/Ulp/UlpSwap.js
+msgid "Sell submitted!"
+msgstr "Verkauf übermittelt!"
+
+#: src/components/Ulp/UlpSwap.js
+msgid "Selling..."
+msgstr "Verkaufe..."
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+msgid "Sender has withdrawn all tokens from ULP Vesting Vault"
+msgstr "Sender hat alle Token aus dem ULP Vesting Vault abgehoben"
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+msgid "Sender has withdrawn all tokens from UTX Vesting Vault"
+msgstr "Sender hat alle Token aus dem UTX Vesting Vault zurückgezogen"
+
+#: src/App/App.js
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: src/components/Exchange/PositionDropdown.js
+msgid "Share Position"
+msgstr "Position teilen"
+
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/ExchangeTVChart.js
+#: src/components/Exchange/ExchangeTVChart.js
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/PositionsList.js
+#: src/components/Exchange/PositionsList.js
+#: src/components/Exchange/PositionsList.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/TradeHistory.js
+#: src/components/Exchange/TradeHistory.js
+#: src/components/Exchange/TradeHistory.js
+#: src/pages/Actions/Actions.js
+#: src/pages/Actions/Actions.js
+#: src/pages/Exchange/Exchange.js
+#: src/pages/Exchange/Exchange.js
+#: src/pages/Exchange/Exchange.js
+#: src/pages/Exchange/Exchange.js
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Short"
+msgstr "Short"
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Shorting..."
+msgstr "Shorten..."
+
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/TradeHistory.js
+msgid "Side"
+msgstr ""
+
+#: src/pages/Home/Home.js
+msgid "Simple Swaps"
+msgstr "Einfache Swaps"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Simulate your hedge strategy"
+msgstr ""
+
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/PositionsList.js
+#: src/components/Exchange/PositionsList.js
+#: src/components/Exchange/SwapBox.js
+msgid "Size"
+msgstr "Größe"
+
+#: src/App/App.js
+msgid "Slippage should be less than 5%"
+msgstr "Der Slippage sollte weniger als 5% betragen"
+
+#: src/components/Exchange/UsefulLinks.tsx
+msgid "Speed up page loading"
+msgstr "Beschleunige das Laden von Seiten"
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Spread"
+msgstr "Spread"
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Spread Fee"
+msgstr ""
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Spreadsheet for position calculations"
+msgstr ""
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Stablecoin Percentage"
+msgstr "Prozentsatz von Stablecoins"
+
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "Stake"
+msgstr "Stake"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Stake & Earn"
+msgstr ""
+
+#: src/pages/Stake/StakeV2.js
+msgid "Stake <0>UTX</0> and <1>ULP</1> to Earn Rewards."
+msgstr ""
+
+#: src/pages/Stake/StakeV2.js
+msgid "Stake Multiplier Points"
+msgstr "Stake Multiplikator-Punkte"
+
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "Stake U2U"
+msgstr ""
+
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "Stake UTX"
+msgstr "Stake UTX"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Stake UTX Rewards"
+msgstr "Stake UTX Rewards"
+
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "Stake esUTX"
+msgstr ""
+
+#: src/pages/Stake/StakeV2.js
+msgid "Stake esUTX Rewards"
+msgstr ""
+
+#: src/pages/Stake/StakeV1.js
+msgid "Stake failed"
+msgstr "Staken fehlgeschlagen"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Stake failed."
+msgstr "Staken fehlgeschlagen."
+
+#: src/pages/Stake/StakeV2.js
+msgid "Stake submitted!"
+msgstr "Staken übermittelt!"
+
+#: src/pages/Stake/StakeV1.js
+msgid "Stake submitted! <0>View status.</0>"
+msgstr "Staken übermittelt! <0>Status anzeigen.</0>"
+
+#: src/components/Ulp/UlpSwap.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+msgid "Staked"
+msgstr "Staked"
+
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV2.js
+msgid "Staking..."
+msgstr "Staken..."
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Status"
+msgstr ""
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Structured Products"
+msgstr "Strukturierte Produkte"
+
+#: src/pages/Dashboard/DashboardV1.js
+#: src/pages/Dashboard/DashboardV1.js
+#: src/pages/Dashboard/DashboardV1.js
+#: src/pages/Dashboard/DashboardV2.js
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Supply"
+msgstr "Supply"
+
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Swap"
+msgstr "Swap"
+
+#: src/components/Exchange/FeesTooltip.tsx
+msgid "Swap Fee"
+msgstr ""
+
+#: src/components/Exchange/SwapBox.js
+msgid "Swap Order created!"
+msgstr "Swap Order erstellt!"
+
+#: src/components/Exchange/SwapBox.js
+msgid "Swap Order creation failed."
+msgstr "Swap Order Erstellung fehlgeschlagen."
+
+#: src/components/Exchange/SwapBox.js
+msgid "Swap Order submitted!"
+msgstr "Swap Order übermittelt!"
+
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Swap active: {0}, executed: {1}, cancelled: {2}"
+msgstr "Swap aktiv: {0}, ausgeführt: {1}, abgebrochen: {2}"
+
+#: src/components/Exchange/SwapBox.js
+msgid "Swap amount exceeds available liquidity."
+msgstr ""
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Swap amount from {0} to {1} exceeds {2} acceptable amount. Can only receive {3}."
+msgstr ""
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Swap amount from {0} to {1} exceeds {2} available liquidity. Choose a different \"Receive\" token."
+msgstr ""
+
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+msgid "Swap failed."
+msgstr "Swap fehlgeschlagen."
+
+#: src/components/Ulp/SwapErrorModal.tsx
+msgid "Swap on 1inch"
+msgstr "Swappe auf 1inch"
+
+#: src/components/Exchange/SwapBox.js
+msgid "Swap submitted!"
+msgstr "Swap übermittelt!"
+
+#: src/components/Exchange/SwapBox.js
+msgid "Swap submitted."
+msgstr "Swap übermittelt."
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Swap {0} USDG for {1} {2}"
+msgstr "Swappe {0} USDG gegen {1} {2}"
+
+#: src/components/Ulp/UlpSwap.js
+msgid "Swap {0} on 1inch"
+msgstr "Swappe auf 1inch"
+
+#: src/components/Exchange/SwapBox.js
+msgid "Swap {0} submitted!"
+msgstr "Swap{0} übermittelt!"
+
+#: src/components/Ulp/SwapErrorModal.tsx
+msgid "Swap {0} to {1} on 1inch"
+msgstr "Swappe {0} gegen {1} auf 1inch"
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Swap {0} {1} for {2} USDG"
+msgstr "Swappe {0} {1} für {2} USDG"
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Swap {0} {1} for {2} {3}"
+msgstr "Swappe {0} {1} für {2} {3}"
+
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+msgid "Swapped {0} {1} for {2} {3}!"
+msgstr "{0} {1} für {2} {3} geswappt!"
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Swapping..."
+msgstr "Swapping..."
+
+#: src/components/Exchange/SwapBox.js
+msgid "Swaps disabled, pending {0} upgrade"
+msgstr "Swaps deaktiviert, {0} Upgrade steht an"
+
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/PositionsList.js
+#: src/components/Exchange/TradeHistory.js
+msgid "Symbol"
+msgstr ""
+
+#: src/components/Exchange/SwapBox.js
+msgid "Take-profit and stop-loss orders can be set after opening a position. <0/><1/>There will be a \"Close\" button on each position row, clicking this will display the option to set trigger orders. <2/><3/>For screenshots and more information, please see the <4>docs</4>."
+msgstr "Take-Profit- und Stop-Loss-Orders können nach der Eröffnung einer Position gesetzt werden. <0/><1/>Auf jeder Positionszeile befindet sich ein Button \"Schließen\", durch Anklicken dieser Schaltfläche wird die Option zum Setzen von Trigger-Orders angezeigt. <2/><3/>Screenshots und weitere Informationen findest du in den <4>Dokumenten</4>."
+
+#: src/pages/Dashboard/DashboardV2.js
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Target Min Amount"
+msgstr "Ziel Min. Betrag"
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Target Weight"
+msgstr "Ziel-Gewichtung"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Telegram Group"
+msgstr "Telegram Gruppe"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Telegram Group (Chinese)"
+msgstr "Telegram Gruppe (Chinesisch)"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Telegram Group (Portuguese)"
+msgstr "Telegram Gruppe (Portugisisch)"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Telegram Groups"
+msgstr "Telegram Gruppen"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Telegram bot for Open Interest on UTX"
+msgstr "Telegram-Bot für Open Interest auf UTX"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Telegram bot for UTX Swaps monitoring"
+msgstr ""
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Telegram bot for UTX position updates"
+msgstr "Telegram-Bot für UTX-Positionsupdates"
+
+#: src/pages/TermsAndConditions/TermsAndConditions.js
+msgid "Terms and Conditions"
+msgstr "Bedingungen und Konditionen"
+
+#: src/pages/Stake/StakeV1.js
+msgid "The <0>UTX migration</0> is in progress, please migrate your GMT, xGMT, GMT-USDG and xGMT-USDG tokens.<1/>USDG tokens will continue to function as before and do not need to be migrated."
+msgstr "Die <0>UTX-Migration</0> ist im Gange, bitte migriere deine GMT-, xGMT-, GMT-USDG- und xGMT-USDG-Tokens.<1/>USDG-Tokens funktionieren weiterhin wie bisher und müssen nicht migriert werden."
+
+#: src/components/Stake/UTXAprTooltip.tsx
+msgid "The Boosted APR is from your staked Multiplier Points."
+msgstr "Der erhöhte APR ergibt sich aus den von dir gestaketen Multiplikatorpunkten."
+
+#: src/pages/Stake/StakeV1.js
+msgid "The Gambit protocol is in beta, please read the <0>staking details</0>before participating."
+msgstr "Das Gambit-Protokoll befindet sich in der Beta-Phase, bitte lese die <0>Details zum Staking</0>, bevor du teilnimmst."
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+msgid "The address of the esUTX (IOU) token is {esUtxIouAddress}."
+msgstr ""
+
+#: src/components/Exchange/SwapBox.js
+msgid "The borrow fee is calculated as (assets borrowed) / (total assets in pool) * 0.01% per hour."
+msgstr "Die Leihgebühr wird berechnet als (ausgeliehenes Vermögen) / (Gesamtvermögen im Pool) * 0,01 % pro Stunde."
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+msgid "The esUTX (IOU) token is transferrable. You can add the token to your wallet and send it to another address to claim if you'd like."
+msgstr ""
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+msgid "The esUTX tokens can be staked or vested at any time."
+msgstr ""
+
+#: src/lib/contracts/callContract.tsx
+msgid "The mark price has changed, consider increasing your Allowed Slippage by clicking on the \"...\" icon next to your address."
+msgstr "Der Mark-Preis hat sich geändert. Erhöhe dein zulässiges Slippage, indem du auf das Symbol \"...\" neben deiner Adresse klickst."
+
+#: src/components/Exchange/SwapBox.js
+msgid "The position will be opened at {0} USD with a max slippage of {1}%.<0/><1/>The slippage amount can be configured under Settings, found by clicking on your address at the top right of the page after connecting your wallet.<2/><3/><4>More Info</4>"
+msgstr "Die Position wird zu {0} USD mit einer maximalen Slippage von {1}% eröffnet.<0/><1/>Die Höhe des Slippage kann unter Einstellungen konfiguriert werden, die du findest, wenn du auf deiner Adresse oben rechts auf der Seite klickst, nachdem du deine Wallet verbunden hast.<2/><3/><4>Mehr Info</4>"
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "The spread is > 1%, please ensure the trade details are acceptable before confirming"
+msgstr ""
+
+#: src/components/ModalViews/RedirectModal.js
+msgid "The website is a community deployed and maintained instance of the open source <0>U2U front end</0>, hosted and served on the distributed, peer-to-peer <1>IPFS network</1>."
+msgstr "Die Website ist eine von der Community betriebene und gewartete Instanz des open-source <0>UTX-Frontends</0>, das im verteilten Peer-to-Peer-Netzwerk <1>IPFS</1> gehostet und bereitgestellt wird."
+
+#: src/components/Exchange/SwapBox.js
+msgid "There are more longs than shorts, borrow fees for shorting is currently zero"
+msgstr "Es gibt mehr Longs als Shorts, die Leihgebühren für Shorting sind derzeit gleich Null"
+
+#: src/components/Exchange/SwapBox.js
+msgid "There are more shorts than longs, borrow fees for longing is currently zero"
+msgstr "Es gibt mehr Shorts als Longs, Leihgebühren für Longing sind derzeit gleich Null"
+
+#: src/domain/tokens/approveTokens.tsx
+#: src/lib/contracts/callContract.tsx
+msgid "There is not enough ETH in your account on Arbitrum to send this transaction.<0/><1/><2>Bridge ETH to Arbitrum</2>"
+msgstr "Es gibt nicht genug ETH auf deinem Konto auf Arbitrum, um diese Transaktion zu senden.<0/><1/><2>Bridge ETH zu Arbitrum</2>"
+
+#: src/components/Ulp/SwapErrorModal.tsx
+msgid "There is not enough liquidity in a single token for your size. Please check the Save on Fees section and consider splitting your order into several different ones"
+msgstr "Die Liquidität in einem einzigen Token ist für deine Größe nicht ausreichend. Bitte prüfe den Abschnitt \"Gebühren sparen\" und ziehe in Erwägung, deinen Auftrag in mehrere Aufträge aufzuteilen"
+
+#: src/components/Exchange/PositionSeller.js
+msgid "This order will forfeit a <0>profit</0> of {deltaStr}. <1/>"
+msgstr ""
+
+#: src/components/Exchange/TradeHistory.js
+msgid "This position was liquidated as the max leverage of 100x was exceeded."
+msgstr "Diese Position wurde liquidiert, da die maximale Hebelwirkung von 100x überschritten wurde."
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Time"
+msgstr ""
+
+#: src/components/Migration/Migration.js
+msgid "To Receive"
+msgstr "Zu Empfangen"
+
+#: src/pages/CompleteAccountTransfer/CompleteAccountTransfer.js
+msgid "To complete the transfer, you must switch your connected account to {receiver}."
+msgstr "Um die Übertragung abzuschließen, musst du dein verbundenes Konto auf {receiver} umstellen."
+
+#: src/components/Ulp/UlpSwap.js
+msgid "To reduce fees, select a different asset to pay with."
+msgstr "Um die Gebühren zu senken, wähle ein anderes Zahlungsmittel."
+
+#: src/components/Ulp/UlpSwap.js
+msgid "To reduce fees, select a different asset to receive."
+msgstr "Um die Gebühren zu senken, wähle einen anderen Vermögenswert aus, den du erhalten möchtest."
+
+#: src/components/Ulp/UlpSwap.js
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Token"
+msgstr ""
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Token Stats"
+msgstr ""
+
+#: src/components/Migration/Migration.js
+msgid "Total Assets Migrated"
+msgstr "Insgesamt migrierte Assets"
+
+#: src/pages/Stake/StakeV1.js
+msgid "Total Assets Staked"
+msgstr "Insgesamt gestakete Assets"
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Total Fees"
+msgstr "Gebühren insgesamt"
+
+#: src/pages/Dashboard/DashboardV1.js
+msgid "Total Fees Distributed"
+msgstr "Gebühren insgesamt verteilt"
+
+#: src/pages/Dashboard/DashboardV2.js
+#: src/pages/Dashboard/DashboardV2.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "Total Staked"
+msgstr "Insgeamt gestaket"
+
+#: src/components/Ulp/UlpSwap.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "Total Supply"
+msgstr "Gesamtangebot"
+
+#: src/pages/Home/Home.js
+msgid "Total Trading Volume"
+msgstr "Trading Volumen insgesamt"
+
+#: src/pages/Dashboard/DashboardV2.js
+#: src/pages/Home/Home.js
+msgid "Total Users"
+msgstr "User insgesamt"
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Total Volume"
+msgstr "Volumen insgesamt"
+
+#: src/pages/Dashboard/DashboardV1.js
+msgid "Total Volume Since 28 April 2021"
+msgstr "Gesamtvolumen seit 28. April 2021"
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Total Volumne on {0}"
+msgstr ""
+
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Total active: {openTotal}, executed: {executedTotal}, cancelled: {cancelledTotal}"
+msgstr "Insgesamt aktiv: {openTotal}, ausgeführt: {executedTotal}, cancelled: {cancelledTotal}"
+
+#: src/pages/Dashboard/DashboardV1.js
+msgid "Total fees earned since {0}: {1} USD<0/>Fee assets: {feeText}"
+msgstr "Insgesamt verdiente Gebühren seit {0}: {1} USD<0/>Gebührenwerte: {feeText}"
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Total fees on {0}"
+msgstr ""
+
+#: src/components/StatsTooltip/StatsTooltip.tsx
+msgid "Total:"
+msgstr "Insgeamt:"
+
+#: src/components/Header/AppHeaderLinks.tsx
+msgid "Trade"
+msgstr "Handeln"
+
+#: src/pages/Home/Home.js
+msgid "Trade BTC, ETH, AVAX and other top cryptocurrencies with up to 50x leverage directly from your wallet"
+msgstr ""
+
+#: src/pages/Exchange/Exchange.js
+msgid "Trade History"
+msgstr ""
+
+#: src/components/Exchange/ExchangeBanner.js
+msgid "Trade on UTX and win <0>$250.000</0> in prizes! Live until November 30th, <1>click here</1> to learn more."
+msgstr "Handle auf UTX und gewinne <0>$250.000</0> in Preisen! Live bis zum 30. November, <1>Klicke hier</1> um mehr zu erfahren."
+
+#: src/components/Common/SEO.js
+msgid "Trade spot or perpetual BTC, ETH and other top cryptocurrencies with up to 50x leverage directly from your wallet on Arbitrum and Avalanche."
+msgstr ""
+
+#: src/components/Exchange/UsefulLinks.tsx
+msgid "Trading guide"
+msgstr "Handelsleitfaden"
+
+#: src/pages/NftWallet/NftWallet.js
+msgid "Tranferring..."
+msgstr "Übertragen..."
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Transacting with a depegged stable coin is subject to spreads reflecting the worse of current market price or $1.00, with transactions involving multiple stablecoins may have multiple spreads."
+msgstr ""
+
+#: src/lib/contracts/callContract.tsx
+msgid "Transaction completed!"
+msgstr "Transaktion abgeschlossen!"
+
+#: src/lib/contracts/callContract.tsx
+msgid "Transaction failed"
+msgstr "Transaktion fehlgeschlagen"
+
+#: src/lib/contracts/callContract.tsx
+msgid "Transaction failed due to RPC error.<0/><1/>Please try changing the RPC url in your wallet settings. <2>More info</2>"
+msgstr "Die Transaktion ist aufgrund eines RPC-Fehlers fehlgeschlagen.<0/><1/>Bitte versuche, die RPC-URL in deinem Wallet-Einstellungen zu ändern. <2>Mehr Infos</2>"
+
+#: src/lib/contracts/callContract.tsx
+msgid "Transaction sent."
+msgstr "Transaktion gesendet."
+
+#: src/lib/contracts/callContract.tsx
+msgid "Transaction was cancelled."
+msgstr "Transaktion wurde abgebrochen."
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+#: src/pages/Stake/StakeV2.js
+msgid "Transfer Account"
+msgstr "Transferiere Konto"
+
+#: src/pages/NftWallet/NftWallet.js
+msgid "Transfer NFT"
+msgstr "Transferiere NFT"
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+msgid "Transfer Submitted"
+msgstr "Transfer übermittelt"
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+msgid "Transfer already initiated"
+msgstr "Transfer bereits begonnen"
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+#: src/pages/CompleteAccountTransfer/CompleteAccountTransfer.js
+#: src/pages/NftWallet/NftWallet.js
+msgid "Transfer failed."
+msgstr "Transfer fehlgeschlagen"
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+#: src/pages/CompleteAccountTransfer/CompleteAccountTransfer.js
+#: src/pages/NftWallet/NftWallet.js
+msgid "Transfer submitted!"
+msgstr "Transfer übermittelt!"
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+msgid "Transferring"
+msgstr "Übermitteln"
+
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/SwapBox.js
+msgid "Trigger"
+msgstr "Trigger"
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Trigger Condition"
+msgstr ""
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Trigger Conditions"
+msgstr ""
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Trigger Price"
+msgstr ""
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Trigger order disabled, pending {0} upgrade"
+msgstr ""
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Try increasing the \"Allowed Slippage\", under the Settings menu on the top right"
+msgstr "Versuche, die Einstellung \"Erlaubter Slippage\" im Menü \"Einstellungen\" oben rechts zu erhöhen"
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Try increasing the \"Allowed Slippage\", under the Settings menu on the top right."
+msgstr "Versuche die Einstellung \"Erlaubter Slippage\" im Menü \"Einstellungen\" oben rechts zu erhöhen."
+
+#: src/pages/Home/Home.js
+msgid "Two tokens create our ecosystem"
+msgstr "Zwei Token erschaffen unser Ökosystem"
+
+#: src/App/App.js
+msgid "Txn failed. <0>View</0>"
+msgstr "Txn fehlgeschlagen. <0>Siehe</0>"
+
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/OrdersList.js
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Type"
+msgstr "Typ"
+
+#: src/pages/Stake/StakeV2.js
+msgid "U2U Price"
+msgstr ""
+
+#: src/pages/Stake/StakeV2.js
+msgid "U2U Staked"
+msgstr ""
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "ULP Index Composition"
+msgstr ""
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "ULP Pool"
+msgstr "ULP Pool"
+
+#: src/components/Ulp/UlpSwap.js
+#: src/pages/Stake/StakeV2.js
+msgid "ULP Price"
+msgstr ""
+
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "ULP Staked"
+msgstr ""
+
+#: src/pages/Stake/StakeV2.js
+msgid "ULP Vault"
+msgstr "ULP-Tresor"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "ULP and UTX autocompounding vaults"
+msgstr ""
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "ULP autocompounding vaults"
+msgstr ""
+
+#: src/components/Ulp/UlpSwap.js
+msgid "ULP buy disabled, pending {0} upgrade"
+msgstr ""
+
+#: src/pages/Stake/StakeV2.js
+msgid "ULP in Wallet"
+msgstr ""
+
+#: src/components/TokenCard/TokenCard.js
+msgid "ULP is the liquidity provider token. Accrues 70% of the platform's generated fees."
+msgstr ""
+
+#: src/components/Ulp/UlpSwap.js
+msgid "ULP sell disabled, pending {0} upgrade"
+msgstr ""
+
+#: src/pages/Dashboard/DashboardV1.js
+msgid "USDG Debt"
+msgstr "USDG Schulden"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "UTX Announcements and Updates"
+msgstr "UTX-Ankündigungen und Updates"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "UTX Blueberry NFTs"
+msgstr "UTX Blueberry NFTs"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "UTX Governance Page"
+msgstr "UTX Governance Seite"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "UTX Pages"
+msgstr "UTX Seiten"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "UTX Perpetuals Data"
+msgstr "UTX Perpetuals Daten"
+
+#: src/pages/Stake/StakeV2.js
+msgid "UTX Price"
+msgstr ""
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "UTX Proposals Voting page"
+msgstr "UTX-Vorschläge Abstimmungsseite"
+
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "UTX Staked"
+msgstr ""
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "UTX Stats Page"
+msgstr "UTX-Statistiken-Seite"
+
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "UTX Vault"
+msgstr "UTX Tresor"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "UTX Weekly Updates"
+msgstr "UTX Wöchentliche Updates"
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "UTX and ULP tokens stats."
+msgstr ""
+
+#: src/pages/BuyUTX/BuyUTX.tsx
+msgid "UTX bonds can be bought on Bond Protocol with a discount and a small vesting period:"
+msgstr ""
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "UTX community discussion"
+msgstr "UTX Community-Diskussion"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "UTX dashboards and analytics."
+msgstr "UTX-Dashboards und -Analysen."
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "UTX ecosystem pages."
+msgstr "UTX-Ökosystem-Seiten."
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "UTX explorer for stats and traders"
+msgstr "UTX-Explorer für Statistiken und Trader"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "UTX fundamentals"
+msgstr "UTX-Grundlagen"
+
+#: src/pages/Stake/StakeV2.js
+msgid "UTX in Wallet"
+msgstr ""
+
+#: src/pages/Home/Home.js
+msgid "UTX is currently live on Arbitrum and Avalanche."
+msgstr "UTX ist derzeit auf Arbitrum und Avalanche verfügbar."
+
+#: src/pages/Jobs/Jobs.js
+msgid "UTX is not actively looking for new hires at the moment. However, if you think you can contribute to the project, please email <0>jobs@utx.io</0>."
+msgstr "UTX sucht im Moment nicht aktiv nach neuen Mitarbeitern. Wenn du jedoch der Meinung bist, dass du zu dem Projekt beitragen kannst, sende bitte eine E-Mail an <0>jobs@utx.io</0>."
+
+#: src/components/TokenCard/TokenCard.js
+msgid "UTX is the utility and governance token. Accrues 30% of the platform's generated fees."
+msgstr ""
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "UTX staking calculator"
+msgstr "UTX-Sataking-Rechner"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "UTX staking rewards updates and insights"
+msgstr "Aktualisierungen und Einblicke in die UTX-Staking-Rewards"
+
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "UTX transfers not yet enabled"
+msgstr "UTX-Übertragungen noch nicht aktiviert"
+
+#: src/components/Common/SEO.js
+msgid "UTX | Decentralized Perpetual Exchange"
+msgstr ""
+
+#: src/components/Exchange/PositionsList.js
+msgid "Unrealized PnL"
+msgstr ""
+
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "Unstake"
+msgstr "Unstaken"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Unstake U2U"
+msgstr ""
+
+#: src/pages/Stake/StakeV2.js
+msgid "Unstake UTX"
+msgstr "Unstake UTX"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Unstake completed!"
+msgstr "Unstaken abgeschlossen!"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Unstake esUTX"
+msgstr ""
+
+#: src/pages/Stake/StakeV1.js
+msgid "Unstake failed"
+msgstr "Unstaken fehlgeschlagen"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Unstake failed."
+msgstr "Unstaken fehlgeschlagen."
+
+#: src/pages/Stake/StakeV2.js
+msgid "Unstake submitted!"
+msgstr "Unstaken übermittelt!"
+
+#: src/pages/Stake/StakeV1.js
+msgid "Unstake submitted! <0>View status.</0>"
+msgstr "Unstaken übermittelt! <0>Status anzeigen.</0>"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Unstaking will burn <0>{0} Multiplier Points</0>. {1}"
+msgstr ""
+
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV2.js
+msgid "Unstaking..."
+msgstr "Unstaken..."
+
+#: src/lib/wallets/index.tsx
+msgid "Unsupported chain. Switch to Arbitrum network on your wallet and try again"
+msgstr "Nicht unterstützte Chain. Wechsle auf deiner Wallet zum Arbitrum-Netzwerk und versuche es erneut"
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Update"
+msgstr "Updaten"
+
+#: src/components/Exchange/OrderEditor.js
+msgid "Update Order"
+msgstr "Update Order"
+
+#: src/components/Exchange/OrderEditor.js
+msgid "Updating Order..."
+msgstr "Order updaten..."
+
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "Use the \"Compound\" button to stake your Multiplier Points."
+msgstr "Verwende den Button \"Zusammensetzen\", um deine Multiplikatorpunkte zu staken."
+
+#: src/components/Exchange/PositionsList.js
+#: src/components/Exchange/PositionsList.js
+msgid "Use the Edit Collateral icon to deposit or withdraw collateral."
+msgstr "Verwende das Symbol Kollateral bearbeiten, um Kollateral zu hinterlegen oder zurückzuziehen."
+
+#: src/components/Exchange/UsefulLinks.tsx
+msgid "Useful Links"
+msgstr "Nützliche Links"
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "User on {0}"
+msgstr ""
+
+#: src/pages/Dashboard/DashboardV1.js
+#: src/pages/Dashboard/DashboardV2.js
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Utilization"
+msgstr "Nutzung"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Vault Capacity"
+msgstr "Vault-Kapazität"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Vault Capacity for your Account:"
+msgstr "Vault-Kapazität für dein Konto"
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+msgid "Vest with ULP on Arbitrum"
+msgstr "Vesting mit ULP auf Arbitrum"
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+msgid "Vest with ULP on Avalanche"
+msgstr "Vesting mit ULP auf Avalanche"
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+msgid "Vest with UTX on Arbitrum"
+msgstr "Vesting mit UTX auf Arbitrum"
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+msgid "Vest with UTX on Avalanche"
+msgstr "Vesting mit UTX auf Avalanche"
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+msgid "Vested ULP not withdrawn"
+msgstr "Gevestete ULP nicht abgehoben"
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+msgid "Vested UTX not withdrawn"
+msgstr "Gevestete UTX nicht abgehoben"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Vesting Status"
+msgstr "Vesting Status"
+
+#: src/App/App.js
+#: src/pages/Exchange/Exchange.js
+#: src/pages/Exchange/Exchange.js
+msgid "View"
+msgstr "Ansicht"
+
+#: src/components/AddressDropdown/AddressDropdown.tsx
+msgid "View in Explorer"
+msgstr "Ansicht im Explorer"
+
+#: src/lib/contracts/callContract.tsx
+msgid "View status."
+msgstr "Siehe Status."
+
+#: src/pages/Dashboard/DashboardV1.js
+msgid "Volume"
+msgstr "Volumen"
+
+#: src/components/Header/HomeHeaderLinks.tsx
+msgid "Voting"
+msgstr ""
+
+#: src/components/Ulp/UlpSwap.js
+msgid "WARNING: High Fees"
+msgstr "WARNUNG: Hohe Gebühren"
+
+#: src/components/Exchange/PositionsList.js
+#: src/components/Exchange/PositionsList.js
+msgid "WARNING: This position has a low amount of collateral after deducting borrowing fees, deposit more collateral to reduce the position's liquidation risk."
+msgstr "WARNUNG: Diese Position weist nach Abzug der Leihgebühren einen geringen Betrag an Kollateral auf; hinterlege mehr Kollateral, um das Liquidationsrisiko der Position zu verringern."
+
+#: src/components/Exchange/SwapBox.js
+#: src/components/Migration/Migration.js
+#: src/components/Ulp/UlpSwap.js
+msgid "Waiting for Approval"
+msgstr "Warten auf die Genehmigung"
+
+#: src/components/Migration/Migration.js
+#: src/components/Ulp/UlpSwap.js
+#: src/components/Ulp/UlpSwap.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV2.js
+msgid "Wallet"
+msgstr "Wallet"
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+#: src/pages/CompleteAccountTransfer/CompleteAccountTransfer.js
+msgid "Wallet is not connected"
+msgstr "Wallet ist nicht verbunden"
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+#: src/pages/NftWallet/NftWallet.js
+msgid "Wallet not connected"
+msgstr "Wallet nicht verbunden"
+
+#: src/pages/Stake/StakeV1.js
+msgid "Wallet not yet connected"
+msgstr "Wallet noch nicht verbunden"
+
+#: src/App/App.js
+msgid "WalletConnect"
+msgstr "WalletConnect"
+
+#: src/pages/Dashboard/DashboardV2.js
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Weight"
+msgstr "Gewichtung"
+
+#: src/components/Exchange/SwapBox.js
+msgid "When closing the position, you can select which token you would like to receive the profits in."
+msgstr "Wenn du die Position schließt, kannst du auswählen, in welchem Token du die Gewinne erhalten möchtest."
+
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/PositionEditor.js
+#: src/pages/Stake/StakeV2.js
+msgid "Withdraw"
+msgstr "Abheben"
+
+#: src/components/Exchange/PositionEditor.js
+msgid "Withdraw disabled, pending {0} upgrade"
+msgstr "Abheben deaktiviert, {0} Aktualisierung ausstehend"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Withdraw failed."
+msgstr "Abheben fehlgeschlagen."
+
+#: src/pages/Stake/StakeV2.js
+msgid "Withdraw from ULP Vault"
+msgstr "Abheben aus ULP Vault"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Withdraw from UTX Vault"
+msgstr "Abheben aus UTX Vault"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Withdraw submitted."
+msgstr "Abhebung übermittelt."
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Withdraw {0} USD from {1} {longOrShortText}"
+msgstr "Hebe {0} USD von {1} {longOrShortText} ab"
+
+#: src/components/Exchange/PositionEditor.js
+msgid "Withdrawal failed."
+msgstr "Abheben fehlgeschlagen."
+
+#: src/components/Exchange/PositionEditor.js
+msgid "Withdrawal submitted."
+msgstr "Withdrawal übermittelt."
+
+#: src/components/Exchange/PositionEditor.js
+msgid "Withdrawing..."
+msgstr "Abheben..."
+
+#: src/pages/Stake/StakeV2.js
+msgid "Withdrawn!"
+msgstr "Abgehoben!"
+
+#: src/pages/Exchange/Exchange.js
+msgid "Withdrew {0} USD from {tokenSymbol} {longOrShortText}."
+msgstr "{0} USD von {tokenSymbol} {longOrShortText} abgehoben."
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Yield Optimizer on"
+msgstr ""
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Yield Vaults"
+msgstr "Yield Vaults"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Yield simulator for UTX"
+msgstr "Yield Simulator für UTX"
+
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "You are earning {0}% more {nativeTokenSymbol} rewards using {1} Staked Multiplier Points."
+msgstr "Du verdienst {0}% mehr {nativeTokenSymbol} Rewards mit {1} gestaketen Multiplikatorpunkte\"."
+
+#: src/pages/Stake/StakeV2.js
+msgid "You are earning {nativeTokenSymbol} rewards with {0} tokens.<0/>Tokens: {amountStr}."
+msgstr "Du verdienst {0}% mehr {nativeTokenSymbol} Rewards mit {1} gestaketen Multiplikatorpunkten."
+
+#: src/components/ModalViews/RedirectModal.js
+msgid "You are leaving U2U.io and will be redirected to a third party, independent website."
+msgstr "Du verlässt UTX.io und wirst  auf eine unabhängige Website eines Drittanbieters weitergeleitet."
+
+#: src/components/Exchange/SwapBox.js
+msgid "You can change the \"Collateral In\" token above to find lower fees"
+msgstr "Du kannst das obige Zeichen \"Kollateral in\" ändern, um niedrigere Gebühren zu finden"
+
+#: src/components/Exchange/PositionSeller.js
+msgid "You can change this in the settings menu on the top right of the page.<0/><1/>Note that a low allowed slippage, e.g. less than 0.5%, may result in failed orders if prices are volatile."
+msgstr ""
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+msgid "You can check your claim history <0>here</0>."
+msgstr "Du kannst deine Claim-Historie <0>hier</0> einsehen."
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+msgid "You can currently vest a maximum of {0} esUTX tokens at a ratio of {1} {stakingToken} to 1 esUTX."
+msgstr ""
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+msgid "You have a <0>pending transfer</0> to {pendingReceiver}."
+msgstr "Du hast eine <0>ausstehende Übertragung</0> an {pendingReceiver}."
+
+#: src/pages/CompleteAccountTransfer/CompleteAccountTransfer.js
+msgid "You have a pending transfer from {sender}."
+msgstr "Du hast eine ausstehende Überweisung von {sender}."
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "You have an active Limit Order to Increase {longOrShortText} {sizeInToken} {0} (${1}) at price ${2}"
+msgstr "Du hast eine aktive Limit-Order zur Erhöhung von {longOrShortText} {sizeInToken} {0} (${1}) zum Preis von ${2}"
+
+#: src/components/Exchange/PositionSeller.js
+msgid "You have an active order to decrease {longOrShortText} {sizeInToken} {0} (${1}) at {prefix} {2}"
+msgstr ""
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "You have multiple existing Increase {longOrShortText} {0} limit orders"
+msgstr "Du hast mehrere bestehende {longOrShortText} {0} Limit-Orders zur Erhöhung"
+
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "You have not deposited any tokens for vesting."
+msgstr "Du hast keine Token für das Vesting hinterlegt."
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+msgid "You have {0} esUTX (IOU) tokens."
+msgstr ""
+
+#: src/pages/Stake/StakeV2.js
+msgid "You need a total of at least {0} {stakeTokenLabel} to vest {1} esUTX."
+msgstr ""
+
+#: src/components/Exchange/NoLiquidityErrorModal.tsx
+msgid "You need to select {swapTokenSymbol} as the \"Pay\" token to use it for collateral to initiate this trade."
+msgstr "Du musst {swapTokenSymbol} als \"Bezahlen\"-Token auswählen, um es als Kollateral für die Einleitung dieses Trades zu verwenden."
+
+#: src/pages/CompleteAccountTransfer/CompleteAccountTransfer.js
+msgid "You will need to be on this page to accept the transfer, <0>click here</0> to copy the link to this page if needed."
+msgstr "Du musst auf dieser Seite sein, um den Transfer zu akzeptieren. <0>Klicke hier</0>, um den Link zu dieser Seite zu kopieren, falls nötig."
+
+#: src/components/Exchange/OrdersList.js
+msgid "You will receive at least {0} {1} if this order is executed. The exact execution price may vary depending on fees at the time the order is executed."
+msgstr "Du wirst mind. {0} {1} erhalten, wenn dieser Auftrag ausgeführt wird. Der genaue Ausführungspreis kann je nach den Gebühren zum Zeitpunkt der Ausführung des Auftrags variieren."
+
+#: src/components/Exchange/OrdersList.js
+msgid "You will receive at least {0} {1} if this order is executed. The execution price may vary depending on swap fees at the time the order is executed."
+msgstr "Du wirst mind. {0} {1} erhalten, wenn dieser Auftrag ausgeführt wird. Der Ausführungspreis kann je nach den Swap-Gebühren zum Zeitpunkt der Auftragsausführung variieren."
+
+#: src/pages/Stake/StakeV2.js
+msgid "Your UltraX Rewards"
+msgstr ""
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+msgid "Your esUTX (IOU) balance will decrease by your claim amount after claiming, this is expected behaviour."
+msgstr ""
+
+#: src/pages/CompleteAccountTransfer/CompleteAccountTransfer.js
+msgid "Your transfer has been completed."
+msgstr "Dein Transfer wurde abgeschlossen."
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+msgid "Your transfer has been initiated."
+msgstr "Dein Transfer wurde eingeleitet."
+
+#: src/components/Migration/Migration.js
+msgid "Your wallet: {0}"
+msgstr "Dein Wallet: {0}"
+
+#: src/pages/PositionsOverview/PositionsOverview.js
+msgid "account"
+msgstr "Konto"
+
+#: src/pages/PositionsOverview/PositionsOverview.js
+msgid "collateral"
+msgstr "Kollateral"
+
+#: src/pages/Stake/StakeV2.js
+msgid "esUTX Price"
+msgstr ""
+
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "esUTX Staked"
+msgstr ""
+
+#: src/pages/Stake/StakeV2.js
+msgid "esUTX in Wallet"
+msgstr ""
+
+#: src/pages/PositionsOverview/PositionsOverview.js
+msgid "fee"
+msgstr "Gebühren"
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "hide"
+msgstr "Verstecken"
+
+#: src/pages/Dashboard/AssetDropdown.tsx
+msgid "icon information"
+msgstr ""
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "in liquidity"
+msgstr "In Liquidität"
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "not staked"
+msgstr "Nicht gestaket"
+
+#: src/pages/PositionsOverview/PositionsOverview.js
+msgid "size"
+msgstr "Größe"
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "staked"
+msgstr "Gestaket"
+
+#: src/pages/PositionsOverview/PositionsOverview.js
+msgid "time to liq"
+msgstr "Zeit zur Liq"
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "view"
+msgstr "Ansicht"
+
+#: src/pages/Exchange/Exchange.js
+msgid "{0, plural, one {Cancel order} other {Cancel # orders}}"
+msgstr ""
+
+#: src/domain/tokens/approveTokens.tsx
+msgid "{0} Approved!"
+msgstr "{0} Genehmigt!"
+
+#: src/components/Ulp/SwapErrorModal.tsx
+msgid "{0} Capacity Reached"
+msgstr "{0} Erreichte Kapazität"
+
+#: src/components/Exchange/NoLiquidityErrorModal.tsx
+msgid "{0} Pool Capacity Reached"
+msgstr "{0} Pool-Kapazität erreicht"
+
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+msgid "{0} Price"
+msgstr "{0} Preis"
+
+#: src/components/Exchange/NoLiquidityErrorModal.tsx
+msgid "{0} Required"
+msgstr "{0} Erforderlich"
+
+#: src/components/Ulp/UlpSwap.js
+msgid "{0} ULP"
+msgstr ""
+
+#: src/components/Ulp/UlpSwap.js
+msgid "{0} ULP bought with {1} {2}!"
+msgstr ""
+
+#: src/components/Ulp/UlpSwap.js
+msgid "{0} ULP sold for {1} {2}!"
+msgstr ""
+
+#: src/pages/Stake/StakeV2.js
+msgid "{0} UTX tokens can be claimed, use the options under the Total Rewards section to claim them."
+msgstr "{0} UTX-Token können eingefordert werden. Verwende die Optionen im Abschnitt Gesamtrewards, um sie einzufordern."
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "{0} is above its target weight.<0/><1/>Get lower fees to <2>swap</2> tokens for {1}."
+msgstr "{0} liegt über der Zielgewichtung.<0/><1/>Erhalte niedrigere Gebühren, um <2>Token für {1} zu tauschen</2>."
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "{0} is below its target weight.<0/><1/>Get lower fees to <2>buy ULP</2> with {1}, and to <3>swap</3> {2} for other tokens."
+msgstr ""
+
+#: src/components/Exchange/SwapBox.js
+msgid "{0} is required for collateral."
+msgstr "{0} ist für das Kollateral erforderlich.<<<<<<< HEAD"
+
+#: src/components/Ulp/UlpSwap.js
+msgid "{0} pool exceeded, try different token"
+msgstr "{0} Pool überschritten, anderen Token versuchen"
+
+#: src/components/Exchange/OrderEditor.js
+#: src/components/Exchange/OrderEditor.js
+msgid "{0} price"
+msgstr "{0} Preis"
+
+#: src/components/Ulp/UlpSwap.js
+msgid "{0} selected in order form"
+msgstr "{0} ausgewählt im Orderformular"
+
+#: src/pages/Stake/StakeV2.js
+msgid "{0} tokens have been converted to UTX from the {1} esUTX deposited for vesting."
+msgstr ""
+
+#: src/components/Exchange/SwapBox.js
+msgid "{0} {1} not supported"
+msgstr ""
+
+#: src/components/Exchange/TradeHistory.js
+msgid ""
+"{0}:\n"
+"{1},\n"
+"Price: {priceDisplay}"
+msgstr ""
+"{0}:\n"
+"{1},\n"
+"Preis: {priceDisplay}"
+
+#: src/components/Exchange/TradeHistory.js
+msgid ""
+"{0}: Swap {amountInDisplay}\n"
+"{1} for {minOutDisplay} {2},\n"
+"Price: {3}"
+msgstr ""
+
+#: src/components/Exchange/TradeHistory.js
+msgid "{0}  {1} {longOrShortText}, -{2} USD, {3} Price: ${4} USD"
+msgstr ""
+
+#: src/components/Exchange/TradeHistory.js
+msgid "{actionDisplay} Order"
+msgstr "{actionDisplay} Order"
+
+#: src/components/Exchange/TradeHistory.js
+msgid ""
+"{actionDisplay} {0} {longOrShortText},\n"
+"-{1} USD,\n"
+"{2} Price: {3} USD"
+msgstr ""
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "{chainName} Total Stats start from {totalStatsStartDate}.<0/>"
+msgstr ""
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "{existingTriggerOrderLength, plural, one {You have an active trigger order that could impact this position.} other {You have # active trigger orders that could impact this position.}}"
+msgstr "{existingTriggerOrderLength, plural, one {Du hast einen aktiven Triggerauftrag, der sich auf diese Position auswirken könnte.} other {Du hast # aktive Triggeraufträge, die sich auf diese Position auswirken könnten.}}"
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "{existingTriggerOrderLength, plural, one {You have an active trigger order that might execute immediately after you open this position. Please cancel the order or accept the confirmation to continue.} other {You have # active trigger orders that might execute immediately after you open this position. Please cancel the orders or accept the confirmation to continue.}}"
+msgstr "{existingTriggerOrderLength, plural, one {Du hast eine aktiven Trigger-Order, die unmittelbar nach dem Öffnen dieser Position ausgeführt werden könnte. Bitte storniere den Auftrag oder akzeptiere die Bestätigung, um fortzufahren.} other {Du hast # aktive Trigger-Orders, die sofort ausgeführt werden könnten, nachdem du diese Position eröffnet hast. Bitte storniere die Aufträge oder akzeptieren die Bestätigung, um fortzufahren.}}"
+
+#: src/components/Exchange/PositionsList.js
+msgid "{longOrShortText} {0} market selected"
+msgstr ""
+
+#: src/components/Exchange/PositionEditor.js
+msgid "{maxAmountFormatted}"
+msgstr ""
+
+#: src/components/Stake/UTXAprTooltip.tsx
+msgid "{nativeTokenSymbol} APR"
+msgstr ""
+
+#: src/components/Stake/UTXAprTooltip.tsx
+msgid "{nativeTokenSymbol} Base APR"
+msgstr ""
+
+#: src/components/Stake/UTXAprTooltip.tsx
+msgid "{nativeTokenSymbol} Boosted APR"
+msgstr ""
+
+#: src/components/Stake/UTXAprTooltip.tsx
+msgid "{nativeTokenSymbol} Total APR"
+msgstr ""
+
+#: src/components/Exchange/PositionSeller.js
+msgid "{nativeTokenSymbol} can not be sent to smart contract addresses. Select another token."
+msgstr ""
+
+#: src/components/StatsTooltip/StatsTooltip.tsx
+msgid "{title} on Arbitrum:"
+msgstr "{title} auf Arbitrum:"
+
+#: src/components/StatsTooltip/StatsTooltip.tsx
+msgid "{title} on Avalanche:"
+msgstr "{title} auf Avalanche:"
+
+#: src/pages/Dashboard/DashboardV1.js
+msgid "{volumeLabel} Volume"
+msgstr "{volumeLabel} Volumen"
