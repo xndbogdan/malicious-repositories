@@ -1,0 +1,21 @@
+.Orders-toa .Modal-content {
+  width: 36rem;
+  font-size: var(--font-base);
+}
+
+.Orders-toa-accept-rules {
+  margin-top: 0.31rem;
+}
+
+.Orders-toa-accept-rules .Checkbox {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  direction: rtl;
+  font-size: var(--font-sm);
+  margin-bottom: 0.465rem;
+}
+
+.Orders-toa-accept-rules .Checkbox-label {
+  margin-right: 0.8rem;
+}

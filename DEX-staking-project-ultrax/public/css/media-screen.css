@@ -1,0 +1,423 @@
+﻿/* ================= MEDIA SCREEN ================= */
+@media (min-width:1080px){
+    .content-width{
+        width:1050px;
+        margin:0 auto;
+        position:relative;
+    }
+}
+
+/* ================= XX-Large (Desktop) ================= */
+@media (min-width: 992px) and (max-width:1199.98px){
+    .content-width{
+        width:930px;
+        margin:0 auto;
+    }
+    
+    .light2{
+        right:-49%;
+    }
+    
+    #focus-top h1{
+        font-size: 46px;
+        line-height: 52px;
+    }
+    
+    #focus-top p{
+        font-size:17px;
+    }
+    
+    .information article{
+        margin-bottom:25px;
+    }
+    
+    #features article h5{
+        font-size:16px;
+    }
+    
+    #features article p{
+        line-height:25px;
+    }
+    
+    .title-main h2{
+        font-size:38px;
+        margin-bottom:15px;
+    }
+    
+    .title-main h6{
+        font-size:18px;
+    }
+    
+    #u2u-chain .btn-a{
+        padding:10px 30px;
+    }
+    
+    #u2u-chain article h6{
+        font-size:20px;
+    }
+    
+    #u2u-chain li span{
+        text-align:left;
+    }
+    
+    .btn-a-link{
+        width:108px;
+        padding:4px;
+    }
+    
+    footer{
+        background-size:100%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width:1399.98px){
+   
+    #u2u-chain article ul li strong{
+        font-size:16px;
+    }
+    
+    #u2u-chain article h6{
+        font-size:24px;
+    }
+    
+    .light2{
+        right:-20%;
+    }
+    
+	#focus-top h1{
+        font-size:56px;
+        line-height: 65px;
+    }
+    
+    #focus-top {
+        background: var(--dark) url(../images/layer.svg?v=1.0.0) no-repeat center -50px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991.98px){
+    #ecosystem article{
+        padding:30px 20px;
+        margin-bottom:20px;
+    }
+    
+    .item-footer .btn-a-link{
+        margin-top:10px;
+    }
+    
+    #ecosystem article .item-header img{
+        margin-right:15px;
+    }
+    
+    #ecosystem article .item-header h6{
+        padding-left:65px;
+    }
+    
+    #u2u-chain li span{
+        width:140px;
+    }
+    
+    #u2u-chain article ul li strong{
+        font-size:16px;
+    }
+    
+    #u2u-chain article h6{
+        text-align:center;
+        font-size:21px;
+        margin-top:20px;
+    }
+    
+    .title-main h6{
+        font-size:18px;
+    }
+
+    .title-main h2{
+        font-size:34px;
+        line-height:25px;
+    }
+    
+    #features img{
+        margin-top:0;
+        height:144px;
+        margin-bottom:15px;
+    }
+    
+    #features article{
+        text-align:center;
+    }
+    
+    #features article h5{
+        font-size:17px;
+        margin:10px 0;
+    }
+    
+    .content-width{
+        width:690px;
+        margin:0 auto;
+    }
+    
+    .information article{
+        margin-bottom:25px;
+    }
+    
+    #focus-top h1{
+        font-size: 38px;
+        line-height: 46px;
+    }
+    
+    #focus-top p{
+        font-size:18px;
+    }
+    
+    .light2{
+        top: -25%;
+        right: -70%;
+    }
+}
+
+
+@media (min-width: 992px){
+	.logo-mobile{
+        display:none;
+    }
+    
+    .pdl-0{
+        padding-left:0;
+    }
+}
+
+/* ================= Medium Devices (Tablets) ================= */
+@media (max-width: 991.98px){
+    #ecosystem .item-footer{
+        position:static;
+    }
+    
+    #ecosystem article .item-body p:first-child{
+        margin-bottom:20px;
+    }
+    
+    .navbar-nav {
+        margin-top:40px;
+    }
+    
+    .navbar-nav .nav-item a{
+        font-size:20px;
+    }
+    
+    .order-a{
+        order:2;
+    }
+    
+    .order-b{
+        order:1;
+    }
+    
+	#navbar_main .navbar-nav .nav-item .nav-link{
+        padding:20px 0;
+        color:var(--white) !important;
+    }
+    
+    #navbar_main .navbar-nav .active .nav-link{
+        color:var(--blue) !important;
+    }
+    
+    #navbar_main .navbar-nav .nav-item .nav-link:after{
+        left:0;
+        bottom:31px;
+        width:20px;
+    }
+    
+    .btn-close{
+        padding:10px !important;
+    }
+    
+    .navbar-brand{
+        display:block;
+        margin-right:30px;
+    }
+    
+    .navbar-brand img{
+        margin-top:15px;
+        margin-left:18px;
+        width:150px;
+    }
+    
+    .logo-brand{
+        display:none;
+    }
+    
+    #header{
+        animation-fill-mode:none;
+        padding:15px;
+    }
+    
+    #header .float-end{
+        margin-top:7px;
+    }
+    
+    .container-fluid{
+		overflow-x:hidden;
+	}
+	
+	.offcanvas-header{ 
+        display:block;
+    }
+    
+	.mobile-offcanvas{
+		visibility: hidden;
+		transform:translateX(-100%);
+	    border-radius:0; 
+		display:block;
+	    position: fixed;
+	    top: 0; left:0;
+		background:var(--white);
+	    height: 100%;
+	    z-index: 10;
+	    width:75%;
+		box-shadow:5px 0px 15px rgba(0, 0, 0, 0.7);
+	    overflow-y: scroll;
+	    overflow-x: hidden;
+	    transition: visibility .3s ease-in-out, transform .3s ease-in-out;
+	}
+
+	.mobile-offcanvas.show{
+		visibility: visible;
+    	transform: translateX(0);
+	}
+	.mobile-offcanvas .container, .mobile-offcanvas .container-fluid{
+		display: block;
+	}
+    
+    #btn-menu{
+		background:none;
+		border:none;
+		transition:all 0.2s ease;
+		float:right;
+		margin-left:20px;
+	}
+	
+	#btn-menu span{
+		width:27px;
+		height:2px;
+		margin-bottom:9px;
+		background-color:var(--white);
+		display:block;
+	}
+    
+    .logo-mobile img{
+		max-width:160px;
+        margin-top:4px;
+	}
+	
+	.sticky{
+		padding:12px 15px !important;
+		background:var(--darker);
+        border-bottom:0;
+	}
+
+	.sticky #btn-menu span{
+		background:var(--blue);
+	}
+    
+    #navbar_main{
+        background:var(--dark) url('../images/robot.png?v=1.0.0') no-repeat 50px bottom;
+        background-size:cover;
+    }
+}
+
+/* ================= Options Devices (All Devices) ================= */
+@media (max-width: 767.98px) {
+    #u2u-chain article{
+        width:100%;
+    }
+    
+    footer{
+        margin-top:40px;
+    }
+    
+    #ecosystem article{
+        padding:30px 20px;
+    }
+    
+    #u2u-chain article, #ecosystem article{
+        margin-bottom:25px;
+    }
+    
+    #u2u-chain li span{
+        width:140px;
+    }
+    
+    .title-main h2{
+        font-size:28px;
+    }
+    
+    .title-main h6 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    
+    #u2u-chain article h6{
+        margin-top:20px;
+    }
+    
+    #features{
+        text-align:center;
+    }
+    
+    #features article{
+        margin-bottom:20px;
+    }
+    
+    #features img{
+        width:150px;
+        display:block;
+        margin:0 auto 20px;
+    }
+    
+    .information article{
+        margin-bottom:20px;
+    }
+    
+    .light2{
+        right:-117%;
+    }
+    
+    .btn-a{
+        padding:10px 40px;
+        font-size:16px;
+    }
+    
+    #focus-top h1{
+        font-size:34px;
+        line-height:45px;
+    }
+    
+    #focus-top p{
+        font-size:17px;
+        color:var(--text-d);
+    }
+    
+
+    .content-width{
+        padding:0 15px;
+    }
+    
+	.space_section{
+		padding:50px 0;
+	}
+	
+	h1, h2{
+		font-size:32px;
+	}
+	
+	h3, h4{
+		font-size:21px;
+	}
+	
+	h5{
+		font-size:15px;
+	}
+	
+	h6, p{
+		font-size:14px;
+	}
+}

@@ -1,0 +1,118 @@
+.ClaimEsUtx input {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: var(--font-base);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.ClaimEsUtx label {
+  display: block;
+  margin-bottom: 0.8rem;
+}
+
+.ClaimEsUtx-content {
+  padding: 4.65rem;
+  padding-top: 1.5rem;
+  max-width: 38.75rem;
+}
+
+.ClaimEsUtx-row {
+  margin-bottom: 1.5rem;
+}
+
+.ClaimEsUtx button {
+  margin-top: 0.8rem;
+}
+
+.ClaimEsUtx-vesting-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.ClaimEsUtx-vesting-options .Checkbox.btn-lg {
+  font-size: 1.85rem;
+  margin-bottom: 0.8rem;
+  display: block;
+  width: 35.65rem;
+  padding-left: 1.85rem;
+  padding-top: 0.465rem;
+}
+
+.ClaimEsUtx-vesting-options .Checkbox.btn-lg.selected.arbitrum {
+  background: rgba(41, 160, 240, 0.2);
+}
+
+.ClaimEsUtx-vesting-options .Checkbox.btn-lg.selected.avalanche {
+  background: rgba(232, 65, 65, 0.2);
+}
+
+.ClaimEsUtx-vesting-options .Checkbox img {
+  height: 1.5rem;
+}
+
+.ClaimEsUtx-vesting-options .Checkbox.selected .ClaimEsUtx-option-label {
+  opacity: 1;
+}
+
+.ClaimEsUtx-vesting-options .Checkbox.arbitrum .Checkbox-icon.active {
+  color: #29a0f0;
+}
+
+.ClaimEsUtx-vesting-options .Checkbox.avalanche .Checkbox-icon.active {
+  color: #e84141;
+}
+
+.ClaimEsUtx button {
+  max-width: 35.65rem;
+}
+
+.ClaimEsUtx .vest-option {
+  text-decoration: none;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  place-items: normal;
+  background: transparent;
+  padding: 1.25rem;
+  color: white;
+  font-size: var(--font-sm);
+  border: 1px solid var(--dark-blue-border);
+  border-radius: var(--border-radius-sm);
+  max-width: 36rem;
+  margin-bottom: 1rem;
+}
+.ClaimEsUtx .vest-option .Checkbox-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.ClaimEsUtx-input-label {
+  margin-bottom: 0.8rem;
+}
+
+.ClaimEsUtx input {
+  width: 35.65rem;
+}
+
+.ClaimEsUtx-input-container {
+  position: relative;
+}
+
+.ClaimEsUtx-max-button {
+  position: absolute;
+  padding: 0.465rem 0.8rem;
+  background: linear-gradient(90deg, rgba(45, 66, 252, 1) 0%, rgba(46, 61, 205, 1) 100%);
+  left: 29.75rem;
+  top: 0.93rem;
+  font-size: var(--font-sm);
+  border-radius: 3px;
+  z-index: 1;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.ClaimEsUtx-max-button:hover {
+  color: rgba(255, 255, 255, 1);
+  background: linear-gradient(90deg, rgba(58, 78, 252, 1) 0%, rgba(51, 68, 222, 1) 100%);
+}
