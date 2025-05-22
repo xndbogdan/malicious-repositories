@@ -1,0 +1,67 @@
+:root {
+  --blue: #006EFF;
+  --darkBlue: #12417E;
+}
+
+.property {
+  max-width: 380px;
+  border-radius: 8px;
+  margin: 16px; /*remove*/
+  box-shadow: 8px 8px rgba(0,0,0,.1);
+}
+
+.property-image {
+  border-radius: 12px;
+}
+.property-image img {
+  width: 100%;
+}
+
+.property h3, .property p{
+  margin: 0;
+}
+
+.property-details {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 16px;
+}
+
+.property-details-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.property-details-2-l h3 {
+  text-align: left;
+}
+
+
+.property-details-2-r h3 {
+  text-align: right;
+}
+
+.property-details-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.profit {
+  color: var(--blue);
+}
+
+.profitability {
+  color: lightGray;
+}
+
+.invest-button {
+  padding: 12px 32px;
+  border: 0;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  background-color: var(--blue);
+  cursor: pointer
+}

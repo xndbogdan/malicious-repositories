@@ -1,0 +1,62 @@
+:root {
+  --blue: #006EFF;
+  --darkBlue: #12417E;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header{
+    color: Black;
+    background: white;
+    background-image: url('../../images/header.jpg');
+    height: 80vh;
+    max-height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: contain; /* Resize the background image to cover the entire container */
+}
+  
+header h1{
+    font-size: 3rem;
+    margin: 0 0 1rem;
+}
+
+header h2{
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin: 0 0 1rem;
+}
+
+header a{
+    color: #ffff;
+}
+
+.action {
+  display: inline-block;
+  margin: 16px;
+  padding: 16px 20px;
+  background-color: var(--blue);
+  border-radius: 16px;
+  text-decoration: none;
+}
+
+.action:hover {
+  background-color: var(--darkBlue);
+}
+
+@media (min-width: 48em) {
+  header {
+    background-image: url('../../images/header.jpg');
+    background-size: cover;
+    height: 90vh;
+  }
+}

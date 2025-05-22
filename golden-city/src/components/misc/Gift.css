@@ -1,0 +1,51 @@
+:root {
+  --blue: #006EFF;
+  --darkBlue: #12417E;
+}
+
+.gift {
+  background-color: var(--blue);
+  margin: 32px auto;
+  border-radius: 12px;
+  padding: 64px 15vw;
+  padding-bottom: 0;
+  color: white;
+}
+.gift-button {
+  color: var(--blue);
+  border: 1px solid var(--blue);
+  background-color: white;
+  padding: 16px 32px;
+  font-weight: bold;
+  margin: 24px;
+}
+
+.gift {
+  width: 85vw;
+}
+
+.building {
+  width: 90vw;
+  margin-left: -17.5vw;
+  margin-top: 24px;
+  margin-bottom: -12px;
+}
+
+@media (min-width: 650px) {
+  .gift {
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    padding: 64px;
+  }
+  .text {
+    width: 300px;
+  }
+  .building {
+    min-width: 300px;
+    max-width: 450px;
+    margin: 0;
+    margin-right: -90px;
+
+  }
+}
