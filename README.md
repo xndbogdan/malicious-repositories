@@ -178,6 +178,10 @@ When evaluating job opportunities on LinkedIn, be wary of these red flags:
 
 - Inconsistencies between the recruiter's profile and their claimed role
 
+- Lack of testimonials or recommendations on the recruiter's profile
+
+- No posts or engagement activity despite having an established profile
+
 
 
 ### Process Red Flags
