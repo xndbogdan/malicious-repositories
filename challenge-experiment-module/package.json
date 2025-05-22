@@ -1,0 +1,50 @@
+{
+  "name": "crowdfund",
+  "private": true,
+  "version": "1.0.1",
+  "scripts": {
+    "start-devserver": "node server/bin/www",
+    "start-server": "nodemon server/bin/www --watch server/*",
+    "start": "concurrently \"npm run start-server\" \"vite\" --kill-others --kill-others-on-fail",
+    "build": "vite build",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "body-parser": "^1.20.1",
+    "concurrently": "^9.0.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ethers": "5.7",
+    "express": "~4.16.1",
+    "mongoose": "^6.7.3",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.5-lts.1",
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0",
+    "react-router-dom": "^6.26.1",
+    "react-toastify": "^10.0.5",
+    "rest-icon-orchestrator": "^1.0.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.20",
+    "cors": "^2.8.5",
+    "eslint": "^9.9.0",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.9",
+    "globals": "^15.9.0",
+    "log": "^6.3.2",
+    "nodemon": "^3.1.4",
+    "postcss": "^8.4.41",
+    "sequelize-cli": "^5.5.0",
+    "tailwindcss": "^3.4.10",
+    "vite": "^5.4.1"
+  }
+}

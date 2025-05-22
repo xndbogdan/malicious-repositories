@@ -66,6 +66,18 @@ The code is kept for educational and research purposes only.
 
 - [2. Multify Staking Project](#2-multify-staking-project)
 
+- [3. trend-dev-preproduction](#3-trend-dev-preproduction)
+
+- [4. munity-game](#4-munity-game)
+
+- [5. erc20-token-dapp](#5-erc20-token-dapp)
+
+- [6. challenge-experiment-module](#6-challenge-experiment-module)
+
+- [7. coinpool-rental-platform1.0](#7-coinpool-rental-platform10)
+
+- [Checking for Malicious npm Packages](#checking-for-malicious-npm-packages)
+
 - [Warning](#warning)
 
 
@@ -89,6 +101,8 @@ The code is kept for educational and research purposes only.
 - https://bitbucket.org/trend-dev/preproduction/src/main/backend/router.js
 
 - https://bitbucket.org/sarostech_work/assessment/src/792ba614d9f4f41e369f110cf144ace2d9c5650b/server/config/getContract.js#lines-135
+
+- https://github.com/MetaBuilderGroup76/challenge-experiment-module
 
 
 ### Known scammer recruiter profiles
@@ -120,6 +134,8 @@ The code is kept for educational and research purposes only.
 - [Francis Jacquet](https://www.linkedin.com/in/runenergie/)
 
 - [Roman Liakhovych](https://www.linkedin.com/in/roman-liakhovych-5429802b0/)
+- [Vitoria Danielle Franca](https://www.linkedin.com/in/vitoria-danielle-franca-4a3134293/)
+
 
 
 ## Extra links
@@ -650,54 +666,132 @@ module.exports = nextConfig
   ### 3. trend-dev-preproduction
 
 
-`trend-dev-preproduction/backend/controller.js`
+Located in `trend-dev-preproduction/` directory. The malicious code is hidden in `trend-dev-preproduction/backend/controller.js`.
 
 
 
-
-on `eval(items.data.cookie);`
-
+The malware:
 
 
-it download obfuscated code looking for private keys.
+
+- Makes a request to fetch obfuscated JavaScript code
+
+
+
+- Executes the fetched code using eval() in Node.js environment
+
+
+
+- Specifically targets cryptocurrency private keys
+
+
+
+- Contains the malicious line: `eval(items.data.cookie);`
 
 
 
 
   ### 4. munity-game
 
- MALICIOUS OBFUSCATED CODE
+Located in `munity-game/` directory. The malicious payload is hidden in `server/routes/paymentRoute.js`.
 
 
 
-`server/routes/paymentRoute.js`
+The malware:
+
+
+
+- Contains heavily obfuscated code that is difficult to analyze
+
+
+
+- Appears to be designed to extract sensitive information
+
+
+
+- Disguised as part of a payment processing system
+
 
 
 
   ### 5. erc20-token-dapp
-The package `cdn-icon-fetch` contains code that can harm your local machine.
+
+Located in `erc20-token-dapp/` directory.
 
 
 
-READ more about it: https://security.snyk.io/package/npm/cdn-icon-fetch
+The malware:
 
 
 
-Its been loaded on fetchIcon("77") on vite.config.js.
+- Uses a malicious npm package called `cdn-icon-fetch`
 
+
+
+- The package contains code that can harm your local machine
+
+
+
+- It's loaded through a function call `fetchIcon("77")` in `vite.config.js`
+
+
+
+- More information about this vulnerability can be found at: https://security.snyk.io/package/npm/cdn-icon-fetch
+
+
+
+### 6. challenge-experiment-module
+
+Located in `challenge-experiment-module/` directory.
+
+The malware:
+
+- Contains code designed to look like a legitimate experimental module
+- Likely executes malicious payloads in the background
+- Also listed in the "Known Scam Repos and APIs" section as "https://github.com/MetaBuilderGroup76/challenge-experiment-module"
+
+### 7. coinpool-rental-platform1.0
+
+Located in `coinpool-rental-platform1.0/` directory.
+
+The malware:
+
+- Disguised as a cryptocurrency/rental platform
+- Contains obfuscated malicious code
+- Listed in the "Known Scam Repos and APIs" section as "https://bitbucket.org/coinpool/rental-platform1.0/src/main/"
+- Frequently used in LinkedIn recruitment scams
+
+## Checking for Malicious npm Packages
+
+We strongly recommend checking all npm packages in your projects against the Snyk vulnerability database. Malicious packages are regularly published and can easily infiltrate projects through typosquatting or dependency confusion attacks.
+
+To check if your project contains known malicious packages:
+
+1. Visit the Snyk vulnerability database: https://security.snyk.io/vuln/npm
+2. Use tools like `npm audit` to automatically scan your dependencies
+3. Pay special attention to packages marked as "Malicious Package" in the Snyk database
+4. Be wary of packages with names similar to popular libraries but with slight variations
+
+Remember that attackers frequently publish packages with names very similar to legitimate packages (e.g., `react-dev-tools` vs `react-dev-tool`).
 
 ## Warning
 
-
-
 This repository contains malicious code samples collected from scammers attempting to steal credentials via LinkedIn. **DO NOT RUN THIS CODE**. The code is kept for educational and research purposes only.
-
-
 
 This code is kept for research purposes only. DO NOT run or deploy this code as it contains malicious payloads designed to steal credentials and other sensitive information.
 
+The repositories in this collection appear to be legitimate web applications but contain hidden malicious code designed to compromise systems and steal data:
 
+1. **Real Estate Project**: Uses eval() to execute remotely fetched malicious code
+2. **Multify Staking Project**: Contains obfuscated credential-stealing code in configuration files
+3. **Trend Dev Preproduction**: Uses eval() to execute code that targets cryptocurrency private keys
+4. **Munity Game**: Hides obfuscated code in payment processing routes
+5. **ERC20 Token DApp**: Uses a malicious npm package that executes harmful code
+6. **Challenge Experiment Module**: Disguised as a legitimate module but executes malicious payloads
+7. **Coinpool Rental Platform**: Masquerades as a cryptocurrency platform with hidden obfuscated code
 
 
 
 The repositories appear to be legitimate web applications (a real estate platform and a staking platform) but contain hidden malicious code designed to compromise systems and steal data.
+
+These repositories demonstrate common techniques used by attackers to hide malicious code, including API fetching of payloads, code obfuscation, and malicious dependencies.
