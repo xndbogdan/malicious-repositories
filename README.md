@@ -63,6 +63,8 @@ The code is kept for educational and research purposes only.
 - https://bitbucket.org/sarostech_work/assessment/src/792ba614d9f4f41e369f110cf144ace2d9c5650b/server/config/getContract.js#lines-135
 - https://github.com/MetaBuilderGroup76/challenge-experiment-module
 - https://github.com/goldencity5019/test_version
+- https://github.com/0xtuneTF7/DEX-staking-project
+- https://github.com/SuperDev313/Trading_Platform_Ultrax
 
 ### Known scammer recruiter profiles
 
@@ -84,7 +86,10 @@ The code is kept for educational and research purposes only.
 - [Brian Patterson](https://www.linkedin.com/in/brian-patterson-71954b116/)
 - [Joe Carlino](https://www.linkedin.com/in/joe-carlino-28856b78/)
 
+
 ## Extra Links
+
+- [Kathleen Anays Lewis Barrios](https://www.linkedin.com/in/kathleen-anays-lewis-barrios-9a61bb273/)
 
 - [SCAM WARNING: Blockchain developer job postings - on Reddit](https://www.reddit.com/r/Upwork/comments/14nat71/scam_warning_blockchain_developer_job_postings/)
 
@@ -92,7 +97,9 @@ The code is kept for educational and research purposes only.
 
 - [Follow-up on crypto interview scammers - on Linkedin](https://www.linkedin.com/posts/activity-7272780404070244352-XHUY)
 
-## On LinkedIn
+[Ultrax scam victims report - on Github](https://github.com/tayvano/lazarus-bluenoroff-research/blob/main/hacks-and-thefts/ultrax-dex.md)
+
+## On Linkedin
 
 When evaluating job opportunities on LinkedIn, be wary of these red flags:
 

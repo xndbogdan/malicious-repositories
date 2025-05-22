@@ -1,0 +1,42 @@
+.Orders-overview {
+  font-size: var(--font-sm);
+  margin: 1.5rem 3.1rem;
+}
+
+.Orders-overview-stats {
+  line-height: 1.5;
+}
+
+.Orders-overview-table {
+  border-collapse: collapse;
+}
+
+.Orders-overview th {
+  opacity: 0.5;
+  font-weight: normal;
+  text-align: left;
+  padding: 0.8rem 1.5rem 0.8rem 0;
+}
+
+.Orders-overview td {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0.8rem 1.5rem 0.8rem 0;
+}
+
+.Orders-overview .near {
+  color: orange;
+}
+
+.Orders-overview-action {
+  background: none;
+  border: none;
+  text-decoration: underline;
+  color: #fff;
+}
+
+.Orders-overview-action {
+  background: none;
+  border: none;
+  text-decoration: underline;
+  color: #fff;
+}

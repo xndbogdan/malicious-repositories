@@ -1,0 +1,13 @@
+.BuyUTXULP {
+  background: #101124;
+  justify-content: space-between;
+}
+
+.BuyUTXULP-container {
+  padding: 0 0 3.1rem 0;
+  width: 100%;
+}
+
+.BuyUTXULP-container .section-title-content {
+  justify-content: flex-start;
+}
