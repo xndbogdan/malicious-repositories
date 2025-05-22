@@ -1,0 +1,3617 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2022-08-06 13:30+0530\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: ko\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Tourist\n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "01 Sep 2021"
+msgstr "2021년 9월 1일"
+
+#: src/components/Exchange/PositionSeller.js
+msgid "<0/>Profit price: {0} ${1}. This rule applies for the next {2}, until {3}."
+msgstr ""
+
+#: src/App/App.js
+msgid "<0>Install Coinbase Wallet</0> to start using U2U."
+msgstr ""
+
+#: src/App/App.js
+msgid "<0>Install Coinbase Wallet</0>, and use U2U with its built-in browser."
+msgstr ""
+
+#: src/App/App.js
+msgid "<0>Install MetaMask</0> to start using U2U."
+msgstr ""
+
+#: src/App/App.js
+msgid "<0>Install MetaMask</0>, and use U2U with its built-in browser."
+msgstr ""
+
+#: src/components/Exchange/OrdersToa.js
+msgid "<0>Insufficient liquidity to execute the order</0><1>The mark price which is an aggregate of exchange prices did not reach the specified price</1><2>The specified price was reached but not long enough for it to be executed</2><3>No keeper picked up the order for execution</3>"
+msgstr "<0>주문을 체결하기 위한 유동성이 부족합니다</0><1>시장 평균가가 지정된 가격에 도달하지 않았습니다</1><2>지정된 가격에 도달했지만 실행하기에 충분한 시간이 지나지 않았습니다</2>주문을 체결할 수 있는 키퍼가 없습니다.<3>"
+
+#: src/components/Ulp/SwapErrorModal.tsx
+msgid "<0>The pool's capacity has been reached for {0}. Please use another token to buy ULP.</0><1>Check the \"Save on Fees\" section for tokens with the lowest fees.</1>"
+msgstr "<0>풀의 최대허용량이 {0}에 도달했습니다. 다른 토큰을 이용해 GLP를 구매해주세요.</0><1>\"수수료 절약\" 섹션을 통해 가장 저렴한 수수료를 확인하세요.</1>"
+
+#: src/pages/Stake/StakeV2.js
+msgid "<0>This will withdraw and unreserve all tokens as well as pause vesting.<1/><2/>esUTX tokens that have been converted to UTX will remain as UTX tokens.<3/><4/>To claim UTX tokens without withdrawing, use the \"Claim\" button under the Total Rewards section.<5/><6/></0>"
+msgstr ""
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "<0>Total value of tokens in ULP pool ({chainName}).</0><1>Other websites may show a higher value as they add positions' collaterals to the ULP pool.</1>"
+msgstr ""
+
+#: src/lib/contracts/callContract.tsx
+#: src/lib/wallets/index.tsx
+msgid "<0>Your wallet is not connected to {0}.</0><1/><2>Switch to {1}</2>"
+msgstr ""
+
+#: src/components/Exchange/SwapBox.js
+msgid "<0>{0} is required for collateral.</0><1>Short amount for {1} with {2} exceeds potential profits liquidity. Reduce the \"Short Position\" size, or change the \"Collateral In\" token.</1>"
+msgstr ""
+
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+msgid "<0>{0} is required for collateral.</0><1>Swap amount from {1} to {2} exceeds {3} acceptable amount. Reduce the \"Pay\" size, or use {4} as the \"Pay\" token to use it for collateral.</1><2>You can buy {5} on 1inch.</2>"
+msgstr ""
+
+#: src/components/Exchange/SwapBox.js
+msgid "<0>{0} is required for collateral.</0><1>Swap amount from {1} to {2} exceeds {3} available liquidity. Reduce the \"Pay\" size, or change the \"Collateral In\" token.</1>"
+msgstr ""
+
+#: src/components/Exchange/SwapBox.js
+msgid "<0>{0} is required for collateral.</0><1>Swap amount from {1} to {2} exceeds {3} available liquidity. Reduce the \"Pay\" size, or use {4} as the \"Pay\" token to use it for collateral.</1><2>You can buy {5} on 1inch.</2>"
+msgstr ""
+
+#: src/components/Exchange/SwapBox.js
+msgid "A snapshot of the USD value of your {0} collateral is taken when the position is opened."
+msgstr "{0}담보의 USD가치 스냅샷은 해당 포지션이 열려있을 때 결정됩니다."
+
+#: src/components/Ulp/UlpSwap.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "APR"
+msgstr "APR"
+
+#: src/components/Stake/UTXAprTooltip.tsx
+msgid "APRs are updated weekly on Wednesday and will depend on the fees collected for the week."
+msgstr "APR은 매주 수요일에 업데이트되며 한 주 동안 쌓인 수수료에 따라 달라집니다."
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "AUM"
+msgstr "AUM"
+
+#: src/pages/Ecosystem/Ecosystem.js
+#: src/pages/Ecosystem/Ecosystem.js
+#: src/pages/Ecosystem/Ecosystem.js
+#: src/pages/Ecosystem/Ecosystem.js
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "About"
+msgstr "대하여"
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Accept confirmation of trigger orders"
+msgstr "트리거 주문의 확인에 동의해주세요"
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Accept minimum and {action}"
+msgstr "최저액과 {action}에 동의해주세요"
+
+#: src/components/Exchange/OrdersToa.js
+msgid "Accept terms to enable orders"
+msgstr "주문을 활성화하기 위해 약관에 동의해주세요"
+
+#: src/components/Exchange/OrdersToa.js
+msgid "Accept that orders are not guaranteed to execute and trigger orders may not settle at the trigger price"
+msgstr "주문의 실행이 보장되지 않으며 트리거 주문이 트리거 가격으로 실행되지 않을 수 있음을 확인합니다."
+
+#: src/pages/Actions/Actions.js
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Account"
+msgstr "계정"
+
+#: src/pages/Actions/Actions.js
+msgid "Actions"
+msgstr "액션"
+
+#: src/pages/Dashboard/AssetDropdown.tsx
+#: src/pages/Dashboard/AssetDropdown.tsx
+msgid "Add to Metamask"
+msgstr "메타마스크에 추가해주세요"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Additional reserve required"
+msgstr "추가의 리저브양이 필요합니다"
+
+#: src/components/Exchange/OrdersToa.js
+msgid "Additionally, trigger orders are market orders and are not guaranteed to settle at the trigger price."
+msgstr "추가로, 트리거 주문은 시장가 주문이며 트리거 가격으로 결제되지 않을 수도 있습니다."
+
+#: src/components/AddressDropdown/AddressDropdown.tsx
+msgid "Address copied to your clipboard"
+msgstr ""
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+msgid "After claiming you will be able to vest a maximum of {0} esUTX at a ratio of {1} {stakingToken} to 1 esUTX."
+msgstr ""
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+msgid "After claiming, the esUTX tokens will be airdropped to your account on the selected network within 7 days."
+msgstr ""
+
+#: src/components/ModalViews/RedirectModal.js
+msgid "Agree"
+msgstr "동의하기"
+
+#: src/App/App.js
+#: src/components/Exchange/PositionSeller.js
+msgid "Allowed Slippage"
+msgstr "허용 가능한 슬리피지"
+
+#: src/components/ModalViews/RedirectModal.js
+msgid "Alternative links can be found in the <0>docs</0>.<1/><2/>By clicking Agree you accept the <3>T&Cs</3> and <4>Referral T&Cs</4>.<5/><6/>"
+msgstr "이외의 링크는 <0>docs</0>에서 확인할 수 있습니다.<1/><2/>동의 버튼을 클릭하여 <3>T&Cs</3> 그리고 <4>Referral T&Cs</4>에 동의합니다.<5/><6/>"
+
+#: src/components/Exchange/NoLiquidityErrorModal.tsx
+msgid "Alternatively, you can select a different \"Collateral In\" token."
+msgstr "추가적으로, 별도의 \"담보자산\"을 선택할 수 있습니다."
+
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/TradeHistory.js
+#: src/components/Exchange/TradeHistory.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "Amount"
+msgstr "수량"
+
+#: src/components/Exchange/PositionEditor.js
+msgid "Amount should be greater than zero"
+msgstr ""
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+msgid "Amount to claim"
+msgstr "수령할 양"
+
+#: src/pages/Home/Home.js
+msgid "An aggregate of high-quality price feeds determine when liquidations occur. This keeps positions safe from temporary wicks."
+msgstr "고품질의 여러 가격 피드를 통해 청산 발생 시기를 결정합니다. 이것은 일시적인 가격 변화로부터 포지션을 안전하게 유지합니다."
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Announcement"
+msgstr "공지"
+
+#: src/components/Header/HomeHeaderLinks.tsx
+msgid "App"
+msgstr ""
+
+#: src/domain/tokens/approveTokens.tsx
+msgid "Approval failed"
+msgstr "승인 실패"
+
+#: src/domain/tokens/approveTokens.tsx
+msgid "Approval submitted! <0>View status.</0>"
+msgstr "승인 제출완료! <0>상태 보기</0>"
+
+#: src/domain/tokens/approveTokens.tsx
+msgid "Approval was cancelled"
+msgstr "제출 취소되었습니다"
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+#: src/pages/Stake/StakeV2.js
+msgid "Approve UTX"
+msgstr "UTX 승인"
+
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Migration/Migration.js
+#: src/components/Ulp/UlpSwap.js
+msgid "Approve {0}"
+msgstr "{0} 승인"
+
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV2.js
+msgid "Approve {stakingTokenSymbol}"
+msgstr "{stakingTokenSymbol} 승인"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Approving UTX..."
+msgstr "UTX 승인중..."
+
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Ulp/UlpSwap.js
+msgid "Approving {0}..."
+msgstr "{0} 승인중..."
+
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV2.js
+msgid "Approving {stakingTokenSymbol}..."
+msgstr "{stakingTokenSymbol} 승인중..."
+
+#: src/components/Migration/Migration.js
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+msgid "Approving..."
+msgstr "승인중..."
+
+#: src/components/Exchange/NoLiquidityErrorModal.tsx
+msgid "As there is not enough liquidity in ULP to swap {0} to {swapTokenSymbol}, you can use the option below to do so:"
+msgstr "{0}에서 {swapTokenSymbol}로 교환할 수 있는 유동성이 GLP에 충분하지 않기 때문에, 이하의 옵션을 사용해주세요:"
+
+#: src/pages/Dashboard/DashboardV1.js
+msgid "Assets Under Management"
+msgstr "총 운용자산"
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Assets Under Management: UTX staked (All chains) + ULP pool ({chainName})."
+msgstr "자산운용규모: 스테이킹된 UTX + ULP 풀 ({chainName})."
+
+#: src/pages/Stake/StakeV2.js
+msgid "Avail."
+msgstr ""
+
+#: src/components/Ulp/UlpSwap.js
+msgid "Available"
+msgstr "사용가능"
+
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+msgid "Available Liquidity"
+msgstr "사용가능 유동성"
+
+#: src/components/Ulp/UlpSwap.js
+msgid "Available amount to deposit into ULP."
+msgstr ""
+
+#: src/components/Ulp/UlpSwap.js
+msgid "Available amount to withdraw from ULP. Funds not utilized by current open positions."
+msgstr ""
+
+#: src/pages/Home/Home.js
+msgid "Available on your preferred network"
+msgstr "선택한 네트워크에서 이용가능"
+
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Ulp/UlpSwap.js
+#: src/components/Ulp/UlpSwap.js
+#: src/components/Ulp/UlpSwap.js
+#: src/components/Ulp/UlpSwap.js
+#: src/pages/Stake/StakeV2.js
+msgid "Balance"
+msgstr "잔고"
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+msgid "Begin Transfer"
+msgstr "전송시작"
+
+#: src/components/Migration/Migration.js
+#: src/components/Migration/Migration.js
+msgid "Bonus Tokens"
+msgstr "보너스 토큰"
+
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "Boost Percentage"
+msgstr "증가된 비율"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Boost your rewards with Multiplier Points. <0>More info</0>."
+msgstr "멀티플라이어 포인트를 사용해서 보상을 증가시키세요. <0>더 자세한 정보</0>."
+
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/FeesTooltip.tsx
+#: src/components/Exchange/NetValueTooltip.tsx
+#: src/components/Exchange/PositionsList.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/TradeHistory.js
+msgid "Borrow Fee"
+msgstr "차용 수수료"
+
+#: src/components/Exchange/PositionsList.js
+msgid "Borrow Fee / Day"
+msgstr "차용 수수료 / 일"
+
+#: src/components/Header/AppHeaderLinks.tsx
+msgid "Buy"
+msgstr "구매"
+
+#: src/components/Ulp/UlpSwap.js
+#: src/components/Ulp/UlpSwap.js
+#: src/components/Ulp/UlpSwap.js
+#: src/pages/Stake/StakeV2.js
+msgid "Buy ULP"
+msgstr ""
+
+#: src/pages/Buy/Buy.js
+msgid "Buy ULP or UTX"
+msgstr ""
+
+#: src/pages/Stake/StakeV2.js
+msgid "Buy UTX"
+msgstr "UTX 구매"
+
+#: src/pages/BuyUTX/BuyUTX.tsx
+msgid "Buy UTX from Centralized Services"
+msgstr ""
+
+#: src/pages/BuyUTX/BuyUTX.tsx
+msgid "Buy UTX from Cross-chain Swap:"
+msgstr ""
+
+#: src/pages/BuyUTX/BuyUTX.tsx
+msgid "Buy UTX from Decentralized Exchange"
+msgstr ""
+
+#: src/pages/BuyUTX/BuyUTX.tsx
+msgid "Buy UTX from centralized exchanges:"
+msgstr ""
+
+#: src/pages/BuyUTX/BuyUTX.tsx
+msgid "Buy UTX on {0}"
+msgstr ""
+
+#: src/pages/Buy/Buy.js
+msgid "Buy UTX or ULP token easily!"
+msgstr ""
+
+#: src/pages/BuyUTX/BuyUTX.tsx
+msgid "Buy UTX using Decentralized Exchange Aggregators:"
+msgstr ""
+
+#: src/pages/BuyUTX/BuyUTX.tsx
+msgid "Buy UTX using FIAT gateways:"
+msgstr ""
+
+#: src/components/Ulp/UlpSwap.js
+msgid "Buy failed."
+msgstr "구매 실패"
+
+#: src/pages/BuyUTX/BuyUTX.tsx
+msgid "Buy from Spooky:"
+msgstr ""
+
+#: src/components/Ulp/UlpSwap.js
+msgid "Buy submitted."
+msgstr "구매 제출 완료"
+
+#: src/components/Ulp/UlpSwap.js
+#: src/components/Ulp/UlpSwap.js
+msgid "Buy with {0}"
+msgstr "{0}로 구매"
+
+#: src/components/Exchange/NoLiquidityErrorModal.tsx
+msgid "Buy {swapTokenSymbol} on 1inch"
+msgstr "{swapTokenSymbol}을 1inch에서 구매하기"
+
+#: src/pages/BuyUlp/BuyUlp.js
+msgid "Buy&Sell ULP"
+msgstr ""
+
+#: src/components/Ulp/UlpSwap.js
+msgid "Buying..."
+msgstr "구매중..."
+
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Can't execute because of an error"
+msgstr "에러로 인해 실행되지 못했습니다"
+
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/TradeHistory.js
+msgid "Cancel"
+msgstr "취소"
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Cancel failed"
+msgstr "취소 실패"
+
+#: src/domain/legacy.ts
+#: src/pages/Exchange/Exchange.js
+msgid "Cancel failed."
+msgstr "취소 실패"
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Cancel submitted"
+msgstr "취소 제출 완료"
+
+#: src/domain/legacy.ts
+#: src/pages/Exchange/Exchange.js
+msgid "Cancel submitted."
+msgstr "취소 제출 완료"
+
+#: src/App/App.js
+#: src/pages/Exchange/Exchange.js
+msgid "Chart positions"
+msgstr "차트 포지션"
+
+#: src/components/Ulp/UlpSwap.js
+#: src/components/Ulp/UlpSwap.js
+msgid "Check the \"Save on Fees\" section below to get the lowest fee percentages."
+msgstr "최저 수수료로 이용하려면 \"수수료 절약\" 섹션 아래를 선택하세요."
+
+#: src/pages/BuyUTX/BuyUTX.tsx
+msgid "Choose to buy from decentralized or centralized exchanges."
+msgstr ""
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "Claim"
+msgstr "수령하기"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Claim Rewards"
+msgstr "보상 수령하기"
+
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "Claim UTX Rewards"
+msgstr "UTX 보상 수령하기"
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+#: src/pages/Stake/StakeV2.js
+msgid "Claim completed!"
+msgstr "수령 완료!"
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+msgid "Claim esUTX"
+msgstr ""
+
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "Claim esUTX Rewards"
+msgstr ""
+
+#: src/pages/Stake/StakeV1.js
+msgid "Claim failed"
+msgstr "수령 실패"
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+#: src/pages/Stake/StakeV2.js
+msgid "Claim failed."
+msgstr "수령 실패"
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+msgid "Claim submitted!"
+msgstr "수령 제출 완료!"
+
+#: src/pages/Stake/StakeV1.js
+msgid "Claim submitted! <0>View status.</0>"
+msgstr "수령 제출완료! <0>상태 보기.</0>"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Claim submitted."
+msgstr "수령 제출 완료."
+
+#: src/pages/Stake/StakeV2.js
+msgid "Claimable"
+msgstr "수령가능"
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+#: src/pages/Stake/StakeV2.js
+msgid "Claiming..."
+msgstr "수령중..."
+
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/PositionsList.js
+msgid "Close"
+msgstr "포지션 종료"
+
+#: src/components/Exchange/FeesTooltip.tsx
+#: src/components/Exchange/NetValueTooltip.tsx
+msgid "Close Fee"
+msgstr ""
+
+#: src/components/Exchange/PositionsList.js
+msgid "Close Position"
+msgstr ""
+
+#: src/components/Exchange/PositionsList.js
+msgid "Close Positions"
+msgstr ""
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Close failed."
+msgstr ""
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Close submitted!"
+msgstr ""
+
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Close to execution price"
+msgstr "집행 가격에 종료"
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Close without profit"
+msgstr ""
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Close {longOrShortText} {0}"
+msgstr ""
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Closing..."
+msgstr ""
+
+#: src/App/App.js
+msgid "Coinbase Wallet"
+msgstr "Coinbase 지갑"
+
+#: src/App/App.js
+msgid "Coinbase Wallet not detected."
+msgstr "Coinbase 지갑이 존재하지 않습니다."
+
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/PositionsList.js
+#: src/components/Exchange/PositionsList.js
+msgid "Collateral"
+msgstr "담보"
+
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/PositionSeller.js
+msgid "Collateral ({0})"
+msgstr "담보 ({0})"
+
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+msgid "Collateral In"
+msgstr "담보 자산"
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Collateral in"
+msgstr ""
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Community Projects"
+msgstr "커뮤니티 프로젝트"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Community curated tweet collection"
+msgstr "커뮤니티가 큐레이트한 트윗 컬렉션"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Community-led Telegram groups."
+msgstr "커뮤니티 주도 텔레그램 그룹"
+
+#: src/pages/CompleteAccountTransfer/CompleteAccountTransfer.js
+msgid "Complete Account Transfer"
+msgstr "계정 전송 완료"
+
+#: src/pages/CompleteAccountTransfer/CompleteAccountTransfer.js
+msgid "Complete Transfer"
+msgstr "전송 완료"
+
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "Compound"
+msgstr "수령후 스테이킹"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Compound Rewards"
+msgstr "보상 수령 후 스테이킹"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Compound completed!"
+msgstr "수령 후 스테이킹 완료!"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Compound failed."
+msgstr "수령 후 스테이킹 실패."
+
+#: src/pages/Stake/StakeV2.js
+msgid "Compound submitted!"
+msgstr "수령 후 스테이킹 제출 완료!"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Compounding..."
+msgstr "수령 및 스테이킹중..."
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Confirm Limit Order"
+msgstr ""
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Confirm Long"
+msgstr "롱 포지션 확인"
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Confirm Short"
+msgstr "숏 포지션 확인"
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Confirm Swap"
+msgstr "스왑 확인"
+
+#: src/components/Header/AppHeaderUser.tsx
+msgid "Connect"
+msgstr "연동"
+
+#: src/App/App.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Header/AppHeaderUser.tsx
+#: src/components/Migration/Migration.js
+#: src/components/Ulp/UlpSwap.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "Connect Wallet"
+msgstr "지갑 연동"
+
+#: src/lib/wallets/index.tsx
+msgid "Connected to {0}"
+msgstr "{0}에 연동하기"
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+#: src/pages/CompleteAccountTransfer/CompleteAccountTransfer.js
+msgid "Continue"
+msgstr "계속하기"
+
+#: src/components/AddressDropdown/AddressDropdown.tsx
+msgid "Copy Address"
+msgstr "주소 복사"
+
+#: src/pages/Dashboard/DashboardV1.js
+#: src/pages/Dashboard/DashboardV1.js
+msgid "Could not add token to MetaMask"
+msgstr "메타마스크에 토큰을 추가하지 못했습니다"
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Could not decrease {0} {longOrShortText}, +{1} USD, Acceptable Price: {2}"
+msgstr "{0} {longOrShortText}을 감소시키지 못했습니다, +{1} USD, 허용가능한 가격: {2}"
+
+#: src/pages/Exchange/Exchange.js
+msgid "Could not decrease {tokenSymbol} {longOrShortText} within the allowed slippage, you can adjust the allowed slippage in the settings on the top right of the page."
+msgstr "허용가능한 슬리피지 안에서는 {tokenSymbol} {longOrShortText}을 감소시키지 못했습니다. 최상단 우측의 설정 버튼을 통해 허용가능한 슬리피지를 변경할 수 있습니다."
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Could not execute deposit into {0} {longOrShortText}"
+msgstr "{0} {longOrShortText}의 입글을 실행시키지 못했습니다"
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Could not execute withdrawal from {0} {longOrShortText}"
+msgstr "{0} {longOrShortText}의 인출을 실행시키지 못했습니다"
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Could not increase {0} {longOrShortText}, +{1} USD, Acceptable Price: {2}"
+msgstr "{0} {longOrShortText}을 증가시키지 못했습니다, +{1} USD, 허용가능한 가격: {2}"
+
+#: src/pages/Exchange/Exchange.js
+msgid "Could not increase {tokenSymbol} {longOrShortText} within the allowed slippage, you can adjust the allowed slippage in the settings on the top right of the page."
+msgstr "허용가능한 슬리피지 안에서는 {tokenSymbol} {longOrShortText}을 감소시키지 못했습니다. 최상단 우측의 설정 버튼을 통해 허용가능한 슬리피지를 변경할 수 있습니다."
+
+#: src/components/Exchange/TradeHistory.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+msgid "Create"
+msgstr "생성"
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Create Order"
+msgstr "주문 생성"
+
+#: src/components/Exchange/SwapBox.js
+msgid "Create {0} Order"
+msgstr "{0} 주문 생성하기"
+
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Created At"
+msgstr ""
+
+#: src/components/Exchange/SwapBox.js
+msgid "Created limit order for {0} {1}: {2} USD!"
+msgstr "{0} {1}: {2} USD의 지정가 주문을 생성하였습니다!"
+
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/PositionSeller.js
+msgid "Creating Order..."
+msgstr "주문 생성중..."
+
+#: src/pages/Ecosystem/Ecosystem.js
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Creator"
+msgstr "제작자"
+
+#: src/components/Ulp/UlpSwap.js
+msgid "Current Pool Amount"
+msgstr "현재 풀 양"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Current Reserved"
+msgstr "현재 리저브"
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Current Weight"
+msgstr "현재 가중치"
+
+#: src/components/Exchange/SwapBox.js
+msgid "Current {0} long"
+msgstr "현재 {0} 롱"
+
+#: src/components/Exchange/SwapBox.js
+msgid "Current {0} shorts"
+msgstr "현재 {0} 숏"
+
+#: src/pages/Ecosystem/Ecosystem.js
+#: src/pages/Ecosystem/Ecosystem.js
+#: src/pages/Ecosystem/Ecosystem.js
+#: src/pages/Ecosystem/Ecosystem.js
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "DEX Aggregator"
+msgstr "DEX 어그리게이터"
+
+#: src/components/Header/AppHeaderLinks.tsx
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Dashboard"
+msgstr "대시보드"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Dashboard for UTX referral stats"
+msgstr "UTX 추천 시스템 통계 대시보드"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Dashboards"
+msgstr "대시보드"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "DeFi Portfolio Tracker"
+msgstr "DeFi 포트폴리오 트래커"
+
+#: src/components/Exchange/ExchangeTVChart.js
+msgid "Dec."
+msgstr "12월"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Decentralized Finance Dashboard"
+msgstr "탈중앙화 금융 대시보드"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Decentralized Options Protocol"
+msgstr "탈중앙화 옵션 프로토콜"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Decentralized Options Strategies"
+msgstr "탈중앙화 옵션 전략"
+
+#: src/lib/legacy.ts
+msgid "Decentralized Perpetual Exchange | UTX"
+msgstr ""
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Decentralized Trading Protocol"
+msgstr "탈중앙화 트레이딩 프로토콜"
+
+#: src/pages/Home/Home.js
+msgid "Decentralized<0/>Perpetual Exchange"
+msgstr "탈중앙화<0/>퍼페추얼 거래소"
+
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/TradeHistory.js
+#: src/components/Exchange/TradeHistory.js
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Decrease"
+msgstr "감소"
+
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Decrease active: {0}, executed: {1}, cancelled: {2}"
+msgstr "감소 액티브: {0}, 실행 완료: {1} 취소 완료: {2}"
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Decreased"
+msgstr "감소 완료"
+
+#: src/pages/Exchange/Exchange.js
+msgid "Decreased {tokenSymbol} {longOrShortText}, -{0} USD."
+msgstr "{tokenSymbol} {longOrShortText} 감소, -{0} USD."
+
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/PositionEditor.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "Deposit"
+msgstr "예치"
+
+#: src/components/Exchange/FeesTooltip.tsx
+msgid "Deposit Fee"
+msgstr ""
+
+#: src/components/Exchange/PositionEditor.js
+msgid "Deposit disabled, pending {0} upgrade"
+msgstr "{0} 업그레이드를 위해 예치가 비활성화되었습니다"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Deposit failed!"
+msgstr "예치 실패!"
+
+#: src/components/Exchange/PositionEditor.js
+msgid "Deposit failed."
+msgstr "예치 실패."
+
+#: src/pages/Stake/StakeV2.js
+msgid "Deposit submitted!"
+msgstr "예치 제출 완료!"
+
+#: src/components/Exchange/PositionEditor.js
+msgid "Deposit submitted."
+msgstr "예치 제출 완료."
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Deposit {0} USD into {1} {longOrShortText}"
+msgstr "{0} USD를 {1} {longOrShortText}으로 입금"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Deposited"
+msgstr "예치 완료"
+
+#: src/pages/Exchange/Exchange.js
+msgid "Deposited {0} USD into {tokenSymbol} {longOrShortText}"
+msgstr "{0} USD를 {tokenSymbol} {longOrShortText}으로 입금 완료"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Deposited!"
+msgstr "예치되었습니다!"
+
+#: src/components/Exchange/PositionEditor.js
+#: src/pages/Stake/StakeV2.js
+msgid "Depositing..."
+msgstr "예치중..."
+
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Diff"
+msgstr "차이"
+
+#: src/App/App.js
+msgid "Disable order validations"
+msgstr "주문 밸리데이션 무효화"
+
+#: src/components/AddressDropdown/AddressDropdown.tsx
+msgid "Disconnect"
+msgstr "연결 끊기"
+
+#: src/App/App.js
+msgid "Display PnL after fees"
+msgstr "수수료포함 손익 표시"
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Distribution"
+msgstr "배분"
+
+#: src/components/Header/HomeHeaderLinks.tsx
+msgid "Docs"
+msgstr ""
+
+#: src/components/ModalViews/RedirectModal.js
+msgid "Don't show this message again for 30 days."
+msgstr "30일 동안 해당 메시지 다시보지 않기"
+
+#: src/components/Header/AppHeaderLinks.tsx
+#: src/pages/Stake/StakeV2.js
+msgid "Earn"
+msgstr "보상"
+
+#: src/pages/Buy/Buy.js
+msgid "Easily buy UTX or ULP using your favorite payment methods"
+msgstr ""
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Ecosystem Projects"
+msgstr ""
+
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/OrdersList.js
+msgid "Edit"
+msgstr "수정"
+
+#: src/components/Exchange/PositionDropdown.js
+msgid "Edit Collateral"
+msgstr "담보 수정"
+
+#: src/components/Exchange/OrderEditor.js
+#: src/components/Exchange/OrderEditor.js
+msgid "Edit order"
+msgstr "주문 수정"
+
+#: src/components/Exchange/PositionEditor.js
+msgid "Edit {longOrShortText} {0}"
+msgstr "{0} {longOrShortText} 수정"
+
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/SwapBox.js
+msgid "Enable Leverage"
+msgstr "레버리지 유효화"
+
+#: src/components/Exchange/OrdersToa.js
+#: src/components/Exchange/OrdersToa.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/SwapBox.js
+msgid "Enable Orders"
+msgstr "주문 유효화"
+
+#: src/components/Exchange/PositionEditor.js
+msgid "Enable deposit failed."
+msgstr "예치 유효화 실패."
+
+#: src/components/Exchange/PositionEditor.js
+msgid "Enable deposit sent."
+msgstr "예치 유효화 제출 완료."
+
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/SwapBox.js
+msgid "Enable leverage failed."
+msgstr "레버리지 유효화 실패."
+
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/SwapBox.js
+msgid "Enable leverage sent."
+msgstr "레버리지 유효화 제출 완료"
+
+#: src/pages/Exchange/Exchange.js
+msgid "Enable orders failed."
+msgstr "주문 유효화 실패"
+
+#: src/pages/Exchange/Exchange.js
+msgid "Enable orders sent."
+msgstr "주문 유효화 제출 완료"
+
+#: src/components/Exchange/PositionEditor.js
+msgid "Enable withdraw failed."
+msgstr "인출 유효화 실패"
+
+#: src/components/Exchange/PositionEditor.js
+msgid "Enable withdraw sent."
+msgstr "인출 유효화 제출 완료"
+
+#: src/components/Exchange/PositionEditor.js
+msgid "Enabling Leverage"
+msgstr "레버리지 유효화"
+
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+msgid "Enabling Leverage..."
+msgstr "레버리지 유효화중"
+
+#: src/components/Exchange/OrdersToa.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+msgid "Enabling Orders..."
+msgstr "주문 유효화중.."
+
+#: src/pages/NftWallet/NftWallet.js
+msgid "Enter NFT Address"
+msgstr "NFT 주소 입력"
+
+#: src/pages/NftWallet/NftWallet.js
+msgid "Enter NFT ID"
+msgstr "NFT ID 입력"
+
+#: src/components/Exchange/OrderEditor.js
+#: src/components/Exchange/PositionSeller.js
+msgid "Enter Price"
+msgstr "가격 입력"
+
+#: src/pages/NftWallet/NftWallet.js
+msgid "Enter Receiver Address"
+msgstr "수령 주소 입력"
+
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+msgid "Enter a price"
+msgstr "가격 입력"
+
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Migration/Migration.js
+#: src/components/Ulp/UlpSwap.js
+#: src/components/Ulp/UlpSwap.js
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "Enter an amount"
+msgstr "수량 입력"
+
+#: src/pages/Home/Home.js
+msgid "Enter and exit positions with minimal spread and zero price impact. Get the optimal price without incurring additional costs."
+msgstr "최소한의 스프레드 및 가격 영향 없이 포지션을 열고 닫을 수 있습니다. 추가 비용 없이 최적의 가격에서 시작하세요."
+
+#: src/components/Exchange/OrderEditor.js
+#: src/components/Exchange/OrderEditor.js
+msgid "Enter new Price"
+msgstr "새로운 가격 입력"
+
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/PositionsList.js
+#: src/components/Exchange/PositionsList.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+msgid "Entry Price"
+msgstr "진입 가격"
+
+#: src/components/Stake/UTXAprTooltip.tsx
+msgid "Escrowed UTX APR"
+msgstr "esGMX APR"
+
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Execute"
+msgstr "실행"
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Execute Order: Swap {fromAmountDisplay} {0} for {toAmountDisplay} {1}"
+msgstr "주문 실행: {fromAmountDisplay} {0}을 {toAmountDisplay} {1}로 스왑"
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Execute Order: {orderTypeText} {0} {longShortDisplay} {sizeDeltaDisplay} USD, Price: {executionPriceDisplay} USD"
+msgstr ""
+
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/FeesTooltip.tsx
+#: src/components/Exchange/PositionEditor.js
+msgid "Execution Fee"
+msgstr ""
+
+#: src/components/Exchange/SwapBox.js
+msgid "Exit Price"
+msgstr "매도 가격"
+
+#: src/components/Ulp/UlpSwap.js
+msgid "Fee Compare"
+msgstr ""
+
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Ulp/UlpSwap.js
+#: src/components/Ulp/UlpSwap.js
+#: src/pages/Dashboard/DashboardV1.js
+msgid "Fees"
+msgstr "수수료"
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Fees are high to swap from {0} to {1}."
+msgstr "{0}을 {1}로 스왑하는 수수료가 높습니다."
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Fees are high to swap from {0} to {1}. <0/>{2} is needed for collateral."
+msgstr "{0}을 {1}로 스왑하는 수수료가 높습니다. <0/>{2}가 담보로 필요합니다."
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Fees generated by UTX"
+msgstr "GMX로 획득한 수수료"
+
+#: src/components/Ulp/UlpSwap.js
+msgid "Fees may vary depending on which asset you sell ULP for. <0/>Enter the amount of ULP you want to redeem in the order form, then check here to compare fees."
+msgstr ""
+
+#: src/components/Ulp/UlpSwap.js
+msgid "Fees may vary depending on which asset you use to buy ULP <0/>Enter the amount of ULP you want to purchase in the order form, then check here to compare fees."
+msgstr ""
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Fees on {0}"
+msgstr ""
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Fees since"
+msgstr "이후 수수료"
+
+#: src/components/Ulp/UlpSwap.js
+#: src/components/Ulp/UlpSwap.js
+#: src/components/Ulp/UlpSwap.js
+msgid "Fees will be shown once you have entered an amount in the order form."
+msgstr "입력란에 수량을 입력하면 수수료가 표시됩니다."
+
+#: src/components/Exchange/SwapBox.js
+msgid "Fetching token info..."
+msgstr "토큰 정보 가져오는 중..."
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Financial reports and protocol analytics"
+msgstr "금융 보고서 및 프로토콜 분석"
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Floor Price Fund"
+msgstr "하한 가격 펀드"
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Forfeit profit"
+msgstr "이익 상실"
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Forfeit profit and Short"
+msgstr "이익 상실 및 숏"
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Forfeit profit and {action}"
+msgstr "이익 상실 및 {action}"
+
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/PositionSeller.js
+msgid "Forfeit profit not checked"
+msgstr "상실 이익이 확인되지 않았습니다."
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "GBC NFTs APR tracker and rewards"
+msgstr "GBC NFT의 APR 트래커 및 보상"
+
+#: src/components/Header/HomeHeaderLinks.tsx
+msgid "Governance"
+msgstr ""
+
+#: src/components/Exchange/SwapBox.js
+msgid "High Slippage, Swap Anyway"
+msgstr "높은 슬리피지 상관 없이 스왑"
+
+#: src/components/Exchange/SwapBox.js
+msgid "High USDG Slippage, Long Anyway"
+msgstr "높은 USDG 슬리피지 상관 없이 롱 포지션 체결"
+
+#: src/components/Exchange/SwapBox.js
+msgid "If you have an existing position, the position will be closed at {0} USD.<0/><1/>This exit price will change with the price of the asset.<2/><3/><4>More Info</4>"
+msgstr "포지션이 이미 존재한다면, 해당 포지션은 {0} USD에 종료될 것입니다.<0/><1/>이 종료 가격은 자산의 가격 변화에 따라 변경됩니다.<2/><3/><4>더 자세한 정보</4>"
+
+#: src/components/Exchange/ExchangeTVChart.js
+msgid "Inc."
+msgstr "Inc."
+
+#: src/App/App.js
+msgid "Include PnL in leverage display"
+msgstr "레버리지 표시창에 손익 포함하기"
+
+#: src/pages/CompleteAccountTransfer/CompleteAccountTransfer.js
+msgid "Incorrect Account"
+msgstr "잘못된 계정입니다"
+
+#: src/components/Exchange/SwapBox.js
+#: src/pages/Stake/StakeV1.js
+msgid "Incorrect Network"
+msgstr "잘못된 네트워크입니다"
+
+#: src/components/Exchange/SwapBox.js
+msgid "Incorrect network"
+msgstr "잘못된 네트워크입니다"
+
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/TradeHistory.js
+#: src/components/Exchange/TradeHistory.js
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Increase"
+msgstr "증가"
+
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Increase active: {0}, executed: {1}, cancelled: {2}"
+msgstr "중가 액티브: {0}, 실행 완료: {1}, 취소 완료: {2}"
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Increase {0} {longOrShortText}, +{1} USD, {2} Price: {3} USD"
+msgstr "{0} {longOrShortText}을 증가, +{1} USD, {2} 가격: {3} USD"
+
+#: src/pages/Exchange/Exchange.js
+msgid "Increased {tokenSymbol} {longOrShortText}, +{0} USD."
+msgstr "{tokenSymbol} {longOrShortText} 증가 완료, +{0} USD."
+
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Index"
+msgstr "인덱스"
+
+#: src/components/Exchange/NetValueTooltip.tsx
+#: src/components/Exchange/PositionsList.js
+msgid "Initial Collateral"
+msgstr "최초 담보"
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Initial Collateral (Collateral excluding Borrow Fee)."
+msgstr ""
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Initial collateral"
+msgstr "최초 담보"
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Insufficient Available Liquidity to swap to {0}:"
+msgstr ""
+
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+msgid "Insufficient Liquidity"
+msgstr ""
+
+#: src/components/Ulp/UlpSwap.js
+msgid "Insufficient ULP balance"
+msgstr ""
+
+#: src/components/Exchange/SwapBox.js
+#: src/components/Ulp/UlpSwap.js
+msgid "Insufficient liquidity"
+msgstr "유동성 부족"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Insufficient staked tokens"
+msgstr "스테이킹된 토큰 부족"
+
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Ulp/UlpSwap.js
+msgid "Insufficient {0} balance"
+msgstr "{0} 잔고 부족"
+
+#: src/pages/NftWallet/NftWallet.js
+msgid "Invalid NFT Address"
+msgstr "유요하지 않은 NFT 주소"
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+msgid "Invalid Receiver"
+msgstr "유효하지 않은 수령인"
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+#: src/pages/NftWallet/NftWallet.js
+msgid "Invalid Receiver Address"
+msgstr "유효하지 않은 수령 주소"
+
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/PositionEditor.js
+msgid "Invalid liq. price"
+msgstr "유효하지 않은 청산가"
+
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/OrderEditor.js
+#: src/components/Exchange/PositionSeller.js
+msgid "Invalid price, see warning"
+msgstr "유효하지 않은 가격, 경고문을 보세요"
+
+#: src/App/App.js
+msgid "Invalid slippage value"
+msgstr "유효하지 않은 슬리피지 값"
+
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Invalid token fromToken: \"{0}\" toToken: \"{toTokenAddress}\""
+msgstr "유요하지 않은 fromToken: \"{0}\" toToken: \"{toTokenAddress}\""
+
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Invalid token indexToken: \"{0}\" collateralToken: \"{1}\""
+msgstr "유요하지 않은 indexToken: \"{0}\" collateralToken\" \"{1}\""
+
+#: src/pages/Jobs/Jobs.js
+msgid "Job Openings"
+msgstr ""
+
+#: src/pages/Jobs/Jobs.js
+msgid "Job openings at UTX."
+msgstr "GMX의 구인"
+
+#: src/pages/Jobs/Jobs.js
+msgid "Jobs"
+msgstr "구인"
+
+#: src/components/ModalViews/RedirectModal.js
+#: src/pages/Home/Home.js
+msgid "Launch App"
+msgstr "앱 실행하기"
+
+#: src/components/Exchange/UsefulLinks.tsx
+msgid "Leaderboard"
+msgstr "리더보드"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Leaderboard for UTX traders"
+msgstr "UTX 트레이더를 위한 리더보드"
+
+#: src/components/Exchange/PositionEditor.js
+msgid "Leave at least {0} ETH for gas"
+msgstr "가스를 위해 최소 {0} ETH를 남겨주세요"
+
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+msgid "Leave at least {0} {1} for gas"
+msgstr "가스를 위해 최소 {0} {1}을(를) 남겨주세요"
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Leftover collateral below 5 USD"
+msgstr ""
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Leftover position below 10 USD"
+msgstr ""
+
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/SwapBox.js
+msgid "Leverage"
+msgstr "레버리지"
+
+#: src/components/Exchange/SwapBox.js
+msgid "Leverage disabled, pending {0} upgrade"
+msgstr "{0} 업그레이드를 위해 레버리지가 비활성화되었습니다."
+
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/SwapBox.js
+msgid "Limit"
+msgstr "지정가"
+
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Limit Price"
+msgstr "지정가"
+
+#: src/components/Exchange/SwapBox.js
+msgid "Limit order creation failed."
+msgstr "지정가 주문 생성 실패."
+
+#: src/components/Exchange/SwapBox.js
+msgid "Limit order submitted!"
+msgstr "지정가 주문 제출 완료!"
+
+#: src/pages/Ecosystem/Ecosystem.js
+#: src/pages/Ecosystem/Ecosystem.js
+#: src/pages/Ecosystem/Ecosystem.js
+#: src/pages/Ecosystem/Ecosystem.js
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Link"
+msgstr "링크"
+
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/OrderEditor.js
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/PositionsList.js
+#: src/components/Exchange/PositionsList.js
+#: src/components/Exchange/SwapBox.js
+msgid "Liq. Price"
+msgstr "청산가"
+
+#: src/components/Exchange/ExchangeTVChart.js
+msgid "Liq. {0} {longOrShortText}"
+msgstr ""
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Liquidated"
+msgstr "청산"
+
+#: src/components/Exchange/TradeHistory.js
+msgid ""
+"Liquidated {0} {longOrShortText},\n"
+"-{1} USD,\n"
+"{2} Price: {3} USD"
+msgstr ""
+"청산 {0} {longOrShortText},\n"
+"-{1} USD,\n"
+"{2} 가격: {3} USD"
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Liquidation Fee"
+msgstr ""
+
+#: src/components/Exchange/PositionEditor.js
+msgid "Liquidation price would cross mark price."
+msgstr ""
+
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+msgid "Liquidity data not loaded"
+msgstr "유동성 데이터를 불러오지 못하였습니다."
+
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/ExchangeTVChart.js
+#: src/components/Exchange/ExchangeTVChart.js
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/PositionsList.js
+#: src/components/Exchange/PositionsList.js
+#: src/components/Exchange/PositionsList.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/TradeHistory.js
+#: src/components/Exchange/TradeHistory.js
+#: src/components/Exchange/TradeHistory.js
+#: src/pages/Actions/Actions.js
+#: src/pages/Actions/Actions.js
+#: src/pages/Exchange/Exchange.js
+#: src/pages/Exchange/Exchange.js
+#: src/pages/Exchange/Exchange.js
+#: src/pages/Exchange/Exchange.js
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Long"
+msgstr "롱"
+
+#: src/pages/Dashboard/DashboardV1.js
+msgid "Long positions: {0} USD, Short positions: {1} USD, {volumeLabel} volume: {2} USD"
+msgstr "롱 포지션: {0} USD, 숏 포지션: {1} USD, {volumeLabel} 거래량: {2} USD"
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Longing..."
+msgstr "롱 실행중..."
+
+#: src/pages/Actions/Actions.js
+msgid "Loss"
+msgstr "손실"
+
+#: src/components/BuyInputSection/BuyInputSection.tsx
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/InputSection/InputSection.js
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+msgid "MAX"
+msgstr "최대"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "MEV Optimizer"
+msgstr "MEV 옵티마이저"
+
+#: src/components/Exchange/SwapBox.js
+msgid "Mark"
+msgstr ""
+
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/OrdersList.js
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Mark Price"
+msgstr "시장 평균가"
+
+#: src/components/Exchange/OrderEditor.js
+msgid "Mark Price:"
+msgstr "시장 평균가"
+
+#: src/components/Exchange/OrderEditor.js
+msgid "Mark: {0}"
+msgstr "시장 평균가: {0}"
+
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/SwapBox.js
+msgid "Market"
+msgstr "마켓"
+
+#: src/pages/Dashboard/DashboardV1.js
+#: src/pages/Dashboard/DashboardV1.js
+#: src/pages/Dashboard/DashboardV1.js
+#: src/pages/Dashboard/DashboardV2.js
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Market Cap"
+msgstr "시가총액"
+
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/PositionsList.js
+#: src/components/Exchange/PositionsList.js
+msgid "Market Price"
+msgstr ""
+
+#: src/pages/Stake/StakeV2.js
+msgid "Max"
+msgstr ""
+
+#: src/pages/Stake/StakeV2.js
+msgid "Max Capacity"
+msgstr "최대 수용량"
+
+#: src/components/Ulp/UlpSwap.js
+msgid "Max Capacity for {0} Reached"
+msgstr "{0}의 최대치에 도달했습니다."
+
+#: src/components/Ulp/UlpSwap.js
+msgid "Max Pool Capacity"
+msgstr "풀 최대 수용량"
+
+#: src/components/Migration/Migration.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "Max amount exceeded"
+msgstr "최대 수량을 초과했습니다"
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Max close amount exceeded"
+msgstr ""
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Max leverage of 100x was exceeded, the remaining collateral after deducting losses and fees have been sent back to your account:"
+msgstr "최대 레버리지 100x를 초과하였습니다. 손실과 수수료를 제외한 나머지 담보 자산은 귀하의 계정으로 반환되었습니다:"
+
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/SwapBox.js
+msgid "Max leverage: {0}x"
+msgstr ""
+
+#: src/components/Ulp/UlpSwap.js
+msgid "Max pool capacity reached for {0}. Please mint ULP using another token"
+msgstr ""
+
+#: src/components/Ulp/UlpSwap.js
+msgid "Max pool capacity reached for {0}<0/><1/>Please mint ULP using another token"
+msgstr ""
+
+#: src/App/App.js
+msgid "Max slippage precision is 0.01%"
+msgstr "허용 가능한 최대 슬리피지는 0.01%입니다"
+
+#: src/pages/Dashboard/DashboardV2.js
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Max {0} Capacity"
+msgstr "{0}의 최대 수용량"
+
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/SwapBox.js
+msgid "Max {0} in"
+msgstr "최대 {0} in"
+
+#: src/components/Exchange/SwapBox.js
+msgid "Max {0} long capacity"
+msgstr "최대 {0} 롱 수용량"
+
+#: src/components/Exchange/SwapBox.js
+msgid "Max {0} long exceeded"
+msgstr "{0} 롱 최대치를 초과했습니다"
+
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/SwapBox.js
+msgid "Max {0} out"
+msgstr "최대 {0} out"
+
+#: src/components/Exchange/SwapBox.js
+msgid "Max {0} short capacity"
+msgstr "최대 {0} 숏 수용량"
+
+#: src/components/Exchange/SwapBox.js
+msgid "Max {0} short exceeded"
+msgstr "{0} 숏 최대치를 초과했습니다."
+
+#: src/components/Migration/Migration.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+msgid "Max: {0}"
+msgstr "최대: {0}"
+
+#: src/App/App.js
+msgid "MetaMask"
+msgstr "메타마스크"
+
+#: src/App/App.js
+msgid "MetaMask not detected."
+msgstr "메타마스크가 탐지되지 않았습니다."
+
+#: src/components/Migration/Migration.js
+#: src/components/Migration/Migration.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+msgid "Migrate"
+msgstr "이전"
+
+#: src/components/Migration/Migration.js
+msgid "Migrated"
+msgstr "이전완료"
+
+#: src/components/Migration/Migration.js
+msgid "Migrating..."
+msgstr "이전중..."
+
+#: src/components/Migration/Migration.js
+msgid "Migration Price"
+msgstr "이전 가격"
+
+#: src/components/Migration/Migration.js
+msgid "Migration failed"
+msgstr "이전 실패"
+
+#: src/components/Migration/Migration.js
+msgid "Migration submitted! <0>View status.</0>"
+msgstr "이전 제출완료! <0>상태 보기.</0>"
+
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/SwapBox.js
+msgid "Min leverage: 1.1x"
+msgstr "최소 레버리지: 1.1x"
+
+#: src/components/Exchange/SwapBox.js
+msgid "Min order: 10 USD"
+msgstr "최소 주문: 10 USD"
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Min required collateral"
+msgstr "최소 필요 담보"
+
+#: src/components/Exchange/PositionEditor.js
+msgid "Min residual collateral: 10 USD"
+msgstr ""
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Min. Receive"
+msgstr "최소 수취량"
+
+#: src/components/Exchange/OrderEditor.js
+msgid "Minimum received"
+msgstr "최소량 수치 완료"
+
+#: src/components/Exchange/SwapBox.js
+#: src/pages/Dashboard/DashboardV2.js
+msgid "More Info"
+msgstr "더 자세한 정보"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Multiplier Points APR"
+msgstr "멀티플라이어 포인트 APR"
+
+#: src/pages/NftWallet/NftWallet.js
+msgid "NFT Address"
+msgstr "NFT 주소"
+
+#: src/pages/NftWallet/NftWallet.js
+msgid "NFT ID"
+msgstr "NFT ID"
+
+#: src/pages/NftWallet/NftWallet.js
+msgid "NFT Wallet"
+msgstr "NFT 지갑"
+
+#: src/components/Exchange/PositionsList.js
+#: src/components/Exchange/PositionsList.js
+msgid "Net Value"
+msgstr "순이익"
+
+#: src/components/Exchange/NetValueTooltip.tsx
+msgid "Net Value: Initial Collateral + PnL - Borrow Fee - Close Fee"
+msgstr ""
+
+#: src/components/NetworkDropdown/NetworkDropdown.tsx
+#: src/components/NetworkDropdown/NetworkDropdown.tsx
+msgid "Networks"
+msgstr "네트워크"
+
+#: src/pages/Actions/Actions.js
+msgid "No PnLs found"
+msgstr "손익을 찾지 못했습니다."
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+msgid "No esUTX to claim"
+msgstr ""
+
+#: src/lib/legacy.ts
+msgid "No open position, order cannot be executed unless a position is opened"
+msgstr "열려있는 포지션이 없습니다. 열려있는 포지션이 없는 경우 주문은 실행될 수 없습니다."
+
+#: src/pages/Jobs/Jobs.js
+msgid "No open positions at UTX currently"
+msgstr "현재 GMX에서 열려있는 포지션이 없습니다."
+
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "No position"
+msgstr "열려있는 포지션이 없음"
+
+#: src/pages/Stake/StakeV1.js
+msgid "No rewards to claim yet"
+msgstr "수령할 보상이 아직 없습니다"
+
+#: src/components/Exchange/OrdersToa.js
+msgid "Note that orders are not guaranteed to be executed.<0/><1/>This can occur in a few situations including but not exclusive to:"
+msgstr "주문 실행은 보장되지 않습니다.<0/><1/>이것은 다음과 같은 상황에 일어날 수 있습니다:"
+
+#: src/components/Exchange/FeesTooltip.tsx
+#: src/components/Exchange/NetValueTooltip.tsx
+msgid "Open Fee"
+msgstr ""
+
+#: src/pages/Home/Home.js
+msgid "Open Interest"
+msgstr "미결제 약정"
+
+#: src/components/Exchange/SwapBox.js
+msgid "Open Long {0}"
+msgstr ""
+
+#: src/pages/Exchange/Exchange.js
+msgid "Open Orders ({0})"
+msgstr ""
+
+#: src/components/Exchange/SwapBox.js
+msgid "Open Short {0}"
+msgstr ""
+
+#: src/components/Exchange/SwapBox.js
+msgid "Open a position"
+msgstr "포지션 열기"
+
+#: src/pages/Dashboard/AssetDropdown.tsx
+msgid "Open in Explorer"
+msgstr "Explorer에서 보기"
+
+#: src/pages/Home/Home.js
+msgid "Open positions through a simple swap interface. Conveniently swap from any supported asset into the position of your choice."
+msgstr "간단한 스왑 인터페이스를 통해 포지션을 열어보세요. 지원되는 자산내에서 원하는 포지션으로 편리하게 스왑할 수 있습니다."
+
+#: src/pages/PositionsOverview/PositionsOverview.js
+msgid "Open positions: {0}<0/>Under risk: {1}"
+msgstr "열린 포지션: {0}<0>리스크: {1}"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Open trades ranking and stats"
+msgstr ""
+
+#: src/components/Exchange/ExchangeTVChart.js
+msgid "Open {0} {longOrShortText}"
+msgstr ""
+
+#: src/components/Exchange/PositionsList.js
+msgid "Opening..."
+msgstr "여는 중..."
+
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/TradeHistory.js
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Order"
+msgstr "주문"
+
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/OrdersList.js
+msgid "Order Price"
+msgstr ""
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Order cancelled"
+msgstr "주문 최소됨"
+
+#: src/domain/legacy.ts
+msgid "Order cancelled."
+msgstr "주문이 취소되었습니다."
+
+#: src/lib/legacy.ts
+msgid "Order cannot be executed as it would reduce the position's leverage below 1"
+msgstr ""
+
+#: src/lib/legacy.ts
+msgid "Order cannot be executed as the remaining position would be smaller than $5.00"
+msgstr "포지션의 금액이 $5.00 이하로 남게되면 주문은 실행될 수 없습니다"
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Order created!"
+msgstr ""
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Order creation failed."
+msgstr ""
+
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Order size exceeds position"
+msgstr "주문의 사이즈가 포지션을 초과했습니다"
+
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Order size is 0"
+msgstr "주문의 사이즈가 0입니다"
+
+#: src/components/Exchange/PositionsList.js
+#: src/lib/legacy.ts
+msgid "Order size is bigger than position, will only be executable if position increases"
+msgstr "주문의 사이즈가 포지션을 초과했습니다. 포지션을 증가하는 경우에만 실행 가능합니다."
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Order submitted!"
+msgstr ""
+
+#: src/components/Exchange/OrderEditor.js
+msgid "Order update failed."
+msgstr "주문 업데이트 실패됨."
+
+#: src/components/Exchange/OrderEditor.js
+msgid "Order update submitted!"
+msgstr "주문 업데이트 제출 완료!"
+
+#: src/components/Exchange/OrderEditor.js
+msgid "Order updated!"
+msgstr "주문 업데이트됨!"
+
+#: src/pages/Actions/Actions.js
+msgid "Orders"
+msgstr "주문"
+
+#: src/pages/Exchange/Exchange.js
+msgid "Orders cancelled."
+msgstr "주문 취소"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Overall protocol analytics"
+msgstr ""
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Overview Stats"
+msgstr ""
+
+#: src/pages/PageNotFound/PageNotFound.js
+#: src/pages/PageNotFound/PageNotFound.js
+msgid "Page not found"
+msgstr "페이지를 찾을 수 없습니다"
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Partial Liquidation"
+msgstr "부분 청산"
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Partially Liquidated"
+msgstr "부분 청산됨"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Partnerships and Integrations"
+msgstr "파트너쉽 및 합병"
+
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Ulp/UlpSwap.js
+#: src/components/Ulp/UlpSwap.js
+msgid "Pay"
+msgstr "지불"
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+msgid "Please switch your network to Arbitrum."
+msgstr "네트워크를 Arbitrum으로 변경해주세요."
+
+#: src/components/Exchange/NetValueTooltip.tsx
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/TradeHistory.js
+#: src/pages/Actions/Actions.js
+msgid "PnL"
+msgstr "PnL"
+
+#: src/components/Exchange/NetValueTooltip.tsx
+msgid "PnL After Fees"
+msgstr "수수료 제외한 PnL"
+
+#: src/components/Ulp/UlpSwap.js
+#: src/components/Ulp/UlpSwap.js
+#: src/components/Ulp/UlpSwap.js
+#: src/pages/Dashboard/DashboardV1.js
+#: src/pages/Dashboard/DashboardV2.js
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Pool"
+msgstr "풀"
+
+#: src/pages/Dashboard/DashboardV2.js
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Pool Amount"
+msgstr "풀 수량"
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Position close disabled, pending {0} upgrade"
+msgstr ""
+
+#: src/pages/Actions/Actions.js
+msgid "Positions"
+msgstr "포지션"
+
+#: src/pages/Exchange/Exchange.js
+msgid "Positions ({0})"
+msgstr "포지션 ({0})"
+
+#: src/components/Exchange/OrderEditor.js
+#: src/components/Exchange/OrderEditor.js
+#: src/components/Exchange/OrderEditor.js
+#: src/components/Exchange/OrderEditor.js
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Ulp/UlpSwap.js
+#: src/components/Ulp/UlpSwap.js
+#: src/pages/Dashboard/DashboardV1.js
+#: src/pages/Dashboard/DashboardV1.js
+#: src/pages/Dashboard/DashboardV1.js
+#: src/pages/Dashboard/DashboardV2.js
+#: src/pages/Dashboard/DashboardV2.js
+#: src/pages/Dashboard/DashboardV2.js
+#: src/pages/Dashboard/DashboardV2.js
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Price"
+msgstr "가격"
+
+#: src/components/Exchange/OrderEditor.js
+#: src/components/Exchange/PositionSeller.js
+msgid "Price above Liq. Price"
+msgstr "청산가 초과 가격"
+
+#: src/components/Exchange/OrderEditor.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+msgid "Price above Mark Price"
+msgstr "시장 평균가 초과 가격"
+
+#: src/components/Exchange/OrderEditor.js
+#: src/components/Exchange/PositionSeller.js
+msgid "Price below Liq. Price"
+msgstr "청산가 미만 가격"
+
+#: src/components/Exchange/OrderEditor.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+msgid "Price below Mark Price"
+msgstr "시장 평균가 미만 가격"
+
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Price conditions are met"
+msgstr "가격 조건에 충족되었습니다"
+
+#: src/components/Exchange/OrderEditor.js
+msgid "Price is above Mark Price"
+msgstr "가격이 시장 평균가보다 높습니다"
+
+#: src/components/Exchange/OrderEditor.js
+msgid "Price is below Mark Price"
+msgstr "가격이 시장 평군가보다 낮습니다"
+
+#: src/pages/Actions/Actions.js
+msgid "Profit"
+msgstr "수익"
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Profit price: {0} ${1}. This rule applies for the next {2}, until {3}."
+msgstr ""
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Projects developed by the UTX community. <0/>Please exercise caution when interacting with any app, apps are fully maintained by community developers."
+msgstr ""
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Projects integrated with UTX."
+msgstr "GMX와 통합된 프로젝트"
+
+#: src/pages/Dashboard/AssetDropdown.tsx
+msgid "Proof of Reserves"
+msgstr "예비구두 증명"
+
+#: src/components/Header/HomeHeaderLinks.tsx
+msgid "Protocol"
+msgstr ""
+
+#: src/pages/Ecosystem/Ecosystem.js
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Protocol analytics"
+msgstr "프로토콜 분석"
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Rate"
+msgstr ""
+
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Ulp/UlpSwap.js
+#: src/components/Ulp/UlpSwap.js
+msgid "Receive"
+msgstr "수령하기"
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+#: src/pages/NftWallet/NftWallet.js
+msgid "Receiver Address"
+msgstr "수령할 주소"
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+msgid "Receiver has not staked ULP tokens before"
+msgstr "수취인은 지금까지 ULP 토큰을 스테이킹한 적이 없습니다."
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+msgid "Receiver has not staked UTX tokens before"
+msgstr "수취인은 지금까지 UTX 토큰을 스테이킹한 적이 없습니다."
+
+#: src/components/Ulp/UlpSwap.js
+msgid "Redemption time not yet reached"
+msgstr "아직 판매할 수 있는 시간이 아닙니다"
+
+#: src/pages/Home/Home.js
+msgid "Reduce Liquidation Risks"
+msgstr "청산 위험 감소하기"
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Reducing the position at the current price will forfeit a <0>pending profit</0> of {deltaStr}. <1/>"
+msgstr ""
+
+#: src/pages/ReferralTerms/ReferralTerms.js
+msgid "Referral Terms"
+msgstr "추천 약관"
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Request decrease {0} {longOrShortText}, -{1} USD, Acceptable Price: {2} {3} USD"
+msgstr "{0} {longOrShortText} 감소 요청, -{1} USD, 허용가능한 가격: {2} {3} USD"
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Request deposit into {0} {longOrShortText}"
+msgstr "{0} {longOrShortText} 예치 요청"
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Request increase {0} {longOrShortText}, +{1} USD, Acceptable Price: {2} {3} USD"
+msgstr "{0} {longOrShortText} 증가 요청, +{1} USD, 허용가능한 가격: {2} {3} USD"
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Request withdrawal from {0} {longOrShortText}"
+msgstr "{0} {longOrShortText} 인출 요청"
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Requested decrease of {0} {longOrShortText} by {sizeDeltaUsd} USD."
+msgstr ""
+
+#: src/components/Exchange/PositionEditor.js
+msgid "Requested deposit of {0} {1} into {2} {longOrShortText}."
+msgstr "{0} {1}의 {2} {longOrShortText}으로 예치 요청됨."
+
+#: src/components/Exchange/SwapBox.js
+msgid "Requested increase of {tokenSymbol} {longOrShortText} by {0} USD."
+msgstr "{tokenSymbol} {longOrShortText} {0} USD의 증가 요청됨."
+
+#: src/components/Exchange/PositionEditor.js
+msgid "Requested withdrawal of {0} USD from {1} {longOrShortText}."
+msgstr "{1} {longOrShortText} {0} USD만큼 예치 요청됨."
+
+#: src/pages/Stake/StakeV2.js
+msgid "Reserve Amount"
+msgstr "리저브 수량"
+
+#: src/components/Ulp/UlpSwap.js
+#: src/pages/Stake/StakeV2.js
+msgid "Reserved"
+msgstr "리저브 완료"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Returns calculator for UTX and ULP"
+msgstr "UTX 및 ULP 수익 계산기"
+
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "Rewards"
+msgstr "보상"
+
+#: src/App/App.js
+msgid "Save"
+msgstr "저장"
+
+#: src/pages/Home/Home.js
+msgid "Save on Costs"
+msgstr "비용 절감"
+
+#: src/components/Exchange/TokenSelector.js
+msgid "Search Token"
+msgstr "토큰 찾기"
+
+#: src/components/NetworkDropdown/LanguagePopupHome.tsx
+msgid "Select Language"
+msgstr "언어 선택"
+
+#: src/components/Exchange/PositionDropdown.js
+msgid "Select Market"
+msgstr "마켓 선택"
+
+#: src/components/NetworkDropdown/NetworkDropdown.tsx
+msgid "Select Network"
+msgstr ""
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+msgid "Select an option"
+msgstr "옵션 선택"
+
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+msgid "Select different tokens"
+msgstr "다른 토큰 선택"
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+msgid "Select your vesting option below then click \"Claim\"."
+msgstr "베스팅 옵션을 선택한 후 \"수령하기\" 버튼을 클릭해주세요."
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+msgid "Self-transfer not supported"
+msgstr "자신에게 전송하는 것은 지원되지 않습니다"
+
+#: src/components/Ulp/UlpSwap.js
+#: src/components/Ulp/UlpSwap.js
+#: src/components/Ulp/UlpSwap.js
+#: src/components/Ulp/UlpSwap.js
+msgid "Sell ULP"
+msgstr ""
+
+#: src/components/Ulp/UlpSwap.js
+msgid "Sell failed."
+msgstr "판매 실패"
+
+#: src/components/Ulp/UlpSwap.js
+#: src/components/Ulp/UlpSwap.js
+msgid "Sell for {0}"
+msgstr "{0}로 판매"
+
+#: src/components/Ulp/UlpSwap.js
+msgid "Sell submitted!"
+msgstr "판매 제출 완료!"
+
+#: src/components/Ulp/UlpSwap.js
+msgid "Selling..."
+msgstr "판매중..."
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+msgid "Sender has withdrawn all tokens from ULP Vesting Vault"
+msgstr "GLP의 베스팅 볼트에서 모든 토큰을 인출했습니다."
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+msgid "Sender has withdrawn all tokens from UTX Vesting Vault"
+msgstr "GMX의 베스팅 볼트에서 모든 토큰을 인출했습니다."
+
+#: src/App/App.js
+msgid "Settings"
+msgstr "설정"
+
+#: src/components/Exchange/PositionDropdown.js
+msgid "Share Position"
+msgstr "포지션 공유"
+
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/ExchangeTVChart.js
+#: src/components/Exchange/ExchangeTVChart.js
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/PositionsList.js
+#: src/components/Exchange/PositionsList.js
+#: src/components/Exchange/PositionsList.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/TradeHistory.js
+#: src/components/Exchange/TradeHistory.js
+#: src/components/Exchange/TradeHistory.js
+#: src/pages/Actions/Actions.js
+#: src/pages/Actions/Actions.js
+#: src/pages/Exchange/Exchange.js
+#: src/pages/Exchange/Exchange.js
+#: src/pages/Exchange/Exchange.js
+#: src/pages/Exchange/Exchange.js
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Short"
+msgstr "숏"
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Shorting..."
+msgstr "숏 실행중..."
+
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/TradeHistory.js
+msgid "Side"
+msgstr ""
+
+#: src/pages/Home/Home.js
+msgid "Simple Swaps"
+msgstr "간단한 스왑"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Simulate your hedge strategy"
+msgstr ""
+
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/PositionsList.js
+#: src/components/Exchange/PositionsList.js
+#: src/components/Exchange/SwapBox.js
+msgid "Size"
+msgstr "사이즈"
+
+#: src/App/App.js
+msgid "Slippage should be less than 5%"
+msgstr "슬리피지는 5%미만이어야 합니다."
+
+#: src/components/Exchange/UsefulLinks.tsx
+msgid "Speed up page loading"
+msgstr "페이지 로드 속도 향상"
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Spread"
+msgstr "스프레드"
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Spread Fee"
+msgstr ""
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Spreadsheet for position calculations"
+msgstr ""
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Stablecoin Percentage"
+msgstr "스테이블코인 비율"
+
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "Stake"
+msgstr "스테이킹"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Stake & Earn"
+msgstr ""
+
+#: src/pages/Stake/StakeV2.js
+msgid "Stake <0>UTX</0> and <1>ULP</1> to Earn Rewards."
+msgstr ""
+
+#: src/pages/Stake/StakeV2.js
+msgid "Stake Multiplier Points"
+msgstr "멀티플라이어 포인트 스테이킹"
+
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "Stake U2U"
+msgstr ""
+
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "Stake UTX"
+msgstr "UTX 스테이킹"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Stake UTX Rewards"
+msgstr "UTX 보상 스테이킹"
+
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "Stake esUTX"
+msgstr ""
+
+#: src/pages/Stake/StakeV2.js
+msgid "Stake esUTX Rewards"
+msgstr ""
+
+#: src/pages/Stake/StakeV1.js
+msgid "Stake failed"
+msgstr "스테이킹 실패됨"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Stake failed."
+msgstr "스테이킹 실패됨."
+
+#: src/pages/Stake/StakeV2.js
+msgid "Stake submitted!"
+msgstr "스테이킹 제출 완료!"
+
+#: src/pages/Stake/StakeV1.js
+msgid "Stake submitted! <0>View status.</0>"
+msgstr "스테이킹 제출완료! <0>상태 보기.</0>"
+
+#: src/components/Ulp/UlpSwap.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+msgid "Staked"
+msgstr "스테이킹 완료"
+
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV2.js
+msgid "Staking..."
+msgstr "스테이킹중..."
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Status"
+msgstr ""
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Structured Products"
+msgstr "구조화금융 프로덕트"
+
+#: src/pages/Dashboard/DashboardV1.js
+#: src/pages/Dashboard/DashboardV1.js
+#: src/pages/Dashboard/DashboardV1.js
+#: src/pages/Dashboard/DashboardV2.js
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Supply"
+msgstr "공급량"
+
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Swap"
+msgstr "스왑"
+
+#: src/components/Exchange/FeesTooltip.tsx
+msgid "Swap Fee"
+msgstr ""
+
+#: src/components/Exchange/SwapBox.js
+msgid "Swap Order created!"
+msgstr "스완 주문 생성!"
+
+#: src/components/Exchange/SwapBox.js
+msgid "Swap Order creation failed."
+msgstr "스왑 주문 생성 실패."
+
+#: src/components/Exchange/SwapBox.js
+msgid "Swap Order submitted!"
+msgstr "스왑 주문 제출 완료!"
+
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Swap active: {0}, executed: {1}, cancelled: {2}"
+msgstr "스왑 액티브: {0}, 실행 완료: {1}, 취소 완료: {2}"
+
+#: src/components/Exchange/SwapBox.js
+msgid "Swap amount exceeds available liquidity."
+msgstr ""
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Swap amount from {0} to {1} exceeds {2} acceptable amount. Can only receive {3}."
+msgstr ""
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Swap amount from {0} to {1} exceeds {2} available liquidity. Choose a different \"Receive\" token."
+msgstr ""
+
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+msgid "Swap failed."
+msgstr "스왑 실패."
+
+#: src/components/Ulp/SwapErrorModal.tsx
+msgid "Swap on 1inch"
+msgstr "1inch에서 스왑하기"
+
+#: src/components/Exchange/SwapBox.js
+msgid "Swap submitted!"
+msgstr "스왑 제출완료"
+
+#: src/components/Exchange/SwapBox.js
+msgid "Swap submitted."
+msgstr "스왑 제출 완료."
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Swap {0} USDG for {1} {2}"
+msgstr "{0} USDG를 {1} {2}로 스왑"
+
+#: src/components/Ulp/UlpSwap.js
+msgid "Swap {0} on 1inch"
+msgstr "{0}을 1inch에서 스왑"
+
+#: src/components/Exchange/SwapBox.js
+msgid "Swap {0} submitted!"
+msgstr "{0} 스왑 제출완료!"
+
+#: src/components/Ulp/SwapErrorModal.tsx
+msgid "Swap {0} to {1} on 1inch"
+msgstr "{0}에서 {1}로 1inch에서 스왑"
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Swap {0} {1} for {2} USDG"
+msgstr "{0} {1}을 {2} USDG로 스왑"
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Swap {0} {1} for {2} {3}"
+msgstr "{0} {1}을 {2} {3}으로 스왑"
+
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+msgid "Swapped {0} {1} for {2} {3}!"
+msgstr "{0} {1}에서 {2} {3}으로 스왑됨"
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Swapping..."
+msgstr "스왑중..."
+
+#: src/components/Exchange/SwapBox.js
+msgid "Swaps disabled, pending {0} upgrade"
+msgstr "{0} 업그레이드를 위해 스왑이 비활성화되었습니다"
+
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/PositionsList.js
+#: src/components/Exchange/TradeHistory.js
+msgid "Symbol"
+msgstr ""
+
+#: src/components/Exchange/SwapBox.js
+msgid "Take-profit and stop-loss orders can be set after opening a position. <0/><1/>There will be a \"Close\" button on each position row, clicking this will display the option to set trigger orders. <2/><3/>For screenshots and more information, please see the <4>docs</4>."
+msgstr "TP/SL 주문은 포지션을 연 후 가능합니다. <0/><1/>각 행의 \"닫기\" 버튼을 클리하면 트리거 주문 설정 화면을 표시합니다. <2/><3/>더 자세한 스크린샷과 정보는 <4>docs</4>를 참고해주세요."
+
+#: src/pages/Dashboard/DashboardV2.js
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Target Min Amount"
+msgstr "최소 목표 수량"
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Target Weight"
+msgstr "목표 가중치"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Telegram Group"
+msgstr "텔레그램 그룹"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Telegram Group (Chinese)"
+msgstr "텔레그램 그룹 (중국어)"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Telegram Group (Portuguese)"
+msgstr "텔레그램 그룹 (포르투갈어)"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Telegram Groups"
+msgstr "텔레그램 그룹"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Telegram bot for Open Interest on UTX"
+msgstr "UTX 미결제약정을 위한 텔레그램 봇"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Telegram bot for UTX Swaps monitoring"
+msgstr ""
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Telegram bot for UTX position updates"
+msgstr "UTX 포지션 업데이트를 위한 텔레그램 봇"
+
+#: src/pages/TermsAndConditions/TermsAndConditions.js
+msgid "Terms and Conditions"
+msgstr "약관"
+
+#: src/pages/Stake/StakeV1.js
+msgid "The <0>UTX migration</0> is in progress, please migrate your GMT, xGMT, GMT-USDG and xGMT-USDG tokens.<1/>USDG tokens will continue to function as before and do not need to be migrated."
+msgstr "<0>UTX 마이그레이션</0>은 진행중입니다. 귀하의 GMT, xGMT, GMT-USDG 및 xGMT-USDG 토큰을 이전해주세요.<1/>USDG 토큰은 계속 기능하기때문에 이전할 필요가 없습니다."
+
+#: src/components/Stake/UTXAprTooltip.tsx
+msgid "The Boosted APR is from your staked Multiplier Points."
+msgstr "\"APR 부스트는 스테이킹된 멀티플라이어 포인트로부터 적용됩니다."
+
+#: src/pages/Stake/StakeV1.js
+msgid "The Gambit protocol is in beta, please read the <0>staking details</0>before participating."
+msgstr "해당 Gambit 프로토콜은 베타 버전입니다. 참여하기 전에 <0>스테이킹 세부사항</0>을 참조해주세요."
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+msgid "The address of the esUTX (IOU) token is {esUtxIouAddress}."
+msgstr ""
+
+#: src/components/Exchange/SwapBox.js
+msgid "The borrow fee is calculated as (assets borrowed) / (total assets in pool) * 0.01% per hour."
+msgstr "차용 수수료는 시간당 (차용된 자산) / (풀 안의 총 자산) * 0.01%로 계산됩니다."
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+msgid "The esUTX (IOU) token is transferrable. You can add the token to your wallet and send it to another address to claim if you'd like."
+msgstr ""
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+msgid "The esUTX tokens can be staked or vested at any time."
+msgstr ""
+
+#: src/lib/contracts/callContract.tsx
+msgid "The mark price has changed, consider increasing your Allowed Slippage by clicking on the \"...\" icon next to your address."
+msgstr "시장 평균가가 변화되었습니다. 귀하의 주소 옆에 \"...\" 아이콘을 클릭해서 허용 가능한 슬리피지 증가를 고려해보세요."
+
+#: src/components/Exchange/SwapBox.js
+msgid "The position will be opened at {0} USD with a max slippage of {1}%.<0/><1/>The slippage amount can be configured under Settings, found by clicking on your address at the top right of the page after connecting your wallet.<2/><3/><4>More Info</4>"
+msgstr "해당 포지션은 최대 슬리피지 {1}%의 {0} USD에서 열리게 됩니다.<0/><1/>슬리피지 설정은 지갑 연동 후 최상단 우측, 귀하의 지갑주소 우측의 세팅을 통해서 설정할 수 있습니다.<2/><3/><4>더 자세한 정보<4/>"
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "The spread is > 1%, please ensure the trade details are acceptable before confirming"
+msgstr ""
+
+#: src/components/ModalViews/RedirectModal.js
+msgid "The website is a community deployed and maintained instance of the open source <0>U2U front end</0>, hosted and served on the distributed, peer-to-peer <1>IPFS network</1>."
+msgstr "웹사이트는 오픈소스인 <0>U2U front end</0>를 이용하고 커뮤니티에의해 배포되며, P2P <1>IPFS network<1/>에 의해 서빙및 호스팅됩니다."
+
+#: src/components/Exchange/SwapBox.js
+msgid "There are more longs than shorts, borrow fees for shorting is currently zero"
+msgstr "숏 포지션보다 롱 포지션이 더 많이 열려있기 때문에, 현재 숏 포지션에 적용되는 차용수수료는 0입니다"
+
+#: src/components/Exchange/SwapBox.js
+msgid "There are more shorts than longs, borrow fees for longing is currently zero"
+msgstr "롱 포지션보다 숏 포지션이 더 많이 열려있기 때문에, 현재 롱 포지션에 적용되는 차용수수료는 0입니다"
+
+#: src/domain/tokens/approveTokens.tsx
+#: src/lib/contracts/callContract.tsx
+msgid "There is not enough ETH in your account on Arbitrum to send this transaction.<0/><1/><2>Bridge ETH to Arbitrum</2>"
+msgstr "해당 트랜잭션을 처리하기위한 충분한 ETH가 귀하의 Abritrum 계정에 존재하지 않습니다.<0/><1/><2>Abritrum으로 ETH를 브릿징하세요</2>"
+
+#: src/components/Ulp/SwapErrorModal.tsx
+msgid "There is not enough liquidity in a single token for your size. Please check the Save on Fees section and consider splitting your order into several different ones"
+msgstr "한 종류의 토큰에서 해당 스왑을 실현할 수 있는 충분한 유동성이 존재하지 않습니다. \" 수수료 절약 섹션을 확인 후 주문을 복수로 분할하는 것을 검토해주세요"
+
+#: src/components/Exchange/PositionSeller.js
+msgid "This order will forfeit a <0>profit</0> of {deltaStr}. <1/>"
+msgstr ""
+
+#: src/components/Exchange/TradeHistory.js
+msgid "This position was liquidated as the max leverage of 100x was exceeded."
+msgstr "해당 포지션은 최대 레버리지인 100x를 초과하여 청산되었습니다."
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Time"
+msgstr ""
+
+#: src/components/Migration/Migration.js
+msgid "To Receive"
+msgstr "수취하기"
+
+#: src/pages/CompleteAccountTransfer/CompleteAccountTransfer.js
+msgid "To complete the transfer, you must switch your connected account to {receiver}."
+msgstr "전송을 완료하려면 {receiver} 계정에 다시 연결해야 합니다."
+
+#: src/components/Ulp/UlpSwap.js
+msgid "To reduce fees, select a different asset to pay with."
+msgstr "수수료를 줄이기 위해서는 다른 자산으로 지불해주세요."
+
+#: src/components/Ulp/UlpSwap.js
+msgid "To reduce fees, select a different asset to receive."
+msgstr "수수료를 줄이기 위해서는 다른 자산으로 수령해주세요."
+
+#: src/components/Ulp/UlpSwap.js
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Token"
+msgstr ""
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Token Stats"
+msgstr ""
+
+#: src/components/Migration/Migration.js
+msgid "Total Assets Migrated"
+msgstr "총 이전된 자산"
+
+#: src/pages/Stake/StakeV1.js
+msgid "Total Assets Staked"
+msgstr "총 스테이킹된 자산"
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Total Fees"
+msgstr "총 수수료"
+
+#: src/pages/Dashboard/DashboardV1.js
+msgid "Total Fees Distributed"
+msgstr "총 분배된 수수료"
+
+#: src/pages/Dashboard/DashboardV2.js
+#: src/pages/Dashboard/DashboardV2.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "Total Staked"
+msgstr "총 스테이킹"
+
+#: src/components/Ulp/UlpSwap.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "Total Supply"
+msgstr "총 공급량"
+
+#: src/pages/Home/Home.js
+msgid "Total Trading Volume"
+msgstr "총 트레이딩 거래량"
+
+#: src/pages/Dashboard/DashboardV2.js
+#: src/pages/Home/Home.js
+msgid "Total Users"
+msgstr "총 유저"
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Total Volume"
+msgstr "총 거래량"
+
+#: src/pages/Dashboard/DashboardV1.js
+msgid "Total Volume Since 28 April 2021"
+msgstr "2021년 4월 28일 이후 총 거래량"
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Total Volumne on {0}"
+msgstr ""
+
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Total active: {openTotal}, executed: {executedTotal}, cancelled: {cancelledTotal}"
+msgstr "전체 액티브: {openTotal}, 실행 완료: {executedTotal}, 취소 완료: {cancelledTotal}"
+
+#: src/pages/Dashboard/DashboardV1.js
+msgid "Total fees earned since {0}: {1} USD<0/>Fee assets: {feeText}"
+msgstr "{0}이후로 얻은 총 수수료: {1} USD<0/>수수료 자산: {feeText}"
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Total fees on {0}"
+msgstr ""
+
+#: src/components/StatsTooltip/StatsTooltip.tsx
+msgid "Total:"
+msgstr "총계:"
+
+#: src/components/Header/AppHeaderLinks.tsx
+msgid "Trade"
+msgstr "트레이드"
+
+#: src/pages/Home/Home.js
+msgid "Trade BTC, ETH, AVAX and other top cryptocurrencies with up to 50x leverage directly from your wallet"
+msgstr ""
+
+#: src/pages/Exchange/Exchange.js
+msgid "Trade History"
+msgstr ""
+
+#: src/components/Exchange/ExchangeBanner.js
+msgid "Trade on UTX and win <0>$250.000</0> in prizes! Live until November 30th, <1>click here</1> to learn more."
+msgstr "GMX에서 트레이드하고 <0>$250.000</0> 상금을 획득하세요! 11월 30일까지 진행되며, <1>여기를 클릭해</1> 더 많은 정보를 확인하세요."
+
+#: src/components/Common/SEO.js
+msgid "Trade spot or perpetual BTC, ETH and other top cryptocurrencies with up to 50x leverage directly from your wallet on Arbitrum and Avalanche."
+msgstr ""
+
+#: src/components/Exchange/UsefulLinks.tsx
+msgid "Trading guide"
+msgstr "트레이딩 가이드"
+
+#: src/pages/NftWallet/NftWallet.js
+msgid "Tranferring..."
+msgstr "전송중..."
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "Transacting with a depegged stable coin is subject to spreads reflecting the worse of current market price or $1.00, with transactions involving multiple stablecoins may have multiple spreads."
+msgstr ""
+
+#: src/lib/contracts/callContract.tsx
+msgid "Transaction completed!"
+msgstr "트랜잭션 완료!"
+
+#: src/lib/contracts/callContract.tsx
+msgid "Transaction failed"
+msgstr "트랜잭션 실패"
+
+#: src/lib/contracts/callContract.tsx
+msgid "Transaction failed due to RPC error.<0/><1/>Please try changing the RPC url in your wallet settings. <2>More info</2>"
+msgstr "RPC 에러로 인해 트랜잭션이 실패했스빈아.<0/><1/>지갑 설정에서 RPC url을 변경하여 시도해주세요. <2>더 자세한 정보</2>"
+
+#: src/lib/contracts/callContract.tsx
+msgid "Transaction sent."
+msgstr "트랜잭션 전송됨."
+
+#: src/lib/contracts/callContract.tsx
+msgid "Transaction was cancelled."
+msgstr "트랜잭션 실패됨."
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+#: src/pages/Stake/StakeV2.js
+msgid "Transfer Account"
+msgstr "계정 이전"
+
+#: src/pages/NftWallet/NftWallet.js
+msgid "Transfer NFT"
+msgstr "NFT 전송하기"
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+msgid "Transfer Submitted"
+msgstr "전송 제출 완료"
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+msgid "Transfer already initiated"
+msgstr "이전이 이미 시작됐습니다"
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+#: src/pages/CompleteAccountTransfer/CompleteAccountTransfer.js
+#: src/pages/NftWallet/NftWallet.js
+msgid "Transfer failed."
+msgstr "이전 실패."
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+#: src/pages/CompleteAccountTransfer/CompleteAccountTransfer.js
+#: src/pages/NftWallet/NftWallet.js
+msgid "Transfer submitted!"
+msgstr "이전 제출 완료!"
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+msgid "Transferring"
+msgstr "이전중"
+
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/PositionSeller.js
+#: src/components/Exchange/SwapBox.js
+msgid "Trigger"
+msgstr "트리거"
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Trigger Condition"
+msgstr ""
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Trigger Conditions"
+msgstr ""
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Trigger Price"
+msgstr ""
+
+#: src/components/Exchange/PositionSeller.js
+msgid "Trigger order disabled, pending {0} upgrade"
+msgstr ""
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Try increasing the \"Allowed Slippage\", under the Settings menu on the top right"
+msgstr "우측 상단의 세팅을 이용해 \"허용 가능한 슬리피지\"를 증가시켜보세요"
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Try increasing the \"Allowed Slippage\", under the Settings menu on the top right."
+msgstr "우측 상단의 세팅을 이용해 \"허용 가능한 슬리피지\"를 증가시켜보세요"
+
+#: src/pages/Home/Home.js
+msgid "Two tokens create our ecosystem"
+msgstr "두개의 토큰이 생태계를 형성하고 있습니다"
+
+#: src/App/App.js
+msgid "Txn failed. <0>View</0>"
+msgstr "트랜잭션 실패됨. <0>보기</0>"
+
+#: src/components/Exchange/OrdersList.js
+#: src/components/Exchange/OrdersList.js
+#: src/pages/OrdersOverview/OrdersOverview.js
+msgid "Type"
+msgstr "타입"
+
+#: src/pages/Stake/StakeV2.js
+msgid "U2U Price"
+msgstr ""
+
+#: src/pages/Stake/StakeV2.js
+msgid "U2U Staked"
+msgstr ""
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "ULP Index Composition"
+msgstr "ULP 인덱스 구성"
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "ULP Pool"
+msgstr "ULP 풀"
+
+#: src/components/Ulp/UlpSwap.js
+#: src/pages/Stake/StakeV2.js
+msgid "ULP Price"
+msgstr ""
+
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "ULP Staked"
+msgstr ""
+
+#: src/pages/Stake/StakeV2.js
+msgid "ULP Vault"
+msgstr "ULP 볼트"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "ULP and UTX autocompounding vaults"
+msgstr ""
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "ULP autocompounding vaults"
+msgstr ""
+
+#: src/components/Ulp/UlpSwap.js
+msgid "ULP buy disabled, pending {0} upgrade"
+msgstr ""
+
+#: src/pages/Stake/StakeV2.js
+msgid "ULP in Wallet"
+msgstr ""
+
+#: src/components/TokenCard/TokenCard.js
+msgid "ULP is the liquidity provider token. Accrues 70% of the platform's generated fees."
+msgstr ""
+
+#: src/components/Ulp/UlpSwap.js
+msgid "ULP sell disabled, pending {0} upgrade"
+msgstr ""
+
+#: src/pages/Dashboard/DashboardV1.js
+msgid "USDG Debt"
+msgstr "USDG 부채"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "UTX Announcements and Updates"
+msgstr "UTX 공지 및 업데이트"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "UTX Blueberry NFTs"
+msgstr "UTX 블루베리 NFT"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "UTX Governance Page"
+msgstr "UTX 거버넌스 페이지"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "UTX Pages"
+msgstr "UTX 페이지"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "UTX Perpetuals Data"
+msgstr "UTX 파생상품 데이터"
+
+#: src/pages/Stake/StakeV2.js
+msgid "UTX Price"
+msgstr ""
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "UTX Proposals Voting page"
+msgstr "UTX 프로포절 투표 페이지"
+
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "UTX Staked"
+msgstr ""
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "UTX Stats Page"
+msgstr "UTX 통계 페이지"
+
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "UTX Vault"
+msgstr "UTX 볼트"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "UTX Weekly Updates"
+msgstr "UTX 주간 업데이트"
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "UTX and ULP tokens stats."
+msgstr ""
+
+#: src/pages/BuyUTX/BuyUTX.tsx
+msgid "UTX bonds can be bought on Bond Protocol with a discount and a small vesting period:"
+msgstr ""
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "UTX community discussion"
+msgstr "UTX 커뮤니티 토론"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "UTX dashboards and analytics."
+msgstr "UTX 대시보드 및 통계"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "UTX ecosystem pages."
+msgstr "UTX 이코시스템 페이지"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "UTX explorer for stats and traders"
+msgstr "통계와 트레이드 정보를 위한 UTX 익스플로러"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "UTX fundamentals"
+msgstr "UTX 펀더멘탈"
+
+#: src/pages/Stake/StakeV2.js
+msgid "UTX in Wallet"
+msgstr ""
+
+#: src/pages/Home/Home.js
+msgid "UTX is currently live on Arbitrum and Avalanche."
+msgstr "GMX는 현재 Arbitrum과 Avalanche에서 이용할 수 있습니다."
+
+#: src/pages/Jobs/Jobs.js
+msgid "UTX is not actively looking for new hires at the moment. However, if you think you can contribute to the project, please email <0>jobs@utx.io</0>."
+msgstr "GMX는 현재 구인하고 있지 않습니다. 하지만 해당 프로젝트에 기여할 수 있다고 생각하시면 email <0>jobs@utx.io</0>으로 연락해주세요."
+
+#: src/components/TokenCard/TokenCard.js
+msgid "UTX is the utility and governance token. Accrues 30% of the platform's generated fees."
+msgstr ""
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "UTX staking calculator"
+msgstr "UTX 스테이킹 계산기"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "UTX staking rewards updates and insights"
+msgstr "UTX 스테이킹 보상 업데이트 및 인사이트"
+
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "UTX transfers not yet enabled"
+msgstr "UTX 전송이 아직 불가능합니다."
+
+#: src/components/Common/SEO.js
+msgid "UTX | Decentralized Perpetual Exchange"
+msgstr ""
+
+#: src/components/Exchange/PositionsList.js
+msgid "Unrealized PnL"
+msgstr ""
+
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "Unstake"
+msgstr "언스테이킹"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Unstake U2U"
+msgstr ""
+
+#: src/pages/Stake/StakeV2.js
+msgid "Unstake UTX"
+msgstr "UTX 언스테이킹"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Unstake completed!"
+msgstr "언스테이킹 완료!"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Unstake esUTX"
+msgstr ""
+
+#: src/pages/Stake/StakeV1.js
+msgid "Unstake failed"
+msgstr "스테이킹 실패"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Unstake failed."
+msgstr "언스테이킹 실패."
+
+#: src/pages/Stake/StakeV2.js
+msgid "Unstake submitted!"
+msgstr "언스테이킹 제출 완료!"
+
+#: src/pages/Stake/StakeV1.js
+msgid "Unstake submitted! <0>View status.</0>"
+msgstr "언스테이킹 제출완료! <0>상태 보기.</0>"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Unstaking will burn <0>{0} Multiplier Points</0>. {1}"
+msgstr ""
+
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV2.js
+msgid "Unstaking..."
+msgstr "언스테이킹중..."
+
+#: src/lib/wallets/index.tsx
+msgid "Unsupported chain. Switch to Arbitrum network on your wallet and try again"
+msgstr "지원하지 않는 체인입니다. 지갑을 Arbitrum 네트워크로 변경하여 다시 시도해주세요"
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Update"
+msgstr "업데이트"
+
+#: src/components/Exchange/OrderEditor.js
+msgid "Update Order"
+msgstr "주문 업데이트"
+
+#: src/components/Exchange/OrderEditor.js
+msgid "Updating Order..."
+msgstr "주문 업데이트중..."
+
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "Use the \"Compound\" button to stake your Multiplier Points."
+msgstr "멀티플라이어 포인트를 스테이킹하기 위해 \"수령 후 스테이킹\" 버튼을 사용하세요."
+
+#: src/components/Exchange/PositionsList.js
+#: src/components/Exchange/PositionsList.js
+msgid "Use the Edit Collateral icon to deposit or withdraw collateral."
+msgstr "담보 예치 혹은 인출을 위해 담보 수정하기 아이콘을 사용하세요."
+
+#: src/components/Exchange/UsefulLinks.tsx
+msgid "Useful Links"
+msgstr "유용한 링크"
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "User on {0}"
+msgstr ""
+
+#: src/pages/Dashboard/DashboardV1.js
+#: src/pages/Dashboard/DashboardV2.js
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Utilization"
+msgstr "이용률"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Vault Capacity"
+msgstr "볼트 수용량"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Vault Capacity for your Account:"
+msgstr "귀하 계정의 볼트 수용량:"
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+msgid "Vest with ULP on Arbitrum"
+msgstr "Arbitrum에서 GLP로 베스팅하기"
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+msgid "Vest with ULP on Avalanche"
+msgstr "Avalanche에서 GMX로 베스팅하기"
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+msgid "Vest with UTX on Arbitrum"
+msgstr "Arbitrum에서 GMX로 베스팅하기"
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+msgid "Vest with UTX on Avalanche"
+msgstr "Avalanche에서 GMX로 베스팅하기"
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+msgid "Vested ULP not withdrawn"
+msgstr "베스트팅된 GLP에서 인출되지 않은 양"
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+msgid "Vested UTX not withdrawn"
+msgstr "베스트팅된 GMX에서 인출되지 않은 양"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Vesting Status"
+msgstr "베스팅 상황"
+
+#: src/App/App.js
+#: src/pages/Exchange/Exchange.js
+#: src/pages/Exchange/Exchange.js
+msgid "View"
+msgstr "보기"
+
+#: src/components/AddressDropdown/AddressDropdown.tsx
+msgid "View in Explorer"
+msgstr "Explorer에서 보기"
+
+#: src/lib/contracts/callContract.tsx
+msgid "View status."
+msgstr "상태 보기."
+
+#: src/pages/Dashboard/DashboardV1.js
+msgid "Volume"
+msgstr "거래량"
+
+#: src/components/Header/HomeHeaderLinks.tsx
+msgid "Voting"
+msgstr ""
+
+#: src/components/Ulp/UlpSwap.js
+msgid "WARNING: High Fees"
+msgstr "경고: 높은 수수료"
+
+#: src/components/Exchange/PositionsList.js
+#: src/components/Exchange/PositionsList.js
+msgid "WARNING: This position has a low amount of collateral after deducting borrowing fees, deposit more collateral to reduce the position's liquidation risk."
+msgstr "경고: 이 포지션은 차용수수료를 차감하면 담보액이 낮습니다. 포지션 청산 위험을 줄이기 위해 담보액을 늘려주세요."
+
+#: src/components/Exchange/SwapBox.js
+#: src/components/Migration/Migration.js
+#: src/components/Ulp/UlpSwap.js
+msgid "Waiting for Approval"
+msgstr "승인 대기중"
+
+#: src/components/Migration/Migration.js
+#: src/components/Ulp/UlpSwap.js
+#: src/components/Ulp/UlpSwap.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV1.js
+#: src/pages/Stake/StakeV2.js
+msgid "Wallet"
+msgstr "지갑"
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+#: src/pages/CompleteAccountTransfer/CompleteAccountTransfer.js
+msgid "Wallet is not connected"
+msgstr "지갑이 연결되지 않았습니다"
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+#: src/pages/NftWallet/NftWallet.js
+msgid "Wallet not connected"
+msgstr "지갑이 연결되지 않음"
+
+#: src/pages/Stake/StakeV1.js
+msgid "Wallet not yet connected"
+msgstr "지갑이 아직 연동되지 않았습니다"
+
+#: src/App/App.js
+msgid "WalletConnect"
+msgstr "지갑연결"
+
+#: src/pages/Dashboard/DashboardV2.js
+#: src/pages/Dashboard/DashboardV2.js
+msgid "Weight"
+msgstr "가중치"
+
+#: src/components/Exchange/SwapBox.js
+msgid "When closing the position, you can select which token you would like to receive the profits in."
+msgstr "포지션을 닫을 때, 어떤 토큰으로 이익을 수취할 지 선택할 수 있습니다."
+
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/PositionEditor.js
+#: src/components/Exchange/PositionEditor.js
+#: src/pages/Stake/StakeV2.js
+msgid "Withdraw"
+msgstr "인출"
+
+#: src/components/Exchange/PositionEditor.js
+msgid "Withdraw disabled, pending {0} upgrade"
+msgstr "{0} 업그레이들 위해 인출이 비활성화되었습니다."
+
+#: src/pages/Stake/StakeV2.js
+msgid "Withdraw failed."
+msgstr "인출 실패."
+
+#: src/pages/Stake/StakeV2.js
+msgid "Withdraw from ULP Vault"
+msgstr "ULP 볼트에서 인출"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Withdraw from UTX Vault"
+msgstr "UTX 볼트에서 인출"
+
+#: src/pages/Stake/StakeV2.js
+msgid "Withdraw submitted."
+msgstr "인출 제출 완료."
+
+#: src/components/Exchange/TradeHistory.js
+msgid "Withdraw {0} USD from {1} {longOrShortText}"
+msgstr "{1} {longOrShortText} {0} USD 인출"
+
+#: src/components/Exchange/PositionEditor.js
+msgid "Withdrawal failed."
+msgstr "인출 실패."
+
+#: src/components/Exchange/PositionEditor.js
+msgid "Withdrawal submitted."
+msgstr "인출 제출 완료."
+
+#: src/components/Exchange/PositionEditor.js
+msgid "Withdrawing..."
+msgstr "인출중..."
+
+#: src/pages/Stake/StakeV2.js
+msgid "Withdrawn!"
+msgstr "인출 완료!"
+
+#: src/pages/Exchange/Exchange.js
+msgid "Withdrew {0} USD from {tokenSymbol} {longOrShortText}."
+msgstr "{tokenSymbol} {longOrShortText} {0} USD 인출됨."
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Yield Optimizer on"
+msgstr ""
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Yield Vaults"
+msgstr "일드 볼트"
+
+#: src/pages/Ecosystem/Ecosystem.js
+msgid "Yield simulator for UTX"
+msgstr "GMX를 위한 일드 시뮬레이터"
+
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "You are earning {0}% more {nativeTokenSymbol} rewards using {1} Staked Multiplier Points."
+msgstr "스테이킹된 {1} 멀티플라이어 포인트을 통해 보상의 {nativeTokenSymbol} {0}% 더 획득하고 있습니다."
+
+#: src/pages/Stake/StakeV2.js
+msgid "You are earning {nativeTokenSymbol} rewards with {0} tokens.<0/>Tokens: {amountStr}."
+msgstr "귀하는 {nativeTokenSymbol} 보상을 {0} 토큰으로 얻고 있습니다.<0/> 토큰: {amountStr}"
+
+#: src/components/ModalViews/RedirectModal.js
+msgid "You are leaving U2U.io and will be redirected to a third party, independent website."
+msgstr "귀하는 UTX.io 페이지를 벗어나, 써드파티 웹사이트로 리다이렉트되고 있습니다."
+
+#: src/components/Exchange/SwapBox.js
+msgid "You can change the \"Collateral In\" token above to find lower fees"
+msgstr "더 낮은 수수로를 찾기 위해 \"담보자산\"을 변경할 수 있습니다"
+
+#: src/components/Exchange/PositionSeller.js
+msgid "You can change this in the settings menu on the top right of the page.<0/><1/>Note that a low allowed slippage, e.g. less than 0.5%, may result in failed orders if prices are volatile."
+msgstr ""
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+msgid "You can check your claim history <0>here</0>."
+msgstr "<0>여기</0>에서 수령한 내역을 확인할 수 있습니다."
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+msgid "You can currently vest a maximum of {0} esUTX tokens at a ratio of {1} {stakingToken} to 1 esUTX."
+msgstr ""
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+msgid "You have a <0>pending transfer</0> to {pendingReceiver}."
+msgstr "{pendingReceiver}로 <0>전송 보류중</0>"
+
+#: src/pages/CompleteAccountTransfer/CompleteAccountTransfer.js
+msgid "You have a pending transfer from {sender}."
+msgstr "{sender}로부터 보류중인 전송이 있습니다."
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "You have an active Limit Order to Increase {longOrShortText} {sizeInToken} {0} (${1}) at price ${2}"
+msgstr "{longOrShortText} {sizeInToken} {0} (${1})를 ${2} 가격에서 증가시키는 액티브한 지정가 주문이 존재합니다."
+
+#: src/components/Exchange/PositionSeller.js
+msgid "You have an active order to decrease {longOrShortText} {sizeInToken} {0} (${1}) at {prefix} {2}"
+msgstr ""
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "You have multiple existing Increase {longOrShortText} {0} limit orders"
+msgstr "{longOrShortText} {0}에 대한 복수의 지정가 주문이 존재합니다."
+
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "You have not deposited any tokens for vesting."
+msgstr "베스트팅을 위한 토큰이 예치되지 않았습니다."
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+msgid "You have {0} esUTX (IOU) tokens."
+msgstr ""
+
+#: src/pages/Stake/StakeV2.js
+msgid "You need a total of at least {0} {stakeTokenLabel} to vest {1} esUTX."
+msgstr ""
+
+#: src/components/Exchange/NoLiquidityErrorModal.tsx
+msgid "You need to select {swapTokenSymbol} as the \"Pay\" token to use it for collateral to initiate this trade."
+msgstr "해당 트레이드를 시작하기위해 담보로 {swapTokenSymbol}을 \"지불\" 토큰으로서 선택할 필요가 있습니다."
+
+#: src/pages/CompleteAccountTransfer/CompleteAccountTransfer.js
+msgid "You will need to be on this page to accept the transfer, <0>click here</0> to copy the link to this page if needed."
+msgstr "이전을 수락하려면 이 페이지에 있어야 합니다. 필요에 따라, <0>여기를 클릭하세요</0>를 통해 페이지 링크를 복사하세요."
+
+#: src/components/Exchange/OrdersList.js
+msgid "You will receive at least {0} {1} if this order is executed. The exact execution price may vary depending on fees at the time the order is executed."
+msgstr "해당 주문이 실행되게 되면 최소 {0} {1}을 받을 수 있습니다. 정확한 실행가격은 주문이 실행된 수수료에 의해 상이합니다."
+
+#: src/components/Exchange/OrdersList.js
+msgid "You will receive at least {0} {1} if this order is executed. The execution price may vary depending on swap fees at the time the order is executed."
+msgstr "해당 주문이 실행되게 되면 최소 {0} {1}을 받을 수 있습니다. 정확한 실행가격은 주문이 실행된 스왑 수수료에 의해 상이합니다."
+
+#: src/pages/Stake/StakeV2.js
+msgid "Your UltraX Rewards"
+msgstr ""
+
+#: src/pages/ClaimEsUtx/ClaimEsUtx.js
+msgid "Your esUTX (IOU) balance will decrease by your claim amount after claiming, this is expected behaviour."
+msgstr ""
+
+#: src/pages/CompleteAccountTransfer/CompleteAccountTransfer.js
+msgid "Your transfer has been completed."
+msgstr "이전이 완료되었습니다."
+
+#: src/pages/BeginAccountTransfer/BeginAccountTransfer.js
+msgid "Your transfer has been initiated."
+msgstr "이전이 시작되었습니다."
+
+#: src/components/Migration/Migration.js
+msgid "Your wallet: {0}"
+msgstr "귀하의 지갑: {0}"
+
+#: src/pages/PositionsOverview/PositionsOverview.js
+msgid "account"
+msgstr "게정"
+
+#: src/pages/PositionsOverview/PositionsOverview.js
+msgid "collateral"
+msgstr "담보"
+
+#: src/pages/Stake/StakeV2.js
+msgid "esUTX Price"
+msgstr ""
+
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+#: src/pages/Stake/StakeV2.js
+msgid "esUTX Staked"
+msgstr ""
+
+#: src/pages/Stake/StakeV2.js
+msgid "esUTX in Wallet"
+msgstr ""
+
+#: src/pages/PositionsOverview/PositionsOverview.js
+msgid "fee"
+msgstr "수수료"
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "hide"
+msgstr "숨기기"
+
+#: src/pages/Dashboard/AssetDropdown.tsx
+msgid "icon information"
+msgstr ""
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "in liquidity"
+msgstr "유동성"
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "not staked"
+msgstr "스테이킹되지 않음"
+
+#: src/pages/PositionsOverview/PositionsOverview.js
+msgid "size"
+msgstr "사이즈"
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "staked"
+msgstr "스테이킹됨"
+
+#: src/pages/PositionsOverview/PositionsOverview.js
+msgid "time to liq"
+msgstr "청산까지의 시간"
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "view"
+msgstr "보기"
+
+#: src/pages/Exchange/Exchange.js
+msgid "{0, plural, one {Cancel order} other {Cancel # orders}}"
+msgstr ""
+
+#: src/domain/tokens/approveTokens.tsx
+msgid "{0} Approved!"
+msgstr "{0} 승인 완료!"
+
+#: src/components/Ulp/SwapErrorModal.tsx
+msgid "{0} Capacity Reached"
+msgstr "{0} 수용량 도달됨"
+
+#: src/components/Exchange/NoLiquidityErrorModal.tsx
+msgid "{0} Pool Capacity Reached"
+msgstr "{0} 풀 수용량 도달됨"
+
+#: src/components/Exchange/ConfirmationBox.js
+#: src/components/Exchange/SwapBox.js
+#: src/components/Exchange/SwapBox.js
+msgid "{0} Price"
+msgstr "{0} 가격"
+
+#: src/components/Exchange/NoLiquidityErrorModal.tsx
+msgid "{0} Required"
+msgstr "{0} 요구됨"
+
+#: src/components/Ulp/UlpSwap.js
+msgid "{0} ULP"
+msgstr ""
+
+#: src/components/Ulp/UlpSwap.js
+msgid "{0} ULP bought with {1} {2}!"
+msgstr ""
+
+#: src/components/Ulp/UlpSwap.js
+msgid "{0} ULP sold for {1} {2}!"
+msgstr ""
+
+#: src/pages/Stake/StakeV2.js
+msgid "{0} UTX tokens can be claimed, use the options under the Total Rewards section to claim them."
+msgstr "{0} UTX 토큰을 클레임할 수 있습니다. 총 보상 섹션 아래의 옵션을 사용해서 클레임하세요."
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "{0} is above its target weight.<0/><1/>Get lower fees to <2>swap</2> tokens for {1}."
+msgstr "{0}은 목표 가중치를 초과 했습니다.<0/><1/>토큰을 {1}로 <2>스왑</2>하는 수수료가 감소합니다."
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "{0} is below its target weight.<0/><1/>Get lower fees to <2>buy ULP</2> with {1}, and to <3>swap</3> {2} for other tokens."
+msgstr "{0}은 목표 가중치를 미달합니다.<0/><1/>{1}로 <2>ULP 구매</2>를 하거나 {2}에서 다른 토큰으로 <3>스왑</3>하는 수수료가 감소합니다."
+
+#: src/components/Exchange/SwapBox.js
+msgid "{0} is required for collateral."
+msgstr "담보를 위해 {0}이 필요합니다.<<<<<<< HEAD"
+
+#: src/components/Ulp/UlpSwap.js
+msgid "{0} pool exceeded, try different token"
+msgstr "{0} 풀이 초과되었습니다. 다른 자산으로 시도해보세요"
+
+#: src/components/Exchange/OrderEditor.js
+#: src/components/Exchange/OrderEditor.js
+msgid "{0} price"
+msgstr "{0} 가격"
+
+#: src/components/Ulp/UlpSwap.js
+msgid "{0} selected in order form"
+msgstr "{0}이(가) 주문 폼에서 선택되었습니다."
+
+#: src/pages/Stake/StakeV2.js
+msgid "{0} tokens have been converted to UTX from the {1} esUTX deposited for vesting."
+msgstr ""
+
+#: src/components/Exchange/SwapBox.js
+msgid "{0} {1} not supported"
+msgstr ""
+
+#: src/components/Exchange/TradeHistory.js
+msgid ""
+"{0}:\n"
+"{1},\n"
+"Price: {priceDisplay}"
+msgstr ""
+"{0}:\n"
+"{1},\n"
+"가격: {priceDisplay}"
+
+#: src/components/Exchange/TradeHistory.js
+msgid ""
+"{0}: Swap {amountInDisplay}\n"
+"{1} for {minOutDisplay} {2},\n"
+"Price: {3}"
+msgstr ""
+
+#: src/components/Exchange/TradeHistory.js
+msgid "{0}  {1} {longOrShortText}, -{2} USD, {3} Price: ${4} USD"
+msgstr ""
+
+#: src/components/Exchange/TradeHistory.js
+msgid "{actionDisplay} Order"
+msgstr "{actionDisplay} 주문"
+
+#: src/components/Exchange/TradeHistory.js
+msgid ""
+"{actionDisplay} {0} {longOrShortText},\n"
+"-{1} USD,\n"
+"{2} Price: {3} USD"
+msgstr ""
+
+#: src/pages/Dashboard/DashboardV2.js
+msgid "{chainName} Total Stats start from {totalStatsStartDate}.<0/>"
+msgstr ""
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "{existingTriggerOrderLength, plural, one {You have an active trigger order that could impact this position.} other {You have # active trigger orders that could impact this position.}}"
+msgstr "{existingTriggerOrderLength, plural, one {You have an active trigger order that could impact this position.} other {You have # active trigger orders that could impact this position.}}"
+
+#: src/components/Exchange/ConfirmationBox.js
+msgid "{existingTriggerOrderLength, plural, one {You have an active trigger order that might execute immediately after you open this position. Please cancel the order or accept the confirmation to continue.} other {You have # active trigger orders that might execute immediately after you open this position. Please cancel the orders or accept the confirmation to continue.}}"
+msgstr "{existingTriggerOrderLength, plural, one {You have an active trigger order that might execute immediately after you open this position. Please cancel the order or accept the confirmation to continue.} other {You have # active trigger orders that might execute immediately after you open this position. Please cancel the orders or accept the confirmation to continue.}}"
+
+#: src/components/Exchange/PositionsList.js
+msgid "{longOrShortText} {0} market selected"
+msgstr ""
+
+#: src/components/Exchange/PositionEditor.js
+msgid "{maxAmountFormatted}"
+msgstr ""
+
+#: src/components/Stake/UTXAprTooltip.tsx
+msgid "{nativeTokenSymbol} APR"
+msgstr ""
+
+#: src/components/Stake/UTXAprTooltip.tsx
+msgid "{nativeTokenSymbol} Base APR"
+msgstr ""
+
+#: src/components/Stake/UTXAprTooltip.tsx
+msgid "{nativeTokenSymbol} Boosted APR"
+msgstr ""
+
+#: src/components/Stake/UTXAprTooltip.tsx
+msgid "{nativeTokenSymbol} Total APR"
+msgstr ""
+
+#: src/components/Exchange/PositionSeller.js
+msgid "{nativeTokenSymbol} can not be sent to smart contract addresses. Select another token."
+msgstr ""
+
+#: src/components/StatsTooltip/StatsTooltip.tsx
+msgid "{title} on Arbitrum:"
+msgstr "Arbitrum {title}"
+
+#: src/components/StatsTooltip/StatsTooltip.tsx
+msgid "{title} on Avalanche:"
+msgstr "Avalanche {title}"
+
+#: src/pages/Dashboard/DashboardV1.js
+msgid "{volumeLabel} Volume"
+msgstr "{volumeLabel} 거래량"

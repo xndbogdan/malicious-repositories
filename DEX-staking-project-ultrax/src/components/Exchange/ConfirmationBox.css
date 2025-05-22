@@ -1,0 +1,57 @@
+.order-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+.order-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--dark-blue-hover);
+  border-radius: var(--border-radius-sm);
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+}
+.order-list li p {
+  margin: 0;
+}
+.order-list li button {
+  font-size: var(--font-sm);
+  background: none;
+  border: none;
+  color: white;
+  opacity: 0.8;
+}
+.order-list li button:hover {
+  opacity: 1;
+}
+
+.view-orders {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.content-modal-confirm-swap {
+  padding: 12px 8px 16px 8px;
+  border-radius: 12px;
+  background-color: var(--bg-black);
+}
+
+.style-switch-swap {
+  width: 26px;
+  height: 26px;
+  background-color: var(--bg-default);
+  position: absolute;
+  left: 45%;
+  top: 41%;
+  border-radius: 4px;
+  transform: rotate(-45deg);
+}
+
+.style-switch-swap .Confirmation-box-main-icon {
+  transform: rotate(45deg);
+  width: 16px;
+  height: 16px;
+  margin-left: 9px;
+  margin-top: 2px;
+}

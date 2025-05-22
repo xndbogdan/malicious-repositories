@@ -93,6 +93,9 @@ The code is kept for educational and research purposes only.
 
 - https://github.com/goldencity5019/test_version
 
+- https://github.com/0xtuneTF7/DEX-staking-project
+
+- https://github.com/SuperDev313/Trading_Platform_Ultrax
 
 ### Known scammer recruiter profiles
 
@@ -130,6 +133,8 @@ The code is kept for educational and research purposes only.
 
 - [Joe Carlino](https://www.linkedin.com/in/joe-carlino-28856b78/)
 
+- [Kathleen Anays Lewis Barrios](https://www.linkedin.com/in/kathleen-anays-lewis-barrios-9a61bb273/)
+
 
 ## Extra links
 
@@ -138,6 +143,8 @@ The code is kept for educational and research purposes only.
 [Stay safe out there, software engineers - on Linkedin](https://www.linkedin.com/posts/tudorconstantin_chatgpt-activity-7292203560547606528-pOUz/)
 
 [Follow-up on crypto interview scammers - on Linkedin](https://www.linkedin.com/posts/activity-7272780404070244352-XHUY)
+
+[Ultrax scam victims report - on Github](https://github.com/tayvano/lazarus-bluenoroff-research/blob/main/hacks-and-thefts/ultrax-dex.md)
 
 ## On Linkedin
 
