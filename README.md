@@ -86,9 +86,11 @@ The code is kept for educational and research purposes only.
 
 ## Extra Links
 
-[SCAM WARNING: Blockchain developer job postings - on Reddit](https://www.reddit.com/r/Upwork/comments/14nat71/scam_warning_blockchain_developer_job_postings/)
-[Stay safe out there, software engineers - on Linkedin](https://www.linkedin.com/posts/tudorconstantin_chatgpt-activity-7292203560547606528-pOUz/)
-[Follow-up on crypto interview scammers - on Linkedin](https://www.linkedin.com/posts/activity-7272780404070244352-XHUY)
+- [SCAM WARNING: Blockchain developer job postings - on Reddit](https://www.reddit.com/r/Upwork/comments/14nat71/scam_warning_blockchain_developer_job_postings/)
+
+- [Stay safe out there, software engineers - on Linkedin](https://www.linkedin.com/posts/tudorconstantin_chatgpt-activity-7292203560547606528-pOUz/)
+
+- [Follow-up on crypto interview scammers - on Linkedin](https://www.linkedin.com/posts/activity-7272780404070244352-XHUY)
 
 ## On LinkedIn
 
