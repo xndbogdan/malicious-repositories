@@ -1,0 +1,184 @@
+:root {
+  --blue: #006EFF;
+  --darkBlue: #12417E;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.center {
+  text-align: center;
+  margin-bottom: 72px;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+.container, .adcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /*gap: 8px;*/
+}
+
+.content {
+  width: 280px;
+  padding: 8px 32px;
+  border-radius: 16px;
+  margin-right: 20px;
+  text-align: left;
+  font-size: 1.3rem;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, .1);
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+.content h3 {
+  text-align: left;
+  color: var(--blue);
+}
+
+.arc {
+  width: 220px;
+  height: 220px;
+  background: var(--blue);
+  border-radius: 20%;
+  /* transform: translate3d(50%,-50%,0) */
+}
+
+.content h3 .dash {
+  font-size: 2rem;
+  color: lightGray;
+}
+
+.ad {
+  text-align: center;
+  margin: 64px 0;
+  padding: 64px 5px;
+  background-color: var(--blue);
+  color: white;
+}
+
+.adcontent {
+  width: 280px;
+  padding: 32px 32px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.ad .container {
+  padding-top: 64px;
+}
+
+.fa-checker {
+  color: white;
+  width: 64px;
+  margin: auto;
+  height: 64px;
+  background-color: var(--darkBlue);
+  border-radius: 100%;
+  font-size: 32px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.adcontent:nth-child(4) {
+  background: white;
+  box-shadow: 4px 4px 8px 10px white;
+  color: black;
+}
+
+.adcontent:nth-child(4) .fa-checker{
+  color: white;
+  background-color: var(--blue);
+}
+
+.vrmobile {
+  margin: auto;
+}
+
+.how {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.how-right, .how-left{
+  width: 100%;
+  padding: 16px 32px;
+}
+
+.how-left h3, .how-right h3 {
+  text-align: left;
+}
+
+.cl-blue {
+  color: var(--blue);
+}
+
+.pr-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+}
+
+.pr-header h3:nth-child(1) {
+  flex: 3;
+  text-align: left;
+}
+
+.pr-header h3:nth-child(2) {
+  flex: 1;
+  text-align: right;
+}
+
+.pr-header a {
+  text-decoration: none;
+}
+
+.pr-header a:visited {
+  color: var(--blue);
+}
+
+.properties {
+  margin: 16px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 64px;
+}
+
+@media (min-width: 768px) {
+  .vrmobile {
+    margin: 0;
+  }
+
+  .how {
+    flex-direction: row;
+  }
+
+  .how-left, .how-right {
+    width: 150px;
+    padding: 0;
+  }
+
+  .how-left, .how-left h3 {
+    text-align: right;
+  }
+
+  .how-right {
+    order: +1;
+  }
+
+  .pr-header {
+    margin: 0 32px;
+  }
+}

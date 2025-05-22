@@ -1,0 +1,28 @@
+section {
+    margin: 0;
+}
+
+.about-top, .about-bottom {
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+    flex-wrap: wrap;
+    padding: 0 32px;
+}
+
+.about-top-2 {
+    align-self: center;
+    text-align: center;
+}
+
+.about-image {
+    border-radius: 16px;
+    width: 100%;
+}
+
+.about-top-1, .about-top-2, .about-bottom-1, .about-bottom-2 {
+    padding: 0 5%;
+    width: 380px;
+    flex: auto;
+}
+

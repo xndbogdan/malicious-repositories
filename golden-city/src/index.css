@@ -1,0 +1,46 @@
+:root {
+  --blue: #006EFF;
+  --darkBlue: #12417E;
+}
+
+body {
+  margin: 0;
+  font-family: "Jost", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.cl-blue {
+  color: var(--blue);
+}
+
+.bg-blue {
+  background-color: var(--blue);
+}
+
+.cl-dblue {
+  color: var(--darkBlue);
+}
+
+.bg-dblue {
+  background-color: var(--darkBlue)
+}
+
+.button {
+    background-color: var(--blue);
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+.button:hover {
+  background-color: var(--darkBlue);
+  color: white;
+}

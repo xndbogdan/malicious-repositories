@@ -1,0 +1,41 @@
+:root {
+  --blue: #006EFF;
+  --darkBlue: #12417E;
+}
+
+#qna {
+  max-width: 600px;
+  width: 98%;
+  padding: 8px 32px;
+  border-radius: 11px;
+  margin: 16px 1%;
+  text-align: left;
+  box-shadow: 4px 4px 4px 4px rgba(0,0,0,.1);
+}
+
+.border-blue {
+  border: 2px solid var(--blue);
+}
+
+.drop-down .fas {
+  color: var(--blue);
+  font-size: 34px;
+  padding-top: 16px;
+  cursor: pointer;
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;  
+}
+
+.question h3 {
+  text-align: left;
+}
+
+@media (min-width: 48em) {
+  #qna {
+    margin: 16px  auto;
+  }
+}
