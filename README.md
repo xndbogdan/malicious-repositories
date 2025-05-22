@@ -97,7 +97,7 @@ The code is kept for educational and research purposes only.
 
 - [Follow-up on crypto interview scammers - on Linkedin](https://www.linkedin.com/posts/activity-7272780404070244352-XHUY)
 
-[Ultrax scam victims report - on Github](https://github.com/tayvano/lazarus-bluenoroff-research/blob/main/hacks-and-thefts/ultrax-dex.md)
+- [Ultrax scam victims report - on Github](https://github.com/tayvano/lazarus-bluenoroff-research/blob/main/hacks-and-thefts/ultrax-dex.md)
 
 ## On Linkedin
 
