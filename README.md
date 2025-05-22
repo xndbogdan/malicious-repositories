@@ -2,7 +2,7 @@
 
 This repository contains malicious code samples collected from scammers attempting to steal credentials via LinkedIn.
 
-<img src="https://raw.githubusercontent.com/xndbogdan/malicious-repositories/refs/heads/main/convo.png" width="150px" alt="Running the numbers">
+<img src="https://raw.githubusercontent.com/xndbogdan/malicious-repositories/refs/heads/main/convo.png" width="300px" alt="Running the numbers">
 
 **DO NOT RUN THIS CODE**.
 
