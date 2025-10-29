@@ -69,6 +69,7 @@ The code is kept for educational and research purposes only.
 - https://github.com/SuperDev313/Trading_Platform_Ultrax
 - https://bitbucket.org/web3_space/workspace/repositories/
 - https://github.com/goldencity010/demo_version
+- https://bitbucket.org/testprodemo5/degame-protocol/src/main/
 
 ### Known scammer recruiter profiles
 
