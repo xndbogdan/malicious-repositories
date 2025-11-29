@@ -1,0 +1,18 @@
+.BrandingImage{
+    width: 280px;
+    height: 280px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: start;
+    background-image: url('./../../../assets/game/branding_outline.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    padding-top: 6%;
+    .img-brand{
+        width: 66%;
+        height: 75%;
+    }
+}

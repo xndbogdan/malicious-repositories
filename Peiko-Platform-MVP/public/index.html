@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, user-scalable=no" />
+  <meta name="theme-color" content="#eae1cd" />
+  <title>GG Lab Poker</title>
+  <link rel="canonical" href="https://www.gglab-poker.netlify.app/">
+  <meta name="description"
+    content="GGLab NFT Poker game is a Texas Hold'em poker to promote your NFT collection." />
+  <meta name="keywords"
+    content="poker, online poker, online NFT poker, NFT poker, texas holdem, texas hold'em, social poker, casino, online casino, table games">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="robots" content="noindex, nofollow">
+
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+
+  <meta property="og:url" content="https://www.gglab-poker.netlify.app">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="GGLab Poker">
+  <meta property="og:image"
+    content="https://images.ctfassets.net/4tlsutsg5se1/4dtgDU3MZwM8NMTJoSj1tI/8c3ed626a406021b747ca9f48dd535dc/card.jpg">
+  <meta property="og:description"
+    content="GGLab NFT Poker game is a Texas Hold'em poker to promote your NFT collection.">
+  <meta property="og:site_name" content="GGLab Poker">
+  <meta property="article:author" content="Yuri Romanenko">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://www.gglab-poker.netlify.app">
+  <meta name="twitter:title" content="GGLab Poker">
+  <meta name="twitter:site" content="@richtech225">
+  <meta name="twitter:creator" content="@richtech225">
+  <meta name="twitter:description"
+    content="GGLab NFT Poker game is a Texas Hold'em poker to promote your NFT collection.">
+  <meta name="twitter:image"
+    content="https://images.ctfassets.net/4tlsutsg5se1/4dtgDU3MZwM8NMTJoSj1tI/8c3ed626a406021b747ca9f48dd535dc/card.jpg">
+
+  <style>
+    :root {
+      box-sizing: border-box;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: inherit;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100%;
+      background-color: hsl(41, 41%, 86%);
+    }
+
+    .loading-screen {
+      width: 100%;
+      padding: 0 1.5rem;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      background-color: black;
+    }
+
+    .no-script {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .no-script img {
+      width: 100%;
+      max-width: 320px;
+    }
+
+    .no-script p {
+      font-size: 1.5rem;
+      font-family: 'Roboto', sans-serif;
+      color: hsl(36, 71%, 3%);
+      text-align: center;
+      margin-top: 3rem;
+      padding: 1rem 2rem;
+      background-color: hsl(49, 63%, 92%);
+      border-radius: 2rem;
+    }
+
+    .custom-loader {
+      transform: scale(1);
+      animation: pulse 0.75s infinite;
+    }
+
+    @keyframes pulse {
+      0% {
+        transform: scale(0.85);
+      }
+
+      70% {
+        transform: scale(1.25);
+      }
+
+      100% {
+        transform: scale(0.85);
+      }
+    }
+
+    #root,
+    #cookie-banner {
+      opacity: 0;
+      animation: fade-in 0.75s ease-out forwards;
+    }
+
+    @keyframes fade-in {
+      100% {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root" style="display: none;"></div>
+  <div id="cookie-banner" style="display: none;"></div>
+  <div id="modal"></div>
+  <script>
+  </script>
+</body>
+
+</html>

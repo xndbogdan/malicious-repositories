@@ -70,6 +70,7 @@ The code is kept for educational and research purposes only.
 - https://bitbucket.org/web3_space/workspace/repositories/
 - https://github.com/goldencity010/demo_version
 - https://bitbucket.org/testprodemo5/degame-protocol/src/main/
+- https://github.com/Peiko-Tech-Org/Peiko-Platform-MVP/
 
 ### Known scammer recruiter profiles
 

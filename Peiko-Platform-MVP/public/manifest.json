@@ -1,0 +1,14 @@
+{
+  "short_name": "GGLab Poker",
+  "name": "GGLab Poker",
+  "icons": [{
+      "src": "favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "fullscreen",
+  "theme_color": "#eae1cd",
+  "background_color": "#6297b5"
+}
