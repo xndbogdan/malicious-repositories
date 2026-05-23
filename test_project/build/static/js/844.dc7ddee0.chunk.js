@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkYAMTOKEN=self.webpackChunkYAMTOKEN||[]).push([[844],{8844:(e,t,n)=>{n.r(t),n.d(t,{default:()=>l});var s=n(6446),c=n(5865),a=n(579);const l=()=>(0,a.jsx)(s.A,{sx:{minHeight:"calc(100vh - 390px)",display:"flex",alignItems:"center",justifyContent:"center"},children:(0,a.jsx)(c.A,{variant:"h2",color:"text.secondary",children:"Not Found Page."})})}}]);
+//# sourceMappingURL=844.dc7ddee0.chunk.js.map

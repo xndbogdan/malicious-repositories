@@ -52,6 +52,7 @@ The code is kept for educational and research purposes only.
   - [12. Real Estate Rental Platform](#12-real-estate-rental-platform)
   - [13. Web3Game Project](#13-web3game-project)
   - [14. Real Estate Platform MVP v1 (J-Soft Labs / Janice Bennett variant)](#14-real-estate-platform-mvp-v1-j-soft-labs--janice-bennett-variant)
+  - [15. Test Project](#15-test-project)
 - [Checking for Malicious npm Packages](#checking-for-malicious-npm-packages)
 
 ## Known Scam Repos and APIs
@@ -771,6 +772,16 @@ The directory contains the obfuscated JavaScript that `errorHandler.js` would ha
 4. RC4 decrypt with a per-call-site 4-byte key (the wrappers pass keys like `'erOQ'`, `'3T#@'`, `'oUHb'`, `'](y0'`, etc. — these are the runtime values of the `re.O`, `re.q`, `re.z`, `re.j` properties). The decoder is `function N()` / `function b()`; there is also an IIFE shuffle that rotates the array before lookups.
 
 Acceptable approaches: pure-Python decoder, or running the obfuscator's `c()` + `N()` + `b()` + IIFE-shuffle scaffold (and **only** that scaffold — never the trailing IIFE that consumes the decoded strings) inside a no-network sandbox (`docker run --network none --read-only …`, Windows Sandbox, or a disposable VM).
+
+---
+
+### 15. Test Project
+
+Located in `test_project/` directory.
+
+GitHub user [@Doaxan](https://github.com/Doaxan) successfully decompiled the payload for this sample. The captured payload is preserved in `test_project/payload/`, in `payload.js`.
+
+> ⚠️ **DO NOT RUN.** This is live malicious code. Running live malware will ensure all of your credentials are stolen — or worse. Inspect it for research and analysis purposes only — do not execute it or install its dependencies.
 
 ---
 

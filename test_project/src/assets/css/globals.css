@@ -1,0 +1,120 @@
+:root {
+  --color-background: #f5f5f9;
+  --color-scrollbar: rgb(224, 224, 224);
+  --color-scrollbar-hover: #bbb;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-corner {
+  background: var(--color-background);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-scrollbar);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-corner {
+  background: var(--color-background);
+  border-radius: 10px;
+}
+
+body {
+  /* background-color: var(--color-background); */
+  background-color: #fff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+@-webkit-keyframes click_animation {
+  from {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0.3;
+  }
+  to {
+    -webkit-transform: scale(5);
+    transform: scale(5);
+    opacity: 0;
+  }
+}
+
+@keyframes click_animation {
+  from {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0.3;
+  }
+  to {
+    -webkit-transform: scale(5);
+    transform: scale(5);
+    opacity: 0;
+  }
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@font-face {
+  font-family: "flaticon";
+  src: url("../webfonts/flaticon.woff2?dce4f070c9001be58bdcf974d9535ee4")
+    format("woff2");
+}
+
+i[class^="flaticon-"]:before,
+i[class*=" flaticon-"]:before {
+  font-family: flaticon !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  /*line-height: 1;*/
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-desktop-computer-screen-with-arrow-to-the-left-and-coin-stack:before {
+  content: "\f101";
+}
+.flaticon-credit-card:before {
+  content: "\f102";
+}
+.flaticon-bank-transfer:before {
+  content: "\f103";
+}
+.flaticon-bitcoin-pocket-or-wallet:before {
+  content: "\f104";
+}
+.flaticon-exchange:before {
+  content: "\f105";
+}
+.flaticon-paypal:before {
+  content: "\f106";
+}
+
+.card-list-dot {
+  width: 8px;
+  height: 8px;
+  min-height: 8px;
+  min-width: 8px;
+  background: #127c71;
+  border-radius: 50px;
+  display: block;
+  margin: 0px 10px;
+}
