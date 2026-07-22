@@ -1,0 +1,15 @@
+{
+  "short_name": "0G Rollplay",
+  "name": "0G RollPlay",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "fullscreen",
+  "theme_color": "#eae1cd",
+  "background_color": "#6297b5"
+}

@@ -1,0 +1,29 @@
+.bet-slider{
+    display: "flex";
+    align-items: "center";
+    justify-content: "center";
+    border: "2px solid";
+    border-image: "linear-gradient(to bottom, #21a68e, #0d3733) 2";
+    background-image: "linear-gradient(to bottom, #187969, #081c1c)";
+    background-origin: "border-box";
+    padding: "0px 5px";
+    clip-path: polygon(
+    0 5px,
+    5px 0,
+    calc(100% - 5px) 0,
+    100% 5px,
+    100% calc(100% - 5px),
+    calc(100% - 5px) 100%,
+    5px 100%,
+    0% calc(100% - 5px),
+    0% 5px
+  );
+}
+
+.bet-slider-value{
+    display: block;
+    color: white;
+    background-color: #0c1917;
+    border: 1px solid transparent;
+    border-radius: 5px;
+  }

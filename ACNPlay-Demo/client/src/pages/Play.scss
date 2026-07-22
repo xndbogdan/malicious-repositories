@@ -1,0 +1,16 @@
+.play-area:before{
+    content: '';
+    background-color: black;
+    position: absolute;
+    left: calc(0px - (100vw - 100%) / 2);   
+    height: 100%;
+    width: calc((100vw - 100%) / 2);
+}
+.play-area:after{
+    content: '';
+    background-color: black;
+    position: absolute;
+    right: calc(0px - (100vw - 100%) / 2);   
+    height: 100%;
+    width: calc((100vw - 100%) / 2);
+}
