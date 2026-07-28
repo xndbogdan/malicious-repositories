@@ -1,0 +1,22 @@
+{
+  "name": "@novaremix/simulator",
+  "version": "0.4.0-internal",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "watch": "tsc -p tsconfig.json -w",
+    "test": "npm run build && node --test dist/engine/simulator.test.js",
+    "run": "npm run build && node dist/cli.js run"
+  },
+  "dependencies": {
+    "@novaremix/shared": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}

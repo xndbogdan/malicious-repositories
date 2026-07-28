@@ -1,0 +1,18 @@
+{
+  "name": "@novaremix/cli",
+  "version": "0.4.0-internal",
+  "type": "module",
+  "bin": {
+    "novaremix": "./dist/bin/novaremix.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@novaremix/shared": "*",
+    "@novaremix/simulator": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}

