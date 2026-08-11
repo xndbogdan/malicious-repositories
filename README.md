@@ -81,10 +81,10 @@ The code is kept for educational and research purposes only.
 - https://github.com/aitech-nexus/ACNPlay-Demo
 - https://everydaynodechecker-39147n.vercel.app/api/key
 - https://novaremix.com
-- https://github.com/ava-tech-glitch/HotCarMint
-- https://api.jsonbin.io/v3/b/6a7af29df5f4af5e290685a0
-- http://130.94.92.170
-- http://65.109.105.95:4552
+- `hxxps://github[.]com/ava-tech-glitch/HotCarMint`
+- `hxxps://api[.]jsonbin[.]io/v3/b/6a7af29df5f4af5e290685a0`
+- `hxxp://130[.]94[.]92[.]170`
+- `hxxp://65[.]109[.]105[.]95:4552`
   
 ### Known scammer recruiter profiles
 
@@ -1060,7 +1060,7 @@ https://jsonkeeper.com/b/GUIIX
 - Hetzner abuse report prepared for the RAT C2 `65.109.105.95:4552`.
 - Malware sample prepared for submission to Microsoft Security Intelligence / Defender.
 
-> ⚠️ **DO NOT RUN.** The JavaScript payload and `RemoteDesk-Agent.exe` are live malicious artifacts. Analyze statically or only inside an isolated malware-analysis environment with networking disabled or tightly controlled.
+> ⚠️ **DO NOT RUN.** The JavaScript payload and `RemoteDesk-Agent.exe` are captured malicious artifacts. Analyze statically or only inside an isolated malware-analysis environment with networking disabled or tightly controlled.
 
 ---
 
