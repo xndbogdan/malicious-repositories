@@ -117,7 +117,7 @@ The code is kept for educational and research purposes only.
 - [Cecilia Díaz Cruz](https://www.linkedin.com/in/ceciliadic/) (Innovation Lead & Executive | Co-Founder & CEO | IT & Business Strategy Management)
 - [Karem Emad](https://www.linkedin.com/in/karem-emad-813927402)
 - [Zakhar H](https://www.linkedin.com/in/zakhar-h-5a7b3a269/) (account used in the HotCarMint recruitment campaign; the underlying person/account may have been compromised)
-- [Hanan Nurul Azka](https://www.linkedin.com/in/hananazka) ("Blockchain Recruiter | Digital Marketing Strategist"; account used in the MiIies/mvp fake-assessment campaign, and named in a [July 2025 warning](https://www.linkedin.com/pulse/important-warning-fellow-software-engineers-alexandre-colauto-neto-rk2uf/) that also names Gerardo López Santes. Nothing establishes who controls the account or whether its holder knew what the repository does; it may be fake, compromised or impersonated)
+- [Hanan Nurul Azka](https://www.linkedin.com/in/hananazka) ("Blockchain Recruiter | Digital Marketing Strategist"; sent the MiIies/mvp fake assessment, and was already named in a [July 2025 warning](https://www.linkedin.com/pulse/important-warning-fellow-software-engineers-alexandre-colauto-neto-rk2uf/); still active in October 2026)
 
 ## Extra Links
 
@@ -1078,7 +1078,7 @@ https://jsonkeeper.com/b/GUIIX
 
 Reported October 2026. A LinkedIn "recruiter" offered a remote Web3 NFT minting/staking role at $40/hr without naming a company, did not answer questions about the interview process or payment, then asked for a "5–10 minute" screen-recorded assessment ("please don't use AI tools") in a GitHub repository. The tasks were trivial (print "Hello" when the backend starts, change border and background colors), but the first one requires starting the backend, which triggers the loader.
 
-Full write-up: [Anatomy of a Fake LinkedIn Coding Test](https://antlis.is-a.dev/blog/linkedin-fake-assessment-malware/). The reporter did not clone or run the project; everything below comes from static reading and from fetching inert data through Tor.
+Located in `MiIies-mvp/` (lockfiles removed); the recovered later stages are in `MiIies-mvp-stages/` as inert `.txt` files. Full write-up: [Anatomy of a Fake LinkedIn Coding Test](https://antlis.is-a.dev/blog/linkedin-fake-assessment-malware/). The reporter did not clone or run the project; everything below comes from static reading and from fetching inert data through Tor.
 
 **Social-engineering infrastructure**
 
@@ -1087,8 +1087,6 @@ Full write-up: [Anatomy of a Fake LinkedIn Coding Test](https://antlis.is-a.dev/
 | LinkedIn account used | [Hanan Nurul Azka](https://www.linkedin.com/in/hananazka) ("Blockchain Recruiter \| Digital Marketing Strategist") |
 | Earlier public warning naming the account | [July 2025 LinkedIn post](https://www.linkedin.com/pulse/important-warning-fellow-software-engineers-alexandre-colauto-neto-rk2uf/) (the account was still active in October 2026) |
 | Delivery | Repository link sent in a LinkedIn message; Loom recording requested |
-
-The link between the LinkedIn account and the repository is only the recruitment conversation. It does not show who controls the account or whether the account holder knew what the repository does.
 
 **Malicious repository**
 
