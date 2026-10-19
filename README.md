@@ -125,6 +125,8 @@ The code is kept for educational and research purposes only.
 
 - [Anatomy of a Fake LinkedIn Coding Test: A Malware Dropper Hidden in a .tiff](https://antlis.is-a.dev/blog/linkedin-fake-assessment-malware/) (analysis of section 19, part 2 of [LinkedIn DeFi Scammers](https://antlis.is-a.dev/blog/linkedin-defi-scammers/))
 
+- [Fake coding test with a malware dropper in a .tiff - on Linkedin](https://www.linkedin.com/feed/update/urn:li:share:7518071483286519808/)
+
 - [Kathleen Anays Lewis Barrios](https://www.linkedin.com/in/kathleen-anays-lewis-barrios-9a61bb273/)
 
 - [SCAM WARNING: Blockchain developer job postings - on Reddit](https://www.reddit.com/r/Upwork/comments/14nat71/scam_warning_blockchain_developer_job_postings/)
