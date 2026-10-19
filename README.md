@@ -123,7 +123,7 @@ The code is kept for educational and research purposes only.
 
 - [Important Warning to fellow Software Engineers - on Linkedin (July 2025)](https://www.linkedin.com/pulse/important-warning-fellow-software-engineers-alexandre-colauto-neto-rk2uf/)
 
-- [Anatomy of a Fake LinkedIn Coding Test: A Malware Dropper Hidden in a .tiff](https://antlis.is-a.dev/blog/linkedin-fake-assessment-malware/) (analysis of #19, part 2 of [LinkedIn DeFi Scammers](https://antlis.is-a.dev/blog/linkedin-defi-scammers/))
+- [Anatomy of a Fake LinkedIn Coding Test: A Malware Dropper Hidden in a .tiff](https://antlis.is-a.dev/blog/linkedin-fake-assessment-malware/) (analysis of section 19, part 2 of [LinkedIn DeFi Scammers](https://antlis.is-a.dev/blog/linkedin-defi-scammers/))
 
 - [Kathleen Anays Lewis Barrios](https://www.linkedin.com/in/kathleen-anays-lewis-barrios-9a61bb273/)
 
